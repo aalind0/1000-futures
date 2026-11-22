@@ -1,0 +1,2016 @@
+{
+ "graduation": [
+  {
+   "region": "north_america",
+   "period": "2018Q1 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.306,
+   "within_months": 24,
+   "source": "https://carta.com/data/vc-fund-performance-q1-2024/",
+   "note": "Carta US cap-table data. Read via search-result summary (WebFetch blocked on carta.com)."
+  },
+  {
+   "region": "north_america",
+   "period": "2019Q4 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.326,
+   "within_months": 24,
+   "source": "https://carta.com/data/newsletter-graduation-rate-from-seed-to-series-a/",
+   "note": "Carta US. Figure surfaced in search over carta.com graduation posts; page attribution best-effort."
+  },
+  {
+   "region": "north_america",
+   "period": "2020Q3 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.4,
+   "within_months": 24,
+   "source": "https://carta.com/data/vc-fund-performance-q1-2024/",
+   "note": "'Nearly 40%' - peak boom cohort. Carta US."
+  },
+  {
+   "region": "north_america",
+   "period": "2021Q1 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.329,
+   "within_months": 24,
+   "source": "https://carta.com/data/newsletter-graduation-rate-from-seed-to-series-a/",
+   "note": "Carta US."
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q1 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.154,
+   "within_months": 24,
+   "source": "https://carta.com/data/vc-fund-performance-q1-2024/",
+   "note": "Carta US. 2022-23 crunch cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "2022 seed cohort (full year)",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.17,
+   "within_months": 24,
+   "source": "https://carta.com/data/linkedin-seed-2022-only-24-percent-reach-series-a/",
+   "note": "'17% or so' within 2 yrs; post title says 24% had reached A by early 2025 (~3 yrs)."
+  },
+  {
+   "region": "north_america",
+   "period": "2022 seed cohort (full year)",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.24,
+   "within_months": 36,
+   "source": "https://carta.com/data/linkedin-seed-2022-only-24-percent-reach-series-a/",
+   "note": "Carta Feb 2025; still right-censored."
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q2 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.09,
+   "within_months": 12,
+   "source": "https://carta.com/data/linkedin-seed-to-series-a-graduation-improving-2024/",
+   "note": "Carta Sep 2025; highest 1-yr rate since 2021Q3."
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q3 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.129,
+   "within_months": 12,
+   "source": "https://carta.com/data/linkedin-seed-2024-graduation-improving-slowly/",
+   "note": "Carta Dec 2025."
+  },
+  {
+   "region": "north_america",
+   "period": "2025 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.105,
+   "within_months": 12,
+   "source": "https://carta.com/data/linkedin-seed-to-series-a-still-uphill-battle/",
+   "note": "Carta 2026 update reported as ~10-11% after 1 yr vs 4-5% for 2022 and 2023 cohorts; midpoint used. Sample 12,249 seed rounds Q1 2018-Q3 2025."
+  },
+  {
+   "region": "north_america",
+   "period": "2022-2023 seed cohorts",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.045,
+   "within_months": 12,
+   "source": "https://carta.com/data/linkedin-seed-to-series-a-still-uphill-battle/",
+   "note": "Reported 4-5% after 1 yr; midpoint."
+  },
+  {
+   "region": "north_america",
+   "period": "long-run typical seed cohort (Carta 2018-2021)",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.5,
+   "within_months": 48,
+   "source": "https://www.saastr.com/the-state-of-seed-today-10-key-learnings-from-cartas-latest-data",
+   "note": "Carta State of Seed Winter 2025: ~50% reach A by quarter 16 after seed; Walker Dec 2024: 'it always ends up around 50%'."
+  },
+  {
+   "region": "north_america",
+   "period": "2016-2018 seed cohorts",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.6,
+   "within_months": null,
+   "source": "https://carta.com/data/linkedin-seed-to-series-a-data-2018-2020-cohorts/",
+   "note": "'About 6 in 10' eventually raised A; Walker says likely inflated by 2016-18 sample heuristics (upper bound)."
+  },
+  {
+   "region": "north_america",
+   "period": "2017 seed cohort (n=1,168)",
+   "from_stage": "seed",
+   "to_stage": "next_round",
+   "prob": 0.55,
+   "within_months": 66,
+   "source": "https://carta.com/data/linkedin-1168-seed-startups-2017-where-now/",
+   "note": "45% had not raised another round by ~end 2022 (summary elsewhere says 47%; conflict kept in notes)."
+  },
+  {
+   "region": "north_america",
+   "period": "2017 seed cohort (n=1,168)",
+   "from_stage": "seed",
+   "to_stage": "B",
+   "prob": 0.17,
+   "within_months": 66,
+   "source": "https://carta.com/data/linkedin-1168-seed-startups-2017-where-now/",
+   "note": "Cumulative seed->B; 2% reached Series D."
+  },
+  {
+   "region": "north_america",
+   "period": "2018 founded cohort (n=4,369)",
+   "from_stage": "seed",
+   "to_stage": "B",
+   "prob": 0.148,
+   "within_months": 72,
+   "source": "https://carta.com/data/linkedin-2018-startups-six-year-outcomes/",
+   "note": "Share of all 2018-founded Carta startups reaching B after 6 yrs (includes pre-seed-only firms); 4.4% reached C, 1.1% D."
+  },
+  {
+   "region": "north_america",
+   "period": "2018 founded cohort (n=4,369)",
+   "from_stage": "seed",
+   "to_stage": "C",
+   "prob": 0.044,
+   "within_months": 72,
+   "source": "https://carta.com/data/linkedin-2018-startups-six-year-outcomes/",
+   "note": "Cumulative from founding cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "2018 founded cohort (n=4,369)",
+   "from_stage": "seed",
+   "to_stage": "D",
+   "prob": 0.011,
+   "within_months": 72,
+   "source": "https://carta.com/data/linkedin-2018-startups-six-year-outcomes/",
+   "note": "Cumulative from founding cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "recent cohorts (2025 view)",
+   "from_stage": "seed",
+   "to_stage": "B",
+   "prob": 0.15,
+   "within_months": null,
+   "source": "https://carta.com/data/linkedin-seed-to-series-b-only-15-to-35-percent/",
+   "note": "Carta Aug 2025: best case ~35% of seeds reach B, realistic in today's market ~15%."
+  },
+  {
+   "region": "north_america",
+   "period": "best-case cohorts",
+   "from_stage": "seed",
+   "to_stage": "B",
+   "prob": 0.35,
+   "within_months": null,
+   "source": "https://carta.com/data/linkedin-seed-to-series-b-only-15-to-35-percent/",
+   "note": "Upper bound."
+  },
+  {
+   "region": "north_america",
+   "period": "2018 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.27,
+   "within_months": 24,
+   "source": "https://carta.com/data/linkedin-series-a-to-b-hardest-in-six-years/",
+   "note": "~27-28% within 8 quarters; Carta Oct 2024."
+  },
+  {
+   "region": "north_america",
+   "period": "2018Q3 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.25,
+   "within_months": 24,
+   "source": "https://carta.com/data/newsletter-venture-funnel-leakages/",
+   "note": "Carta."
+  },
+  {
+   "region": "north_america",
+   "period": "2018Q2 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.4,
+   "within_months": 36,
+   "source": "https://carta.com/data/linkedin-series-a-to-b-graduation-history/",
+   "note": "Described by Carta as a 'normal' cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "2019 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.52,
+   "within_months": null,
+   "source": "https://carta.com/data/linkedin-series-a-outcomes-2019-2021-cohorts/",
+   "note": "Eventual (through ~2025). n=4,514 US Series A 2019-2021."
+  },
+  {
+   "region": "north_america",
+   "period": "2020 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.408,
+   "within_months": 24,
+   "source": "https://carta.com/data/linkedin-series-a-to-series-b-harder-now/",
+   "note": "Boom cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "2020 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.5,
+   "within_months": 36,
+   "source": "https://carta.com/data/linkedin-series-a-to-b-graduation-history/",
+   "note": ""
+  },
+  {
+   "region": "north_america",
+   "period": "2022 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.151,
+   "within_months": 24,
+   "source": "https://carta.com/data/linkedin-series-a-to-series-b-harder-now/",
+   "note": "Crunch cohort."
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q3 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.09,
+   "within_months": 24,
+   "source": "https://carta.com/data/newsletter-venture-funnel-leakages/",
+   "note": ""
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q1 Series A cohort",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.2,
+   "within_months": 36,
+   "source": "https://carta.com/data/linkedin-series-a-to-series-b-graduation-hard/",
+   "note": "Carta Feb 2025, 'about 20%'."
+  },
+  {
+   "region": "north_america",
+   "period": "strong cohorts 2018-2025 (n=10,562 Series A)",
+   "from_stage": "A",
+   "to_stage": "B",
+   "prob": 0.5,
+   "within_months": null,
+   "source": "https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/",
+   "note": "'In a strong cohort about half of Series As go on to raise B'; acquisitions rare. Walker Mar 2026: graduation rates to next stage similar across seed, A and B."
+  },
+  {
+   "region": "north_america",
+   "period": "$1M+ seed cohorts through 2020",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.55,
+   "within_months": null,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase: 'typical graduation rate of 55% or higher' to Series A or later (eventual). Different definition than Carta."
+  },
+  {
+   "region": "north_america",
+   "period": "2020 $1M+ seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.5,
+   "within_months": null,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase: 'roughly half' raised post-seed funding."
+  },
+  {
+   "region": "north_america",
+   "period": "2021 $1M+ seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.33,
+   "within_months": null,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase: 'a third' raised post-seed funding (still censored)."
+  },
+  {
+   "region": "north_america",
+   "period": "2020Q1 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.318,
+   "within_months": 24,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase."
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q1 seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.12,
+   "within_months": 24,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase; Carta gives 15.4% for same cohort (both kept)."
+  },
+  {
+   "region": "north_america",
+   "period": "2023 $1M+ seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.24,
+   "within_months": 30,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase 2026: 24% progressed further (censored, ~2-3 yrs)."
+  },
+  {
+   "region": "north_america",
+   "period": "2024 $1M+ seed cohort",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.16,
+   "within_months": 18,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase 2026: 16% progressed (censored)."
+  },
+  {
+   "region": "north_america",
+   "period": "2011-2018 seed cohorts",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.5,
+   "within_months": null,
+   "source": "https://news.crunchbase.com/liquidity/seed-funding-series-a-success/",
+   "note": "Crunchbase: 'more than 1 out of 2' raise Series A or later; floor value used."
+  },
+  {
+   "region": "north_america",
+   "period": "2018 snapshot",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "prob": 0.42,
+   "within_months": null,
+   "source": "https://news.crunchbase.com/venture/what-does-it-take-to-raise-your-next-round-in-2018/",
+   "note": "Crunchbase 2018: 42% of seed-funded startups go on to raise a Series A."
+  },
+  {
+   "region": "global",
+   "period": "2008-2010 seed cohort (n~1,098, CB Insights)",
+   "from_stage": "seed",
+   "to_stage": "second_round",
+   "prob": 0.46,
+   "within_months": null,
+   "source": "https://www.cbinsights.com/research/venture-capital-funnel-2/",
+   "note": "CB Insights funnel (mostly US). Secondary summaries give 46% second round, 14-15% fourth round, 0.91% unicorn. Primary page not readable (blocked)."
+  },
+  {
+   "region": "global",
+   "period": "2008-2010 seed cohort (n~1,098, CB Insights)",
+   "from_stage": "seed",
+   "to_stage": "fourth_round",
+   "prob": 0.14,
+   "within_months": null,
+   "source": "https://www.fintechnexus.com/?p=23649",
+   "note": "Secondary summary; CB Insights' own post says 15%."
+  }
+ ],
+ "time_between_rounds": [
+  {
+   "region": "north_america",
+   "period": "2021Q4",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 13.8,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "420 days (Carta, rounds closed in quarter)"
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q2",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 19.9,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "607 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q2",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 23.4,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "712 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q4",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 25.4,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2024/",
+   "note": "774 days (~2.1 yrs); 2024 full year 2.2 yrs"
+  },
+  {
+   "region": "north_america",
+   "period": "2025Q2",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 20.2,
+   "source": "https://carta.com/data/state-of-private-markets-q2-2025-full-report/",
+   "note": "616 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2025 (US software, primary rounds)",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 26.4,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "2.2 yrs; AI companies 1.9 yrs (22.8 mo)"
+  },
+  {
+   "region": "north_america",
+   "period": "2025 (US software, AI companies)",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 22.8,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "1.9 yrs"
+  },
+  {
+   "region": "north_america",
+   "period": "2025Q4",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 22.8,
+   "source": "https://carta.com/data/linkedin-time-between-startup-rounds-improving/",
+   "note": "1.9 yrs, ~9,843 US rounds; different sample than 2.2-yr figure (both kept)"
+  },
+  {
+   "region": "north_america",
+   "period": "2014",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 14,
+   "source": "https://news.crunchbase.com/seed/funding-startups-timeline-series-a-venture/",
+   "note": "Crunchbase"
+  },
+  {
+   "region": "north_america",
+   "period": "2023",
+   "from_stage": "seed",
+   "to_stage": "A",
+   "median_months": 25,
+   "source": "https://news.crunchbase.com/seed/funding-startups-timeline-series-a-venture/",
+   "note": "Crunchbase; 2021-22 were ~6 months shorter than trend"
+  },
+  {
+   "region": "north_america",
+   "period": "2021Q4",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 18.4,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "560 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2023Q2",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 23.7,
+   "source": "https://carta.com/data/startup-funding-crunch-2023/",
+   "note": "720 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q4",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 24.1,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2024/",
+   "note": "732 days reported; Carta also says gap was 97% longer than Q4 2021 (which would imply ~36 mo) - conflict, see notes. 2024 full-year 2.5 yrs."
+  },
+  {
+   "region": "north_america",
+   "period": "2024 (full year)",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 30,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-lengthened-2025/",
+   "note": "2.5 yrs"
+  },
+  {
+   "region": "north_america",
+   "period": "2025 (US software, primary rounds)",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 32.4,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "2.7 yrs; AI companies 2.2 yrs (26.4 mo)"
+  },
+  {
+   "region": "north_america",
+   "period": "2025 (US software, AI companies)",
+   "from_stage": "A",
+   "to_stage": "B",
+   "median_months": 26.4,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "2.2 yrs"
+  },
+  {
+   "region": "north_america",
+   "period": "2022Q2",
+   "from_stage": "B",
+   "to_stage": "C",
+   "median_months": 22.4,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "681 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2023Q2",
+   "from_stage": "B",
+   "to_stage": "C",
+   "median_months": 24.3,
+   "source": "https://carta.com/data/startup-funding-crunch-2023/",
+   "note": "740 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q2",
+   "from_stage": "B",
+   "to_stage": "C",
+   "median_months": 28.1,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "856 days"
+  },
+  {
+   "region": "north_america",
+   "period": "2024Q4",
+   "from_stage": "B",
+   "to_stage": "C",
+   "median_months": 26.0,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2024/",
+   "note": "790 days (~2.2 yrs)"
+  }
+ ],
+ "valuations": [
+  {
+   "region": "north_america",
+   "year": 2020,
+   "stage": "A",
+   "median_pre_money_usd": 21000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thenextweb.com/news/pitchbook-q2-2026-megadeals-87-percent-us-venture-vintage-discount",
+   "note": "PitchBook-NVCA (via press): 2026Q2 Series A median pre $64M 'more than triple the $21m of 2020'. PitchBook medians run higher than Carta's."
+  },
+  {
+   "region": "north_america",
+   "year": 2020,
+   "stage": "C",
+   "median_pre_money_usd": 167200000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2026/04/Q1-2026-PitchBook-NVCA-Venture-Monitor.pdf",
+   "note": "PitchBook-NVCA Q1 2026: Series C median pre 'surged to $579M from $167.2M in 2020'."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "seed",
+   "median_pre_money_usd": 10000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://wsgr.com/a/web/w47kSyTTgRwVPffCe8gk6c/entrepreneursreport-ye-2021.pdf",
+   "note": "Wilson Sonsini Q4 2021 Series Seed median pre ($11.5M in Q3 2021). Law-firm deal sample."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "seed",
+   "median_pre_money_usd": 10700000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2026-full-report/",
+   "note": "derived: Carta 2026 YTD seed median $19.7M is '+84% vs full-year 2021' -> 19.7/1.84."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "A",
+   "median_pre_money_usd": 45600000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://wsgr.com/a/web/w47kSyTTgRwVPffCe8gk6c/entrepreneursreport-ye-2021.pdf",
+   "note": "Wilson Sonsini Q4 2021 Series A median pre ($22.0M in Q3 2021 - volatile small sample)."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "A",
+   "median_pre_money_usd": 40600000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2026-full-report/",
+   "note": "derived: Carta 2026 YTD Series A $63.3M is '+56% over five years' (vs 2021) -> 63.3/1.56."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "early_stage_A_B",
+   "median_pre_money_usd": 45000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2021/10/Q3_2021_PitchBook-NVCA_Venture_Monitor.pdf",
+   "note": "PitchBook-NVCA 2021 YTD (Q3) median early-stage pre-money (record); average $109.1M."
+  },
+  {
+   "region": "north_america",
+   "year": 2021,
+   "stage": "D",
+   "median_pre_money_usd": 727800000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta",
+   "note": "Carta via newsletter: 2021 Series D median pre."
+  },
+  {
+   "region": "north_america",
+   "year": 2022,
+   "stage": "seed",
+   "median_pre_money_usd": 15000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/seed-valuations-2022/",
+   "note": "Carta: $15M in each of Q1-Q3 2022, $14M in Q4 2022 (TechCrunch gives $13.8M)."
+  },
+  {
+   "region": "north_america",
+   "year": 2022,
+   "stage": "A",
+   "median_pre_money_usd": 37000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2022/",
+   "note": "Q4 2022 value, as reported by TechCrunch citing Carta."
+  },
+  {
+   "region": "north_america",
+   "year": 2022,
+   "stage": "B",
+   "median_pre_money_usd": 82000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2022/",
+   "note": "Q4 2022 (down 33% QoQ), via TechCrunch citing Carta."
+  },
+  {
+   "region": "north_america",
+   "year": 2022,
+   "stage": "C",
+   "median_pre_money_usd": 173000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2022/",
+   "note": "Q4 2022; Series C median fell 55% from Q4 2021 to end-2022."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "seed",
+   "median_pre_money_usd": 13300000,
+   "median_post_money_usd": null,
+   "median_round_usd": 3000000,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2023/",
+   "note": "Q4 2023 primary rounds; round size $3M from Carta 'first cut' (which gave $14M pre)."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "A",
+   "median_pre_money_usd": 44000000,
+   "median_post_money_usd": null,
+   "median_round_usd": 9000000,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2023/",
+   "note": "Q4 2023; first cut gave $45M pre / $9M raised."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "B",
+   "median_pre_money_usd": 100000000,
+   "median_post_money_usd": null,
+   "median_round_usd": 16000000,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2023/",
+   "note": "Q4 2023; first cut gave $103M pre / $16M raised."
+  },
+  {
+   "region": "north_america",
+   "year": 2024,
+   "stage": "seed",
+   "median_pre_money_usd": 16000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/newsletter-full-data-from-q4-2024/",
+   "note": "Q4 2024 primary+bridge; highest since at least 2016."
+  },
+  {
+   "region": "north_america",
+   "year": 2024,
+   "stage": "seed",
+   "median_pre_money_usd": 15000000,
+   "median_post_money_usd": null,
+   "median_round_usd": 3700000,
+   "source": "https://carta.com/data/linkedin-fundraising-cheatsheet-q4-2024/",
+   "note": "Q4 2024 priced primary seed, US tech only."
+  },
+  {
+   "region": "north_america",
+   "year": 2024,
+   "stage": "A",
+   "median_pre_money_usd": 42000000,
+   "median_post_money_usd": null,
+   "median_round_usd": 12000000,
+   "source": "https://carta.com/data/linkedin-fundraising-cheatsheet-q4-2024/",
+   "note": "Q4 2024 US tech primary. Carta Q4 2024 report elsewhere gives $45M (+14% YoY) - kept both."
+  },
+  {
+   "region": "north_america",
+   "year": 2024,
+   "stage": "A",
+   "median_pre_money_usd": 45000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2024/",
+   "note": "Q4 2024 primary-round median."
+  },
+  {
+   "region": "north_america",
+   "year": 2024,
+   "stage": "B",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 129800000,
+   "median_round_usd": 20000000,
+   "source": "https://carta.com/data/linkedin-fundraising-cheatsheet-q4-2024/",
+   "note": "Q4 2024 US tech."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "seed",
+   "median_pre_money_usd": 16000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2025-full-report",
+   "note": "Carta Q1 and Q3 2025 both $16M (Q3 = record, +14% YoY)."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 24000000,
+   "median_round_usd": 4000000,
+   "source": "https://waveup.com/blog/seed-round-benchmarks/",
+   "note": "Q4 2025 seed post-money (secondary summary of Carta): $16M Q4 2023, $18M Q4 2024, $24M Q4 2025."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "A",
+   "median_pre_money_usd": 49300000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2025-full-report",
+   "note": "Q3 2025 record; Q1 2025 was $48M."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "B",
+   "median_pre_money_usd": 118900000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://www.zeni.ai/blog/series-b-valuations",
+   "note": "Carta Q3 2025 primary (bridge rounds $142.4M), via Zeni."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "A",
+   "median_pre_money_usd": 48100000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2026/01/q4-2025-pitchbook-nvca-venture-monitor.pdf",
+   "note": "PitchBook-NVCA 2025 (per secondary summaries citing 2026 +25% to $60.3M)."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "B",
+   "median_pre_money_usd": 140000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2026/01/q4-2025-pitchbook-nvca-venture-monitor.pdf",
+   "note": "PitchBook-NVCA 2025 (secondary summary)."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "seed",
+   "median_pre_money_usd": 19700000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2026-full-report/",
+   "note": "Carta 2026 YTD through Q3."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "seed",
+   "median_pre_money_usd": 18400000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2026/04/Q1-2026-PitchBook-NVCA-Venture-Monitor.pdf",
+   "note": "PitchBook-NVCA Q1 2026 ('more than double 2021')."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "A",
+   "median_pre_money_usd": 63300000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q3-2026-full-report/",
+   "note": "Carta 2026 YTD through Q3."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "A",
+   "median_pre_money_usd": 64000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thenextweb.com/news/pitchbook-q2-2026-megadeals-87-percent-us-venture-vintage-discount",
+   "note": "PitchBook-NVCA Q2 2026."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "B",
+   "median_pre_money_usd": 150000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta",
+   "note": "Carta Q3 2026 via newsletter (record)."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "B",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 166200000,
+   "median_round_usd": 23300000,
+   "source": "https://waveup.com/blog/startup-dilution-per-round/",
+   "note": "Q2 2026 (secondary citing Carta), dilution 13.4%."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "C",
+   "median_pre_money_usd": 352500000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta",
+   "note": "Carta Q3 2026 via newsletter (record)."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "C",
+   "median_pre_money_usd": 579000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://nvca.org/wp-content/uploads/2026/04/Q1-2026-PitchBook-NVCA-Venture-Monitor.pdf",
+   "note": "PitchBook-NVCA Q1 2026; far above Carta's $352.5M (different sample) - both kept."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "C",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 385000000,
+   "median_round_usd": null,
+   "source": "https://waveup.com/blog/startup-dilution-per-round/",
+   "note": "Q1 2026 (secondary citing Carta), 9.5% dilution."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "D",
+   "median_pre_money_usd": 534300000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta",
+   "note": "Carta Q3 2026; still below 2021's $727.8M."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "pre_seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 7500000,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-pre-seed-q2-2025-full-report/",
+   "note": "Median post-money SAFE cap for rounds < $250K (Q2 2025); $10M for $250-500K rounds. Caps are not true valuations."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "pre_seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 12500000,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/linkedin-preseed-safe-valuation-benchmarks-q4/",
+   "note": "Median SAFE cap for $1M-1.9M raised (Oct 2024-Mar 2025); $7M <$250K, $10M $250K-999K."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "pre_seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": 35000000,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/safe-valuation-caps-q2-2026/",
+   "note": "Q2 2026 median cap on SAFEs > $2.5M (+40% YoY) - top-of-market only."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "pre_seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 660000,
+   "source": "https://carta.com/data/linkedin-preseed-safe-market-q1-2023/",
+   "note": "Median total raised on SAFEs per company (Q1 2023)."
+  },
+  {
+   "region": "north_america",
+   "year": 2016,
+   "stage": "seed",
+   "median_pre_money_usd": 5000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://www.jpmorgan.com/insights/banking/commercial-banking/seed-funding-guide-how-startups-can-secure-seed-capital",
+   "note": "JPMorgan citing PitchBook (US seed median pre). PitchBook H1 2016 via TechCrunch: $5.9M."
+  },
+  {
+   "region": "north_america",
+   "year": 2016,
+   "stage": "seed",
+   "median_pre_money_usd": 5900000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://techcrunch.com/2016/09/19/what-reset-both-seed-and-late-stage-valuations-just-hit-record-levels-says-new-report/",
+   "note": "PitchBook H1 2016."
+  },
+  {
+   "region": "north_america",
+   "year": 2017,
+   "stage": "seed",
+   "median_pre_money_usd": 5540000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://www.jpmorgan.com/insights/banking/commercial-banking/seed-funding-guide-how-startups-can-secure-seed-capital",
+   "note": "JPMorgan citing PitchBook."
+  },
+  {
+   "region": "north_america",
+   "year": 2018,
+   "stage": "seed",
+   "median_pre_money_usd": 6000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://www.jpmorgan.com/insights/banking/commercial-banking/seed-funding-guide-how-startups-can-secure-seed-capital",
+   "note": "JPMorgan citing PitchBook. Wing VC (larger institutional seeds) gives $9.4M - conflict kept."
+  },
+  {
+   "region": "north_america",
+   "year": 2019,
+   "stage": "seed",
+   "median_pre_money_usd": 6600000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://www.jpmorgan.com/insights/banking/commercial-banking/seed-funding-guide-how-startups-can-secure-seed-capital",
+   "note": "JPMorgan citing PitchBook. PitchBook angel+seed mid-2019 $7.5M; Wing VC $11.0M."
+  },
+  {
+   "region": "north_america",
+   "year": 2019,
+   "stage": "seed",
+   "median_pre_money_usd": 8000000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://carta.com/data/state-of-private-markets-q1-2025/",
+   "note": "Carta Q2 2019 median seed valuation $8M (cited in Q1 2025 report)."
+  },
+  {
+   "region": "north_america",
+   "year": 2019,
+   "stage": "seed",
+   "median_pre_money_usd": 7500000,
+   "median_post_money_usd": null,
+   "median_round_usd": null,
+   "source": "https://pitchbook.com/blog/median-early-stage-valuation-step-ups-will-hit-20x-in-2019",
+   "note": "PitchBook US angel+seed median pre as of 2019-06-30."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "A",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 9600000,
+   "source": "https://carta.com/data/startup-round-sizes-rise-q3-2023/",
+   "note": "Carta Q3 2023 primary Series A; seed held at $3M for prior four quarters."
+  },
+  {
+   "region": "north_america",
+   "year": 2023,
+   "stage": "seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 3000000,
+   "source": "https://carta.com/data/startup-round-sizes-rise-q3-2023/",
+   "note": "Carta Q3 2022-Q3 2023."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 4500000,
+   "source": "https://carta.com/learn/startups/fundraising/series-a/",
+   "note": "Carta Q2 2026 benchmark; Carta Q3 2026 says seed round size +50% vs 2021."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "A",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 14700000,
+   "source": "https://carta.com/learn/startups/fundraising/series-a/",
+   "note": "Carta Q2 2026; PitchBook-NVCA Q2 2026 gives $19.4M (different sample)."
+  },
+  {
+   "region": "north_america",
+   "year": 2026,
+   "stage": "A",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 19400000,
+   "source": "https://valueaddvc.com/blog/startup-funding-rounds-in-2025-whats-normal-at-pre-seed-seed-a-and-b",
+   "note": "PitchBook-NVCA Q2 2026 via secondary blog."
+  },
+  {
+   "region": "north_america",
+   "year": 2025,
+   "stage": "seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 3000000,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "Crunchbase: median US seed ~ $3M in 2025, ~3x 2018 level."
+  },
+  {
+   "region": "north_america",
+   "year": 2018,
+   "stage": "seed",
+   "median_pre_money_usd": null,
+   "median_post_money_usd": null,
+   "median_round_usd": 1000000,
+   "source": "https://news.crunchbase.com/seed/data-bigger-deals-longer-seriesa-2026/",
+   "note": "derived: Crunchbase says 2025 median (~$3M) is about 3x the 2018 level."
+  }
+ ],
+ "outcomes": [
+  {
+   "region": "north_america",
+   "cohort": "US startups founded 2018 on Carta (n=4,369)",
+   "horizon_years": 6.5,
+   "shutdown_pct": 61.9,
+   "acquired_pct": 5.5,
+   "ipo_pct": 0.34,
+   "still_private_pct": 32.2,
+   "source": "https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/",
+   "note": "Carta Feb 2025. 2,707 closed, 239 acquired (summary text elsewhere says 143 - internal conflict), 15 public, 1,408 alive incl. 57 private unicorns (1.3%). Includes pre-seed-only companies."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US startups incorporated 2018 on Carta (n=3,067, earlier cut)",
+   "horizon_years": 5.5,
+   "shutdown_pct": 49.6,
+   "acquired_pct": 5.2,
+   "ipo_pct": 0.13,
+   "still_private_pct": 45.0,
+   "source": "https://angelcapitalassociation.org/blog/the-startup-class-of-2018-where-are-they-now/",
+   "note": "Earlier Carta analysis: 1,522 shut down, 161 acquired, 4 IPOs; still_private derived as remainder. Not comparable to the 4,369-company cut (different pre-seed definition)."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US seed cohort 2017 on Carta (n=1,168)",
+   "horizon_years": 5.5,
+   "shutdown_pct": null,
+   "acquired_pct": 12.0,
+   "ipo_pct": 0.09,
+   "still_private_pct": null,
+   "source": "https://carta.com/data/linkedin-1168-seed-startups-2017-where-now/",
+   "note": "1 IPO (=0.09%, derived). Shutdown share not stated; 45% never raised again."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US seed-stage startups on Carta (recent cohorts)",
+   "horizon_years": 2,
+   "shutdown_pct": 10.0,
+   "acquired_pct": null,
+   "ipo_pct": 0,
+   "still_private_pct": 90.0,
+   "source": "https://carta.com/data/linkedin-vc-founders-quit-data-seed-series-a/",
+   "note": "'After 2 years 90% of seed startups still kicking; ~25% reached A'. Page attribution best-effort (one of Walker's Carta posts)."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US seed-stage startups on Carta (recent cohorts)",
+   "horizon_years": 4,
+   "shutdown_pct": 22.0,
+   "acquired_pct": null,
+   "ipo_pct": 0,
+   "still_private_pct": 78.0,
+   "source": "https://carta.com/data/linkedin-vc-founders-quit-data-seed-series-a/",
+   "note": "'After 4 years 78% still operating, 22% closed'; closure rate sensitive to macro. Attribution best-effort."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US VC-backed cos raising >= $1M, 2004-2010 (~2,000; Shikhar Ghosh, HBS)",
+   "horizon_years": null,
+   "shutdown_pct": 35.0,
+   "acquired_pct": null,
+   "ipo_pct": null,
+   "still_private_pct": null,
+   "source": "https://www.library.hbs.edu/working-knowledge/why-companies-failand-how-their-founders-can-bounce-back",
+   "note": "30-40% liquidate all assets (midpoint 35 used); ~75% never return cash to investors (broader 'failure')."
+  },
+  {
+   "region": "north_america",
+   "cohort": "US VC financings 2004-2013 (>21,000; Correlation Ventures)",
+   "horizon_years": null,
+   "shutdown_pct": null,
+   "acquired_pct": null,
+   "ipo_pct": null,
+   "still_private_pct": null,
+   "source": "https://sethlevine.com/archives/2014/08/venture-outcomes-are-even-more-skewed-than-you-think.html",
+   "note": "Return distribution, per financing: ~65% return <1x; ~10% return >=5x; ~4% return >=10x. Not a company outcome split."
+  },
+  {
+   "region": "global",
+   "cohort": "Seed-funded cos 2008-2010 (CB Insights funnel, n~1,098)",
+   "horizon_years": null,
+   "shutdown_pct": null,
+   "acquired_pct": null,
+   "ipo_pct": null,
+   "still_private_pct": null,
+   "source": "https://www.cbinsights.com/research/venture-capital-funnel-2/",
+   "note": "46% raised 2nd round, 14-15% a 4th round, 0.91% (10 cos) became unicorns. Exit/death split not captured this session."
+  }
+ ],
+ "failure_causes": [
+  {
+   "cause": "ran_out_of_cash",
+   "pct": 38,
+   "sample": "111 startup post-mortems since 2018 (CB Insights 2021 update); multiple causes per company",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "CB Insights label 'Ran out of cash / failed to raise new capital'. NOT re-verified this session (search budget exhausted, cbinsights.com fetch blocked) - recalled from the widely cited report; verify before publishing."
+  },
+  {
+   "cause": "no_market_need",
+   "pct": 35,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "Not re-verified this session."
+  },
+  {
+   "cause": "outcompeted",
+   "pct": 20,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Got outcompeted'. Not re-verified this session."
+  },
+  {
+   "cause": "bad_unit_economics",
+   "pct": 19,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "CB label 'Flawed business model'. Not re-verified this session."
+  },
+  {
+   "cause": "regulatory",
+   "pct": 18,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Regulatory / legal challenges'. Not re-verified this session."
+  },
+  {
+   "cause": "bad_unit_economics_pricing",
+   "pct": 15,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Pricing / cost issues' (maps to bad_unit_economics). Not re-verified this session."
+  },
+  {
+   "cause": "team_conflict_wrong_team",
+   "pct": 14,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Not the right team'. Not re-verified this session."
+  },
+  {
+   "cause": "too_early",
+   "pct": 10,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Product mistimed'. Not re-verified this session."
+  },
+  {
+   "cause": "product_tech_failure",
+   "pct": 8,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Poor product'. Not re-verified this session."
+  },
+  {
+   "cause": "team_conflict",
+   "pct": 7,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Disharmony among team / investors'. Not re-verified this session."
+  },
+  {
+   "cause": "failed_pivot",
+   "pct": 6,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Pivot gone bad'. Not re-verified this session."
+  },
+  {
+   "cause": "founder_burnout",
+   "pct": 5,
+   "sample": "CB Insights 2021, n=111",
+   "source": "https://www.cbinsights.com/research/report/startup-failure-reasons-top/",
+   "note": "'Burned out / lack of passion'. Not re-verified this session."
+  }
+ ],
+ "sector_modifiers": [
+  {
+   "sector": "ai_ml",
+   "metric": "seed_pre_money_premium_vs_non_ai",
+   "value": 1.42,
+   "source": "https://carta.com/data/ai-fundraising-trends-2024/",
+   "note": "Carta 2024: AI seed median pre $17.9M, 42% above non-AI."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "series_a_pre_money_premium_vs_non_ai",
+   "value": 1.3,
+   "source": "https://carta.com/data/ai-fundraising-trends-2024/",
+   "note": "Carta 2024."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "series_b_pre_money_premium_vs_non_ai",
+   "value": 1.5,
+   "source": "https://carta.com/data/ai-fundraising-trends-2024/",
+   "note": "Carta 2024: AI Series B median pre $143M."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "series_a_pre_money_premium_vs_non_ai",
+   "value": 1.38,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025-full-report/",
+   "note": "Carta 2025 in review; premium at Series E+ reached 193% (2.93x)."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "series_e_plus_pre_money_premium_vs_non_ai",
+   "value": 2.93,
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025-full-report/",
+   "note": "Carta 2025: +193%."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "months_seed_to_A_multiplier",
+   "value": 0.86,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "derived: AI 1.9 yrs vs all US software 2.2 yrs (2025)."
+  },
+  {
+   "sector": "ai_ml",
+   "metric": "months_A_to_B_multiplier",
+   "value": 0.81,
+   "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/",
+   "note": "derived: AI 2.2 yrs vs all US software 2.7 yrs (2025)."
+  },
+  {
+   "sector": "fintech",
+   "metric": "months_seed_to_A_multiplier",
+   "value": 1.25,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "derived: fintech seed->A median 971 days vs 774 days all sectors (Q4 2024). Carta: gaps 'shrinking in SaaS, rising in fintech'."
+  },
+  {
+   "sector": "healthtech",
+   "metric": "series_a_dilution_pct",
+   "value": 21.8,
+   "source": "https://carta.com/data/healthcare-sector-dilution-q1-2025/",
+   "note": "Q1 2025 vs 16.8% non-healthcare (1.30x). Applies to healthcare incl. biotech/medtech."
+  },
+  {
+   "sector": "saas_b2b",
+   "metric": "months_between_rounds_trend",
+   "value": null,
+   "source": "https://carta.com/data/time-between-VC-rounds-2024/",
+   "note": "Qualitative: SaaS gaps shorter than average and shrinking in 2024; 'SaaS Series A to B traffic jam' (https://carta.com/data/linkedin-saas-series-a-to-b-traffic-jam/). No multiplier captured."
+  },
+  {
+   "sector": "all",
+   "metric": "seed_to_A_graduation_trend",
+   "value": null,
+   "source": "https://carta.com/data/linkedin-seed-to-series-a-hard-in-every-sector/",
+   "note": "Qualitative: seed->A graduation fell in every sector 2021->2023. Sector-level rates not captured this session."
+  }
+ ],
+ "dilution": [
+  {
+   "stage": "seed",
+   "median_pct": 19.4,
+   "period": "2026Q2",
+   "source": "https://carta.com/learn/startups/fundraising/series-a/",
+   "note": "Carta Q2 2026 benchmark table (as reproduced on Carta's Series A guide and secondary sites)."
+  },
+  {
+   "stage": "A",
+   "median_pct": 18.7,
+   "period": "2026Q2",
+   "source": "https://carta.com/learn/startups/fundraising/series-a/",
+   "note": "Carta Q2 2026."
+  },
+  {
+   "stage": "B",
+   "median_pct": 13.4,
+   "period": "2026Q2",
+   "source": "https://carta.com/learn/startups/fundraising/series-a/",
+   "note": "Carta Q2 2026."
+  },
+  {
+   "stage": "C",
+   "median_pct": 9.5,
+   "period": "2026Q1",
+   "source": "https://waveup.com/blog/startup-dilution-per-round/",
+   "note": "Secondary site citing Carta; unconfirmed on carta.com."
+  },
+  {
+   "stage": "seed_to_C_all_rounds",
+   "median_pct": 16.0,
+   "period": "2025",
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025/",
+   "note": "Carta 2025 in review: fell from ~18% (2024) and ~19% (2023)."
+  },
+  {
+   "stage": "seed_to_C_all_rounds",
+   "median_pct": 18.0,
+   "period": "2024",
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025/",
+   "note": "Carta 2025 in review (prior-year comparison)."
+  },
+  {
+   "stage": "seed_to_C_all_rounds",
+   "median_pct": 19.0,
+   "period": "2023",
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025/",
+   "note": "Carta 2025 in review (two-years-earlier comparison)."
+  },
+  {
+   "stage": "B",
+   "median_pct": 12.9,
+   "period": "2025",
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025/",
+   "note": "Down from ~15% in 2024 - biggest drop of 2025."
+  },
+  {
+   "stage": "B",
+   "median_pct": 15.0,
+   "period": "2024",
+   "source": "https://carta.com/data/state-of-private-markets-q4-2025/",
+   "note": "'About 15%'."
+  },
+  {
+   "stage": "seed",
+   "median_pct": 19.5,
+   "period": "2025 (US software, n=2,005)",
+   "source": "https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/",
+   "note": "Secondary analysis of Carta-style data: A 18.0%, B 14.0%, C 10.0%, D 7.5%."
+  },
+  {
+   "stage": "A",
+   "median_pct": 18.0,
+   "period": "2025 (US software, n=2,005)",
+   "source": "https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/",
+   "note": ""
+  },
+  {
+   "stage": "B",
+   "median_pct": 14.0,
+   "period": "2025 (US software, n=2,005)",
+   "source": "https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/",
+   "note": ""
+  },
+  {
+   "stage": "C",
+   "median_pct": 10.0,
+   "period": "2025 (US software, n=2,005)",
+   "source": "https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/",
+   "note": ""
+  },
+  {
+   "stage": "D",
+   "median_pct": 7.5,
+   "period": "2025 (US software, n=2,005)",
+   "source": "https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/",
+   "note": ""
+  },
+  {
+   "stage": "A",
+   "median_pct": 21.8,
+   "period": "2025Q1 (healthcare only)",
+   "source": "https://carta.com/data/healthcare-sector-dilution-q1-2025/",
+   "note": "vs 16.8% on non-healthcare Series A rounds same quarter."
+  },
+  {
+   "stage": "A",
+   "median_pct": 16.8,
+   "period": "2025Q1 (non-healthcare)",
+   "source": "https://carta.com/data/healthcare-sector-dilution-q1-2025/",
+   "note": ""
+  }
+ ],
+ "region_notes": [
+  {
+   "region": "north_america",
+   "fact": "966 Carta startups shut down in 2024 vs 769 in 2023 (Carta; true count likely higher).",
+   "source": "https://techcrunch.com/2025/01/26/2025-will-likely-be-another-brutal-year-of-failed-startups-data-suggests"
+  },
+  {
+   "region": "north_america",
+   "fact": "Record 254 shutdowns on Carta in Q1 2024; Q1 2023->Q1 2024 closures +102% at seed, +61% at Series A, +133% at Series B.",
+   "source": "https://carta.com/data/startup-shutdowns-q1-2024/"
+  },
+  {
+   "region": "north_america",
+   "fact": "SimpleClosure: 2.6x more companies closed in Q1 2026 than Q1 2025.",
+   "source": "https://news.crunchbase.com/startups/salvaging-shutdowns-simpleclosure-dori-yona-qa"
+  },
+  {
+   "region": "north_america",
+   "fact": "590 US Carta startups were acquired in 2024 (+10-15% vs 2023).",
+   "source": "https://carta.com/data/linkedin-startup-ma-590-companies-2024/"
+  },
+  {
+   "region": "north_america",
+   "fact": "Most acquired startups had raised < $50M; < 10% had raised >= $100M. Carta cannot see whether deals were at or below cost.",
+   "source": "https://carta.com/data/linkedin-most-acquired-startups-raised-under-50m/"
+  },
+  {
+   "region": "north_america",
+   "fact": "Crunchbase sample of 225 acquisitions: 88% sold at >= 1.0x valuation-to-invested-capital, i.e. ~12% below capital raised; ratio falls slightly as capital raised rises. (Disclosed-price deals only - biased toward good exits.)",
+   "source": "https://news.crunchbase.com/liquidity/raise-softly-deliver-big-exit/"
+  },
+  {
+   "region": "north_america",
+   "fact": "2,052 US startups raised a Series A between 2017 and 2021 and had not raised again by July 2025 ('orphaned').",
+   "source": "https://carta.com/data/newsletter-orphaned-startups/"
+  },
+  {
+   "region": "north_america",
+   "fact": "Walker (Carta, Mar 2026): next-round graduation and failure rates are similar across seed, A and B; A and B companies only slightly (low single digits) more likely to be acquired.",
+   "source": "https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/"
+  },
+  {
+   "region": "north_america",
+   "fact": "Carta Q3 2026: 95th-percentile seed valuation hit $200M in Q2 2026 vs $72.2M a year earlier.",
+   "source": "https://carta.com/data/linkedin-seed-valuations-95th-percentile-2026/"
+  },
+  {
+   "region": "north_america",
+   "fact": "PitchBook-NVCA: megadeals took 87.5% of US venture dollars in Q2 2026. (NVCA 2026 Yearbook separately: $320B deployed in 2025, ~65% into AI - https://nvca.org/?p=124853)",
+   "source": "https://thenextweb.com/news/pitchbook-q2-2026-megadeals-87-percent-us-venture-vintage-discount"
+  }
+ ],
+ "ladder": {
+  "_notes": "Probabilities are eventual (multi-year) for a 'normal' 2017-2019 cohort; apply era_multipliers for other periods. Money and timing are 2025 (C/growth: 2026) US medians. Remainder 1 - prob_raise_next - prob_acquired_here - prob_shutdown_here (- prob_ipo_here) = still private / zombie at horizon. Only US data was gathered: 'global' is a US proxy. Other regions not populated (search budget exhausted) - see research/notes_base_rates.md.",
+  "north_america": {
+   "pre_seed": {
+    "prob_raise_next": {
+     "value": 0.59,
+     "source": "derived: Carta 2018 founded cohort reached Series B at 14.8% (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/) / (seed->A 0.50 x A->B 0.50); Carta warns the 2018 sample over-represents priced seeds, so likely high"
+    },
+    "median_months_to_next": {
+     "value": null,
+     "source": "gap: no pre-seed->seed timing found this session"
+    },
+    "median_post_money_usd": {
+     "value": 10000000,
+     "source": "https://carta.com/data/linkedin-preseed-safe-valuation-benchmarks-q4/ (median post-money SAFE cap for $250K-$999K raised, Oct 2024-Mar 2025; caps are not true valuations)"
+    },
+    "median_round_usd": {
+     "value": 660000,
+     "source": "https://carta.com/data/linkedin-preseed-safe-market-q1-2023/ (median total SAFE capital per company, Q1 2023)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "seed": {
+    "prob_raise_next": {
+     "value": 0.5,
+     "source": "https://www.saastr.com/the-state-of-seed-today-10-key-learnings-from-cartas-latest-data (Carta: ~50% of seeds reach A by quarter 16; normal 2018-2021 cohorts)"
+    },
+    "median_months_to_next": {
+     "value": 26.4,
+     "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/ (2025, US software, 2.2 yrs)"
+    },
+    "median_post_money_usd": {
+     "value": 24000000,
+     "source": "https://waveup.com/blog/seed-round-benchmarks/ (Carta Q4 2025 median seed post-money, secondary)"
+    },
+    "median_round_usd": {
+     "value": 4000000,
+     "source": "https://waveup.com/blog/seed-round-benchmarks/ (Carta Q4 2025, secondary)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "A": {
+    "prob_raise_next": {
+     "value": 0.4,
+     "source": "https://carta.com/data/linkedin-series-a-to-b-graduation-history/ (Carta 'normal' cohort 2018Q2: ~40% reach B within 3 yrs; alternatives: 52% eventual for 2019 cohort, 27% within 2 yrs for 2018)"
+    },
+    "median_months_to_next": {
+     "value": 32.4,
+     "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/ (2025, US software, 2.7 yrs)"
+    },
+    "median_post_money_usd": {
+     "value": 62650000,
+     "source": "derived: Carta Q3 2025 median Series A pre $49.3M (https://carta.com/data/state-of-private-markets-q3-2025-full-report) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 13350000,
+     "source": "derived: mean of Carta Q4 2024 ($12M, https://carta.com/data/linkedin-fundraising-cheatsheet-q4-2024/) and Q2 2026 ($14.7M, https://carta.com/learn/startups/fundraising/series-a/)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/); Walker notes A/B are slightly (low single digits) more likely to be acquired than seed"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "B": {
+    "prob_raise_next": {
+     "value": 0.3,
+     "source": "derived: Carta 2018 founded cohort share reaching C / reaching B = 4.4% / 14.8% after 6 yrs (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/); right-censored, so a lower bound"
+    },
+    "median_months_to_next": {
+     "value": 26.0,
+     "source": "https://carta.com/data/state-of-private-markets-q4-2024/ (Q4 2024 B->C median 790 days)"
+    },
+    "median_post_money_usd": {
+     "value": 142200000,
+     "source": "derived: Carta Q3 2025 median Series B primary pre $118.9M (https://www.zeni.ai/blog/series-b-valuations) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 23300000,
+     "source": "https://waveup.com/blog/startup-dilution-per-round/ (Carta Q2 2026 Series B median raise, secondary; Carta Q3 2026 says B round size ~flat 2025->2026)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "C": {
+    "prob_raise_next": {
+     "value": 0.25,
+     "source": "derived: Carta 2018 founded cohort share reaching D / reaching C = 1.1% / 4.4% after 6 yrs (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/); heavily right-censored"
+    },
+    "median_months_to_next": {
+     "value": 26.0,
+     "source": "derived: no C->D timing found; reuses Carta Q4 2024 B->C 790 days (ASSUMPTION)"
+    },
+    "median_post_money_usd": {
+     "value": 385000000,
+     "source": "https://waveup.com/blog/startup-dilution-per-round/ (Carta Q1 2026 Series C median post-money, secondary)"
+    },
+    "median_round_usd": {
+     "value": 36575000,
+     "source": "derived: $385M post x 9.5% median Series C dilution (same source)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    }
+   },
+   "growth": {
+    "prob_raise_next": {
+     "value": null,
+     "source": "terminal rung: next step is exit (IPO/M&A) or stays private"
+    },
+    "prob_ipo_here": {
+     "value": 0.31,
+     "source": "derived: 15 IPOs out of ~48 companies (1.1% of 4,369) that reached Series D in Carta 2018 founded cohort (https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/); very rough, IPOs may come from other stages"
+    },
+    "median_months_to_next": {
+     "value": null,
+     "source": "gap"
+    },
+    "median_post_money_usd": {
+     "value": 577600000,
+     "source": "derived: Carta Q3 2026 median Series D pre $534.3M (https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 43300000,
+     "source": "derived: pre x 7.5%/(1-7.5%) using 7.5% median Series D dilution (https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    }
+   }
+  },
+  "global": {
+   "pre_seed": {
+    "prob_raise_next": {
+     "value": 0.59,
+     "source": "derived: Carta 2018 founded cohort reached Series B at 14.8% (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/) / (seed->A 0.50 x A->B 0.50); Carta warns the 2018 sample over-represents priced seeds, so likely high"
+    },
+    "median_months_to_next": {
+     "value": null,
+     "source": "gap: no pre-seed->seed timing found this session"
+    },
+    "median_post_money_usd": {
+     "value": 10000000,
+     "source": "https://carta.com/data/linkedin-preseed-safe-valuation-benchmarks-q4/ (median post-money SAFE cap for $250K-$999K raised, Oct 2024-Mar 2025; caps are not true valuations)"
+    },
+    "median_round_usd": {
+     "value": 660000,
+     "source": "https://carta.com/data/linkedin-preseed-safe-market-q1-2023/ (median total SAFE capital per company, Q1 2023)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "seed": {
+    "prob_raise_next": {
+     "value": 0.5,
+     "source": "https://www.saastr.com/the-state-of-seed-today-10-key-learnings-from-cartas-latest-data (Carta: ~50% of seeds reach A by quarter 16; normal 2018-2021 cohorts)"
+    },
+    "median_months_to_next": {
+     "value": 26.4,
+     "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/ (2025, US software, 2.2 yrs)"
+    },
+    "median_post_money_usd": {
+     "value": 24000000,
+     "source": "https://waveup.com/blog/seed-round-benchmarks/ (Carta Q4 2025 median seed post-money, secondary)"
+    },
+    "median_round_usd": {
+     "value": 4000000,
+     "source": "https://waveup.com/blog/seed-round-benchmarks/ (Carta Q4 2025, secondary)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "A": {
+    "prob_raise_next": {
+     "value": 0.4,
+     "source": "https://carta.com/data/linkedin-series-a-to-b-graduation-history/ (Carta 'normal' cohort 2018Q2: ~40% reach B within 3 yrs; alternatives: 52% eventual for 2019 cohort, 27% within 2 yrs for 2018)"
+    },
+    "median_months_to_next": {
+     "value": 32.4,
+     "source": "https://carta.com/data/linkedin-time-between-rounds-ai-vs-non-ai/ (2025, US software, 2.7 yrs)"
+    },
+    "median_post_money_usd": {
+     "value": 62650000,
+     "source": "derived: Carta Q3 2025 median Series A pre $49.3M (https://carta.com/data/state-of-private-markets-q3-2025-full-report) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 13350000,
+     "source": "derived: mean of Carta Q4 2024 ($12M, https://carta.com/data/linkedin-fundraising-cheatsheet-q4-2024/) and Q2 2026 ($14.7M, https://carta.com/learn/startups/fundraising/series-a/)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/); Walker notes A/B are slightly (low single digits) more likely to be acquired than seed"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "B": {
+    "prob_raise_next": {
+     "value": 0.3,
+     "source": "derived: Carta 2018 founded cohort share reaching C / reaching B = 4.4% / 14.8% after 6 yrs (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/); right-censored, so a lower bound"
+    },
+    "median_months_to_next": {
+     "value": 26.0,
+     "source": "https://carta.com/data/state-of-private-markets-q4-2024/ (Q4 2024 B->C median 790 days)"
+    },
+    "median_post_money_usd": {
+     "value": 142200000,
+     "source": "derived: Carta Q3 2025 median Series B primary pre $118.9M (https://www.zeni.ai/blog/series-b-valuations) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 23300000,
+     "source": "https://waveup.com/blog/startup-dilution-per-round/ (Carta Q2 2026 Series B median raise, secondary; Carta Q3 2026 says B round size ~flat 2025->2026)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/)"
+    }
+   },
+   "C": {
+    "prob_raise_next": {
+     "value": 0.25,
+     "source": "derived: Carta 2018 founded cohort share reaching D / reaching C = 1.1% / 4.4% after 6 yrs (https://carta.com/data/linkedin-2018-startups-six-year-outcomes/); heavily right-censored"
+    },
+    "median_months_to_next": {
+     "value": 26.0,
+     "source": "derived: no C->D timing found; reuses Carta Q4 2024 B->C 790 days (ASSUMPTION)"
+    },
+    "median_post_money_usd": {
+     "value": 385000000,
+     "source": "https://waveup.com/blog/startup-dilution-per-round/ (Carta Q1 2026 Series C median post-money, secondary)"
+    },
+    "median_round_usd": {
+     "value": 36575000,
+     "source": "derived: $385M post x 9.5% median Series C dilution (same source)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    }
+   },
+   "growth": {
+    "prob_raise_next": {
+     "value": null,
+     "source": "terminal rung: next step is exit (IPO/M&A) or stays private"
+    },
+    "prob_ipo_here": {
+     "value": 0.31,
+     "source": "derived: 15 IPOs out of ~48 companies (1.1% of 4,369) that reached Series D in Carta 2018 founded cohort (https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/); very rough, IPOs may come from other stages"
+    },
+    "median_months_to_next": {
+     "value": null,
+     "source": "gap"
+    },
+    "median_post_money_usd": {
+     "value": 577600000,
+     "source": "derived: Carta Q3 2026 median Series D pre $534.3M (https://thefundcfo.substack.com/p/389-higher-vals-fewer-deals-carta) + median_round_usd"
+    },
+    "median_round_usd": {
+     "value": 43300000,
+     "source": "derived: pre x 7.5%/(1-7.5%) using 7.5% median Series D dilution (https://serebrisky.com/2025/12/10/startup-equity-dilution-whats-normal-in-2025/)"
+    },
+    "prob_acquired_here": {
+     "value": 0.0275,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    },
+    "prob_shutdown_here": {
+     "value": 0.31,
+     "source": "derived: Carta 2018 founded cohort (61.9% closed / 5.5% acquired / 32.2% alive, https://carta.com/data/linkedin-2018-startup-cohort-outcomes-2025/) divided by the geometric stage factor 1/(1-g)=2 for per-stage graduation g=0.5, assuming a stage-uniform hazard (Walker, Carta Mar 2026: failure/graduation rates similar across seed, A, B - https://carta.com/data/linkedin-seed-series-a-b-failure-rates-similar/). ASSUMPTION: no C/growth-specific shutdown or M&A data found; seed-B hazard extended."
+    }
+   },
+   "_proxy": "derived: copy of north_america (all ladder inputs are US Carta/PitchBook/Crunchbase data; no global cohort study captured)"
+  }
+ },
+ "era_multipliers": {
+  "_baseline": {
+   "prob_raise_next": "ladder values (normal 2017-2019 cohorts)",
+   "median_months_to_next": "2025 Carta US software (seed->A 26.4 mo, A->B 32.4 mo)",
+   "valuation": "2025 Carta medians (seed pre $16M, A pre $49.3M, B pre $118.9M)"
+  },
+  "pre_2015": {
+   "prob_raise_next": {
+    "value": 0.92,
+    "note": "derived: CB Insights 2008-2010 seed cohort 46% raised a 2nd round (https://www.cbinsights.com/research/venture-capital-funnel-2/) / 0.50 baseline; Crunchbase 2011-2018: >1 in 2 reach A (https://news.crunchbase.com/liquidity/seed-funding-series-a-success/)"
+   },
+   "months_seed_to_A": {
+    "value": 0.53,
+    "note": "derived: Crunchbase 2014 median 14 mo (https://news.crunchbase.com/seed/funding-startups-timeline-series-a-venture/) / 26.4"
+   },
+   "valuation_seed": {
+    "value": 0.31,
+    "note": "derived: PitchBook 2016 seed pre $5.0M (via JPMorgan) / PitchBook 2025 $16.0M (SaaStr citing PitchBook) - same-vendor ratio"
+   }
+  },
+  "normal_2016_2019": {
+   "prob_raise_next": {
+    "value": 1.0,
+    "note": "baseline. Carta 2-yr seed->A: 30.6% (2018Q1), 32.6% (2019Q4); A->B 2-yr ~27% (2018)."
+   },
+   "valuation_seed": {
+    "value": 0.5,
+    "note": "derived: Carta Q2 2019 median seed $8M / $16M (https://carta.com/data/state-of-private-markets-q1-2025/). PitchBook series gives 0.375 (2018 $6.0M / 2025 $16.0M)."
+   }
+  },
+  "boom_2020_2021": {
+   "prob_seed_to_A": {
+    "value": 1.15,
+    "note": "derived: mean 2-yr rate of 2020Q3 (~40%) and 2021Q1 (32.9%) Carta cohorts / normal mean 31.6%"
+   },
+   "prob_A_to_B": {
+    "value": 1.57,
+    "note": "derived: 2020 Series A cohort 40.8% within 2 yrs / 2018 cohort ~26% (https://carta.com/data/linkedin-series-a-to-series-b-harder-now/)"
+   },
+   "months_seed_to_A": {
+    "value": 0.52,
+    "note": "derived: Q4 2021 420 days (13.8 mo) / 26.4 mo (https://carta.com/data/time-between-VC-rounds-2024/)"
+   },
+   "months_A_to_B": {
+    "value": 0.57,
+    "note": "derived: Q4 2021 560 days (18.4 mo) / 32.4 mo"
+   },
+   "valuation_seed": {
+    "value": 0.67,
+    "note": "derived: Carta 2021 seed ~$10.7M (implied by 2026 $19.7M = +84% vs 2021) / $16M"
+   },
+   "valuation_A": {
+    "value": 0.82,
+    "note": "derived: Carta 2021 Series A ~$40.6M (implied by 2026 $63.3M = +56% vs 2021) / $49.3M"
+   },
+   "valuation_late_D_plus": {
+    "value": 1.36,
+    "note": "derived: Carta 2021 Series D median pre $727.8M / 2026 $534.3M - late-stage 2021 valuations still exceed today's"
+   }
+  },
+  "crunch_2022_2023": {
+   "prob_seed_to_A": {
+    "value": 0.51,
+    "note": "derived: mean of 2022Q1 (15.4%) and 2022 full-year (~17%) 2-yr rates / 31.6%"
+   },
+   "prob_A_to_B": {
+    "value": 0.58,
+    "note": "derived: 2022 Series A cohort 15.1% within 2 yrs / ~26% (2022Q3 cohort only 9% -> 0.35)"
+   },
+   "months_seed_to_A": {
+    "value": 0.96,
+    "note": "derived: Q4 2024 774 days (25.4 mo) / 26.4 - waits peaked in late 2024 as crunch cohorts finally raised"
+   },
+   "valuation_seed": {
+    "value": 0.83,
+    "note": "derived: Carta Q4 2023 $13.3M / $16M"
+   },
+   "valuation_A": {
+    "value": 0.89,
+    "note": "derived: Carta Q4 2023 $44M / $49.3M"
+   },
+   "valuation_B": {
+    "value": 0.84,
+    "note": "derived: Carta Q4 2023 $100M / $118.9M"
+   },
+   "shutdown": {
+    "value": 1.26,
+    "note": "derived: Carta shutdowns 966 (2024) / 769 (2023); Q1 2023->Q1 2024 seed closures +102% (https://carta.com/data/startup-shutdowns-q1-2024/)"
+   }
+  },
+  "ai_era_2024_2026": {
+   "prob_seed_to_A": {
+    "value": 0.75,
+    "range": [
+     0.5,
+     1.0
+    ],
+    "note": "derived, low confidence: Carta 1-yr seed->A for 2024-25 cohorts (9-13%) is back at 2021Q3 levels (~1.0) while Crunchbase 2026 says odds of reaching A 'fall dramatically' for the 2024 cohort (~0.5); midpoint"
+   },
+   "months_seed_to_A": {
+    "value": 1.0,
+    "note": "baseline year. AI companies 0.86x (sector_modifiers)."
+   },
+   "valuation_seed": {
+    "value": 1.23,
+    "note": "derived: Carta 2026 YTD $19.7M / $16M"
+   },
+   "valuation_A": {
+    "value": 1.28,
+    "note": "derived: Carta 2026 YTD $63.3M / $49.3M"
+   },
+   "valuation_B": {
+    "value": 1.26,
+    "note": "derived: Carta Q3 2026 $150.0M / $118.9M"
+   },
+   "ai_premium": {
+    "value": 1.38,
+    "note": "AI Series A pre-money premium 2025 (Carta); apply via sector_modifiers for ai_ml ideas only. Seed 1.42x, B 1.50x (2024)."
+   },
+   "shutdown": {
+    "value": null,
+    "note": "Mixed: SimpleClosure saw 2.6x more closures in Q1 2026 vs Q1 2025 (one provider; https://news.crunchbase.com/startups/salvaging-shutdowns-simpleclosure-dori-yona-qa); no Carta 2025 total captured"
+   }
+  }
+ },
+ "meta": {
+  "compiled": "2026-11-21",
+  "coverage": "US-only (Carta, Crunchbase, PitchBook-NVCA, Wilson Sonsini, HBS, Correlation Ventures). Non-US regions and sector-level graduation rates not yet collected: session web-search budget exhausted and WebFetch was blocked for all data domains. Many figures read from search-result summaries rather than full pages - see notes_base_rates.md."
+ }
+}

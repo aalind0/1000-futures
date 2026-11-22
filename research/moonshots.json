@@ -1,0 +1,1670 @@
+{
+ "_meta": {
+  "status": "partial",
+  "note": "Items with \"verified\": false were written from model knowledge with canonical source URLs that were not fetched in the collection session; verify before shipping. Company records are sourced from search-result summaries (confidence medium) unless marked high."
+ },
+ "companies": [
+  {
+   "id": "spacex",
+   "name": "SpaceX",
+   "country": "US",
+   "region": "north_america",
+   "city": "El Segundo",
+   "sector": "deeptech_space",
+   "tags": [
+    "rockets",
+    "reusable_launch",
+    "falcon_9",
+    "starship",
+    "nasa_contracts",
+    "satellite_internet",
+    "mars",
+    "elon_musk",
+    "largest_ipo",
+    "xai_merger"
+   ],
+   "one_liner": "Builds reusable rockets and spacecraft to slash the cost of reaching orbit, with the long-term aim of making life multiplanetary.",
+   "founded": 2002,
+   "ended": 2026,
+   "outcome": "ipo",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 2100000000000,
+   "exit_value_usd": 1770000000000,
+   "rounds": [
+    {
+     "stage": "growth",
+     "year": 2008,
+     "amount_usd": 20000000,
+     "post_money_usd": null,
+     "lead": "Founders Fund"
+    },
+    {
+     "stage": "growth",
+     "year": 2015,
+     "amount_usd": 1000000000,
+     "post_money_usd": null,
+     "lead": "Google, Fidelity"
+    },
+    {
+     "stage": "growth",
+     "year": 2020,
+     "amount_usd": null,
+     "post_money_usd": 46000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2025,
+     "amount_usd": null,
+     "post_money_usd": 400000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2025,
+     "amount_usd": null,
+     "post_money_usd": 800000000000,
+     "lead": "insider secondary sale"
+    },
+    {
+     "stage": "ipo",
+     "year": 2026,
+     "amount_usd": 75000000000,
+     "post_money_usd": 1770000000000,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "reusability_cost_advantage",
+    "nasa_anchor_contracts",
+    "starlink_cash_engine"
+   ],
+   "story": "Elon Musk founded SpaceX in 2002 to cut launch costs and eventually reach Mars, a plan most of the aerospace establishment considered unrealistic; its first three Falcon 1 launches failed (the third in August 2008) and the company survived on a $20M Founders Fund round and a NASA cargo contract. It went on to land and re-fly orbital boosters, bought xAI in February 2026 in a deal valuing SpaceX at about $1T, and listed on Nasdaq (SPCX) on June 12, 2026, raising about $75B at $135/share (about $1.77T valuation) in the largest IPO in history. peak_valuation_usd is the roughly $2.1T market cap reported at the first-day close (later peaks not checked); the 2015 Google/Fidelity round was reported at a $10-12B valuation.",
+   "twin_group": "reusable_rockets",
+   "sources": [
+    "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+    "https://www.cbsnews.com/news/spacex-stock-price-ipo-spcx-initial-public-offering/",
+    "https://fortune.com/2015/01/21/spacex-raises-1-billion-in-funding-from-google-fidelity/",
+    "https://fortune.com/2025/12/13/spacex-ipo-plan-2026-secondary-offering-insider-share-sale-800-billion-valuation",
+    "https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion",
+    "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2008,
+     "what": "Third consecutive Falcon 1 failure in August 2008 (stage separation timing error) put NASA contract prospects and the company's cash in doubt; a $20M Founders Fund investment arrived the same month and the fourth flight reached orbit in September 2008."
+    },
+    {
+     "year": 2008,
+     "what": "NASA Commercial Resupply Services contract (about $1.6B for 12 cargo flights) awarded in December 2008 kept the company alive."
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "Neil Armstrong and Gene Cernan (Apollo astronauts)",
+     "quote_or_fact": "Paraphrase: In 2010-2011 congressional testimony both questioned the shift of human spaceflight to commercial newcomers, citing many unsolved technical challenges; Musk called them his heroes and said he wished they would visit SpaceX.",
+     "source": "https://www.space.com/14936-spacex-ceo-elon-musk-60-minutes-interview.html"
+    },
+    {
+     "who": "Industry analysts after Falcon 1 flight 3 (2008)",
+     "quote_or_fact": "Paraphrase: Analysts said the third straight failure could jeopardize SpaceX's ability to compete for valuable NASA space station contracts.",
+     "source": "https://www.satellitetoday.com/uncategorized/2008/08/04/third-spacex-failure-may-jeopardize-space-station-contracts"
+    }
+   ],
+   "enabler": "launch_cost"
+  },
+  {
+   "id": "starlink",
+   "name": "Starlink",
+   "country": "US",
+   "region": "north_america",
+   "city": "Redmond",
+   "sector": "deeptech_space",
+   "tags": [
+    "satellite_internet",
+    "leo_constellation",
+    "broadband",
+    "spacex",
+    "phased_array",
+    "rural_connectivity",
+    "direct_to_cell",
+    "telecom"
+   ],
+   "one_liner": "SpaceX's low-Earth-orbit satellite constellation selling broadband internet directly to consumers, businesses and governments worldwide.",
+   "founded": 2015,
+   "ended": null,
+   "outcome": "active",
+   "total_raised_usd": null,
+   "peak_valuation_usd": null,
+   "exit_value_usd": null,
+   "rounds": [],
+   "causes": [],
+   "drivers": [
+    "in_house_cheap_launch",
+    "vertical_integration",
+    "underserved_rural_demand"
+   ],
+   "story": "Starlink is a business line inside SpaceX (not a separate company), announced in 2015 and funded from SpaceX's own balance sheet, so it has no separate rounds or valuation. It sounded doomed because every earlier LEO broadband constellation (Iridium, Globalstar, Orbcomm, Teledesic) went bankrupt, and Musk himself framed the goal as simply avoiding bankruptcy; cheap launches on SpaceX's own reusable Falcon 9 changed the math. It grew to about $11.4B revenue in 2025 and 13.6M consumer subscribers by September 30, 2026, and was the main engine behind SpaceX's June 2026 IPO (no separate Starlink listing).",
+   "twin_group": "satellite_internet",
+   "sources": [
+    "https://broadbandbreakfast.com/starlink-reaches-13-6-million-subscribers-globally-as-spacex-revenue-jumps-161/",
+    "https://www.nasdaq.com/articles/3-things-know-about-starlink-2026-spacex-ipo",
+    "https://www.geekwire.com/2020/spacex-ceo-elon-musk-says-theres-nothing-fear-starlink-broadband-constellation/"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [
+    {
+     "who": "Light Reading (telecom trade press)",
+     "quote_or_fact": "Headline: \"Elon Musk's Starlink risks being another satellite flop\"",
+     "source": "https://www.lightreading.com/satellite/elon-musks-starlink-risks-being-another-satellite-flop/d/d-id/770681"
+    },
+    {
+     "who": "History of LEO constellations, as cited by Musk (Satellite 2020)",
+     "quote_or_fact": "Paraphrase: Musk noted that essentially every prior low-Earth-orbit constellation had gone bankrupt and said Starlink's goal was to be the first not to.",
+     "source": "https://www.geekwire.com/2020/spacex-ceo-elon-musk-says-theres-nothing-fear-starlink-broadband-constellation/"
+    }
+   ],
+   "enabler": "launch_cost"
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "country": "US",
+   "region": "north_america",
+   "city": "San Carlos",
+   "sector": "mobility_transport",
+   "tags": [
+    "electric_vehicles",
+    "batteries",
+    "roadster",
+    "model_3",
+    "energy_storage",
+    "autopilot",
+    "elon_musk",
+    "doe_loan",
+    "gigafactory"
+   ],
+   "one_liner": "Electric car maker that started with a high-priced sports car to fund a path to mass-market EVs, batteries and energy storage.",
+   "founded": 2003,
+   "ended": 2010,
+   "outcome": "ipo",
+   "total_raised_usd": null,
+   "peak_valuation_usd": null,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "A",
+     "year": 2004,
+     "amount_usd": 7500000,
+     "post_money_usd": null,
+     "lead": "Elon Musk"
+    },
+    {
+     "stage": "growth",
+     "year": 2009,
+     "amount_usd": 50000000,
+     "post_money_usd": null,
+     "lead": "Daimler"
+    },
+    {
+     "stage": "E+",
+     "year": 2009,
+     "amount_usd": 82500000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "debt",
+     "year": 2009,
+     "amount_usd": 465000000,
+     "post_money_usd": null,
+     "lead": "US Department of Energy"
+    },
+    {
+     "stage": "ipo",
+     "year": 2010,
+     "amount_usd": 226000000,
+     "post_money_usd": null,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "premium_first_then_mass_market",
+    "battery_cost_curve",
+    "government_loan_bridge"
+   ],
+   "story": "Tesla bet that a startup could build electric cars from scratch when no new US automaker had succeeded in decades and EVs were seen as slow, short-range niche products; it began with the expensive Roadster to fund cheaper models. Musk supplied about $6.5M of the 2004 $7.5M Series A, Daimler bought a roughly 10% stake for about $50M in May 2009, a $465M DOE loan was approved in June 2009 (repaid in May 2013, years early), and Tesla listed on June 29, 2010 at $17/share, raising $226M. Market cap at listing and peak market cap were not verified in this session, so those fields are null.",
+   "twin_group": null,
+   "sources": [
+    "https://dealroom.co/news/53174-about-tesla-s-early-years-until-ipo/",
+    "https://www.wikiwand.com/en/articles/History_of_Tesla,_Inc.",
+    "https://ir.tesla.com/press-release/tesla-repays-department-energy-loan-nine-years-early"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2008,
+     "what": "During the 2008 financial crisis Tesla nearly ran out of cash while the Roadster ramped; Musk put in more of his own money and a round closed in December 2008, before the 2009 Daimler investment and DOE loan."
+    },
+    {
+     "year": 2018,
+     "what": "Model 3 'production hell' in 2017-2018; Musk later said the company came close to bankruptcy during the ramp."
+    }
+   ],
+   "dismissed_by": [],
+   "enabler": "li_ion_battery_cost"
+  },
+  {
+   "id": "airbnb",
+   "name": "Airbnb",
+   "country": "US",
+   "region": "north_america",
+   "city": "San Francisco",
+   "sector": "travel_hospitality",
+   "tags": [
+    "home_sharing",
+    "marketplace",
+    "travel",
+    "lodging",
+    "y_combinator",
+    "trust_and_safety",
+    "network_effects",
+    "covid_survivor",
+    "sharing_economy"
+   ],
+   "one_liner": "Marketplace letting people rent out spare rooms and homes to travelers.",
+   "founded": 2008,
+   "ended": 2020,
+   "outcome": "ipo",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 86500000000,
+   "exit_value_usd": 86500000000,
+   "rounds": [
+    {
+     "stage": "seed",
+     "year": 2009,
+     "amount_usd": 20000,
+     "post_money_usd": null,
+     "lead": "Y Combinator"
+    },
+    {
+     "stage": "seed",
+     "year": 2009,
+     "amount_usd": 600000,
+     "post_money_usd": null,
+     "lead": "Sequoia Capital"
+    },
+    {
+     "stage": "A",
+     "year": 2010,
+     "amount_usd": 7200000,
+     "post_money_usd": null,
+     "lead": "Greylock Partners"
+    },
+    {
+     "stage": "B",
+     "year": 2011,
+     "amount_usd": 112000000,
+     "post_money_usd": null,
+     "lead": "Andreessen Horowitz"
+    },
+    {
+     "stage": "D",
+     "year": 2014,
+     "amount_usd": 475000000,
+     "post_money_usd": 10000000000,
+     "lead": null
+    },
+    {
+     "stage": "debt",
+     "year": 2020,
+     "amount_usd": 1000000000,
+     "post_money_usd": 18000000000,
+     "lead": "Silver Lake; Sixth Street Partners"
+    },
+    {
+     "stage": "ipo",
+     "year": 2020,
+     "amount_usd": 3500000000,
+     "post_money_usd": 47000000000,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "trust_infrastructure",
+    "two_sided_network_effects",
+    "founder_persistence"
+   ],
+   "story": "Founded in 2008 as AirBed & Breakfast, the idea of paying to sleep on a stranger's air mattress was dismissed by most investors; in June 2008 seven investors were offered 10% for $150,000 and none bit, and the founders kept the company alive by selling Obama O's and Cap'n McCain's cereal (about $30,000) before Y Combinator and Sequoia backed them in 2009. After a $31B private valuation fell to about $18B when COVID-19 crushed travel and it took a high-interest $1B Silver Lake/Sixth Street lifeline in April 2020, Airbnb IPO'd on Nasdaq in December 2020 at $68 (about $47B fully diluted) and closed day one at $144.71 for a roughly $86.5B market cap (peak_valuation_usd uses that first-day cap; later intraday highs not verified).",
+   "twin_group": null,
+   "sources": [
+    "https://www.cnbc.com/amp/2020/12/10/airbnb-ipo-abnb-starts-trading-on-the-nasdaq.html",
+    "https://www.renaissancecapital.com/IPO-Center/News/73943/airbnb-prices-ipo-well-above-the-range-at-68-raising-3.5-billion",
+    "https://skift.com/2020/04/06/airbnb-grabs-1-billion-investment-from-silver-lake-and-sixth-street-partners/",
+    "https://paulgraham.com/airbnb.html",
+    "https://medium.com/p/7d894cbaa084",
+    "https://Www.Wikipedia.org/wiki/Timeline_of_Airbnb"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2008,
+     "what": "Out of money and in credit card debt, founders sold ~800 boxes of novelty election cereal (Obama O's, Cap'n McCain's) at $40 each, netting about $30,000."
+    },
+    {
+     "year": 2020,
+     "what": "COVID-19 collapsed bookings; Airbnb took $1B in debt and equity from Silver Lake and Sixth Street at over 10% interest as its valuation reportedly fell from $31B to $18B."
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "Seven Silicon Valley investors (June 2008)",
+     "quote_or_fact": "Fact: offered 10% of the company for $150,000 (a $1.5M valuation); five sent rejection emails and two never replied, per Brian Chesky's 2015 post '7 Rejections'.",
+     "source": "https://medium.com/p/7d894cbaa084"
+    },
+    {
+     "who": "Fred Wilson, Union Square Ventures",
+     "quote_or_fact": "\"They have an interesting business. I'm just not sure how big it's going to be.\"",
+     "source": "https://paulgraham.com/airbnb.html"
+    },
+    {
+     "who": "Fred Wilson, Union Square Ventures",
+     "quote_or_fact": "Paraphrase: USV passed because it could not picture air mattresses on living-room floors becoming a substitute for hotel rooms; Wilson later kept the cereal boxes as a reminder of the miss.",
+     "source": "https://www.alexanderjarvis.com/private-airbnb-email-on-how-a-vc-missed-out-on-a-unicorn/"
+    }
+   ],
+   "enabler": null
+  },
+  {
+   "id": "stripe",
+   "name": "Stripe",
+   "country": "US",
+   "region": "north_america",
+   "city": "San Francisco",
+   "sector": "fintech",
+   "tags": [
+    "payments",
+    "developer_api",
+    "online_payments",
+    "y_combinator",
+    "irish_founders",
+    "infrastructure",
+    "tender_offer",
+    "decacorn",
+    "fintech_infrastructure"
+   ],
+   "one_liner": "Developer-first API for accepting and moving money online.",
+   "founded": 2010,
+   "ended": null,
+   "outcome": "private_unicorn",
+   "total_raised_usd": 9419000000,
+   "peak_valuation_usd": 159000000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "seed",
+     "year": 2011,
+     "amount_usd": 2000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "A",
+     "year": 2012,
+     "amount_usd": 18000000,
+     "post_money_usd": 100000000,
+     "lead": "Sequoia Capital"
+    },
+    {
+     "stage": "C",
+     "year": 2014,
+     "amount_usd": 80000000,
+     "post_money_usd": 1750000000,
+     "lead": null
+    },
+    {
+     "stage": "E+",
+     "year": 2018,
+     "amount_usd": 245000000,
+     "post_money_usd": 20000000000,
+     "lead": null
+    },
+    {
+     "stage": "E+",
+     "year": 2021,
+     "amount_usd": 600000000,
+     "post_money_usd": 95000000000,
+     "lead": null
+    },
+    {
+     "stage": "E+",
+     "year": 2023,
+     "amount_usd": 6500000000,
+     "post_money_usd": 50000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2026,
+     "amount_usd": null,
+     "post_money_usd": 159000000000,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "developer_experience",
+    "internet_commerce_tailwind",
+    "long_horizon_private_ownership"
+   ],
+   "story": "Founded in 2010 in Palo Alto by Irish brothers Patrick and John Collison (then about 21 and 19), Stripe set out to rebuild online payments, a field dominated by banks, processors and PayPal, as a few lines of developer code, backed by Y Combinator and a $2M round from Peter Thiel, Elon Musk, Sequoia and Andreessen Horowitz. It climbed to a $95B private valuation in 2021, reset to $50B in its 2023 $6.5B Series I, then hit $106.7B and $159B (peak, private, February 2026 tender offer led by Thrive, Coatue and a16z) while staying private. Total raised of ~$9.4B is CB Insights' tally; trackers range from $8.1B to $9.8B.",
+   "twin_group": null,
+   "sources": [
+    "https://Www.Wikipedia.org/wiki/Stripe,_Inc.",
+    "https://techcrunch.com/2026/02/24/stripes-valuation-soars-74-to-159-billion/",
+    "https://www.bloomberg.com/news/articles/2021-03-14/stripe-raises-600-million-valuing-company-at-95-billion",
+    "https://defillama.com/pre-ipo/stripe",
+    "https://www.cbinsights.com/company/stripe/financials",
+    "https://fortune.com/2018/09/26/payment-startup-stripe-funding-round-valuation-net-worth/"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [],
+   "enabler": null
+  },
+  {
+   "id": "canva",
+   "name": "Canva",
+   "country": "AU",
+   "region": "oceania",
+   "city": "Sydney",
+   "sector": "saas_b2b",
+   "tags": [
+    "graphic_design",
+    "freemium",
+    "browser_based",
+    "design_tools",
+    "australia",
+    "female_founder",
+    "investor_rejections",
+    "adobe_challenger",
+    "collaboration"
+   ],
+   "one_liner": "Browser-based drag-and-drop design platform that makes graphic design easy for non-designers.",
+   "founded": 2012,
+   "ended": null,
+   "outcome": "private_unicorn",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 42000000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "seed",
+     "year": 2013,
+     "amount_usd": 3600000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "E+",
+     "year": 2021,
+     "amount_usd": 200000000,
+     "post_money_usd": 40000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2024,
+     "amount_usd": null,
+     "post_money_usd": 32000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2025,
+     "amount_usd": null,
+     "post_money_usd": 42000000000,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "freemium_virality",
+    "design_democratization",
+    "founder_persistence"
+   ],
+   "story": "Melanie Perkins, Cliff Obrecht and Cameron Adams launched Canva in Australia in 2012 out of Perkins and Obrecht's Perth yearbook-design business Fusion Books; Perkins was rejected by about 100 VCs, wary of a design startup from Perth taking on Adobe, and it took roughly three years to land the first investment, a $3.6M seed in 2013 (Matrix Partners, InterWest, 500 Startups; reported figure, currency not confirmed). Canva hit $40B in a $200M September 2021 round and $42B in an August 2025 employee share sale (peak_valuation_usd, private; a SmartCompany claim of a $65B peak could not be verified), before investors Blackbird and Airtree marked it down to about $34.9B in August 2026, with an IPO targeted for 2027. Total raised is unresolved: trackers range from $597M (Multiples.vc) to $979M (CB Insights).",
+   "twin_group": null,
+   "sources": [
+    "https://fortune.com/longform/melanie-perkins-canva-founder-ceo-interview",
+    "https://www.inc.com/carmine-gallo/how-canvas-melanie-perkins-learned-to-pitch-persuasively-after-more-than-100-rejections.html",
+    "https://entrepreneur.com/en-au/women-entrepreneur/canvas-melanie-perkins-on-how-she-turned-her-future-of/337730",
+    "https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale/",
+    "https://www.cbinsights.com/company/canva/financials",
+    "https://smartcompany.com.au/startupsmart/canva-wiped-11-billion-from-valuation"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [
+    {
+     "who": "About 100 venture capitalists",
+     "quote_or_fact": "Fact: Perkins was rejected by roughly 100 VCs and took about three years to land Canva's first investment.",
+     "source": "https://www.inc.com/carmine-gallo/how-canvas-melanie-perkins-learned-to-pitch-persuasively-after-more-than-100-rejections.html"
+    }
+   ],
+   "enabler": null
+  },
+  {
+   "id": "better-place",
+   "name": "Better Place",
+   "country": "US",
+   "region": "north_america",
+   "city": "Palo Alto",
+   "sector": "mobility_transport",
+   "tags": [
+    "electric vehicles",
+    "battery swapping",
+    "charging infrastructure",
+    "israel",
+    "renault",
+    "ev subscription",
+    "cleantech",
+    "infrastructure"
+   ],
+   "one_liner": "EV charging and battery-swap network that leased batteries to drivers of swappable electric cars.",
+   "founded": 2007,
+   "ended": 2013,
+   "outcome": "dead",
+   "total_raised_usd": 850000000,
+   "peak_valuation_usd": 2250000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "A",
+     "year": 2007,
+     "amount_usd": 200000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "B",
+     "year": 2010,
+     "amount_usd": 350000000,
+     "post_money_usd": 1250000000,
+     "lead": "HSBC"
+    },
+    {
+     "stage": "C",
+     "year": 2011,
+     "amount_usd": 200000000,
+     "post_money_usd": 2250000000,
+     "lead": null
+    }
+   ],
+   "causes": [
+    "platform_dependency",
+    "bad_unit_economics",
+    "ran_out_of_cash"
+   ],
+   "drivers": [],
+   "story": "Founded by ex-SAP executive Shai Agassi, Better Place was formally US-based but ran its main operations in Israel, aiming to make EVs cheaper than gasoline cars by owning the batteries and swapping them in minutes at robotic stations; it raised roughly $850M from investors including Israel Corp., HSBC, Morgan Stanley, GE and UBS, peaking at a $2.25B post-money private valuation in its 2011 Series C. Only one car, the Renault Fluence Z.E., ever supported its swap system and other automakers such as Tesla saw no reason to build swappable packs, so after Agassi was ousted in late 2012 the company filed for bankruptcy in Israel on 26 May 2013 and receivers sold the remaining assets in November 2013 for about $450,000.",
+   "twin_group": "battery_swap",
+   "sources": [
+    "https://Www.Wikipedia.org/wiki/Better_Place_(company)",
+    "https://fortune.com/2013/05/24/exclusive-better-place-to-file-for-bankruptcy/",
+    "https://techcrunch.com/2010/01/25/better-place-350-million-funding/amp/",
+    "https://www.wardsauto.com/finance-insurance/better-place-lands-200m-in-new-equity-financing"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2012,
+     "what": "Founder-CEO Shai Agassi was ousted about seven months before the bankruptcy as Renault Fluence sales in Israel fell far short of plan."
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "Fortune (2013 contributor analysis)",
+     "quote_or_fact": "Paraphrase: most EV makers, Tesla included, saw no reason to build or install swappable batteries, leaving Better Place dependent on a single Renault model.",
+     "source": "https://fortune.com/2013/05/24/exclusive-better-place-to-file-for-bankruptcy/"
+    }
+   ],
+   "enabler": "li_ion_battery_cost"
+  },
+  {
+   "id": "solyndra",
+   "name": "Solyndra",
+   "country": "US",
+   "region": "north_america",
+   "city": "Fremont",
+   "sector": "climate_energy",
+   "tags": [
+    "solar",
+    "cigs thin-film",
+    "solar panels",
+    "manufacturing",
+    "doe loan guarantee",
+    "cleantech",
+    "stimulus",
+    "polysilicon"
+   ],
+   "one_liner": "Maker of cylindrical CIGS thin-film solar panels designed for flat commercial rooftops.",
+   "founded": 2005,
+   "ended": 2011,
+   "outcome": "dead",
+   "total_raised_usd": 1527000000,
+   "peak_valuation_usd": null,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "debt",
+     "year": 2009,
+     "amount_usd": 535000000,
+     "post_money_usd": null,
+     "lead": "US Department of Energy (loan guarantee)"
+    },
+    {
+     "stage": "debt",
+     "year": 2010,
+     "amount_usd": 175000000,
+     "post_money_usd": null,
+     "lead": null
+    }
+   ],
+   "causes": [
+    "outcompeted",
+    "bad_unit_economics",
+    "scaled_too_fast"
+   ],
+   "drivers": [],
+   "story": "Solyndra bet that tube-shaped CIGS panels would beat conventional silicon on rooftops, raised close to $1 billion of private equity (backers included Argonaut and the Walton-linked Madrone) and in 2009 won the first Recovery Act loan guarantee, $535 million (about $527 million drawn), to build a new Fremont factory; total raised here sums ~$1B private plus the drawn DOE loan. Its December 2009 IPO filing came with auditor going-concern doubts and was pulled in June 2010 in favor of $175 million of notes from existing investors, and as silicon panel prices collapsed it filed for bankruptcy on 1 September 2011, laying off about 1,100 workers and becoming a political symbol of the stimulus (DOJ declined criminal charges in 2015).",
+   "twin_group": null,
+   "sources": [
+    "https://Www.wikipedia.org/wiki/Solyndra",
+    "https://www.nbcnews.com/news/amp/wbna44350029",
+    "https://www.pv-tech.org/cigs_thin-film_pv_company_solyndra_cancels_ipo_lands_175_million_in_private",
+    "https://archive.publicintegrity.org/politics/missed-warning-signs-a-solyndra-timeline"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2010,
+     "what": "IPO registered in December 2009 was withdrawn in June 2010 after its S-1 audit flagged recurring losses and substantial doubt about its ability to continue as a going concern; it raised $175M in notes from existing investors instead of the ~$300M sought."
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "Solyndra's auditors (S-1 filing)",
+     "quote_or_fact": "Paraphrase: the audit cited recurring operating losses, negative cash flows since inception and a stockholders' deficit that raised substantial doubt about Solyndra's ability to continue as a going concern.",
+     "source": "https://archive.publicintegrity.org/politics/missed-warning-signs-a-solyndra-timeline"
+    }
+   ],
+   "enabler": "solar_pv_cost"
+  },
+  {
+   "id": "northvolt",
+   "name": "Northvolt",
+   "country": "SE",
+   "region": "europe",
+   "city": "Stockholm",
+   "sector": "climate_energy",
+   "tags": [
+    "lithium-ion batteries",
+    "gigafactory",
+    "ev batteries",
+    "energy storage",
+    "sweden",
+    "european industrial policy",
+    "volkswagen",
+    "manufacturing scale-up"
+   ],
+   "one_liner": "Swedish lithium-ion battery maker building gigafactories to give Europe its own green EV-battery champion.",
+   "founded": 2015,
+   "ended": 2025,
+   "outcome": "dead",
+   "total_raised_usd": 14000000000,
+   "peak_valuation_usd": null,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "growth",
+     "year": 2021,
+     "amount_usd": 2750000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "debt",
+     "year": 2023,
+     "amount_usd": 1200000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "debt",
+     "year": null,
+     "amount_usd": 5000000000,
+     "post_money_usd": null,
+     "lead": null
+    }
+   ],
+   "causes": [
+    "scaled_too_fast",
+    "product_tech_failure",
+    "ran_out_of_cash"
+   ],
+   "drivers": [],
+   "story": "Co-founded by ex-Tesla executive Peter Carlsson, Northvolt set out to build Europe's answer to Asian battery giants with a flagship gigafactory (Northvolt Ett) in Skellefteå, raising more than $14 billion in equity, debt and public funding (Sifted counts about EUR 15bn) from backers led by Volkswagen (about 21%) and Goldman Sachs. With liquidity described as dire in its own petition and roughly $5.8bn of debt, it filed for US Chapter 11 on 21 November 2024 as Carlsson resigned, then filed for bankruptcy in Sweden in March 2025; US startup Lyten agreed in August 2025 to buy the remaining Swedish and German plants and IP for undisclosed terms. Peak private valuation was not confirmed in sources checked, so it is left null.",
+   "twin_group": null,
+   "sources": [
+    "https://techcrunch.com/2024/11/21/battery-unicorn-northvolt-files-for-bankruptcy-co-founder-and-ceo-resigns/",
+    "https://sifted.eu/articles/northvolt-bankruptcy-us-news",
+    "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden/",
+    "https://lyten.com/2025/08/07/lyten-to-acquire-all-remaining-northvolt-assets-in-sweden-and-germany/",
+    "https://www.electrive.com/2024/11/26/vw-and-goldman-sachs-write-off-northvolt-investments/"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2024,
+     "what": "Filed for Chapter 11 in the Southern District of Texas on 21 Nov 2024 with about $145M of cash collateral and $100M of DIP financing; co-founder and CEO Peter Carlsson resigned; Volkswagen and Goldman Sachs wrote down their stakes."
+    }
+   ],
+   "dismissed_by": [],
+   "enabler": "li_ion_battery_cost"
+  },
+  {
+   "id": "theranos",
+   "name": "Theranos",
+   "country": "US",
+   "region": "north_america",
+   "city": "Palo Alto",
+   "sector": "healthtech",
+   "tags": [
+    "blood_testing",
+    "diagnostics",
+    "finger_prick",
+    "lab_testing",
+    "walgreens",
+    "fraud",
+    "sec_charges",
+    "hype_cycle",
+    "unicorn_collapse"
+   ],
+   "one_liner": "Promised hundreds of lab tests from a few drops of finger-prick blood on its own Edison device.",
+   "founded": 2003,
+   "ended": 2018,
+   "outcome": "dead",
+   "total_raised_usd": 700000000,
+   "peak_valuation_usd": 9000000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "B",
+     "year": 2006,
+     "amount_usd": 9100000,
+     "post_money_usd": null,
+     "lead": "ATA Ventures"
+    },
+    {
+     "stage": "C",
+     "year": 2006,
+     "amount_usd": 28500000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "D",
+     "year": 2010,
+     "amount_usd": 45000000,
+     "post_money_usd": 1000000000,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2014,
+     "amount_usd": null,
+     "post_money_usd": 9000000000,
+     "lead": null
+    }
+   ],
+   "causes": [
+    "fraud",
+    "product_tech_failure",
+    "regulatory"
+   ],
+   "drivers": [],
+   "story": "Elizabeth Holmes's Theranos claimed its Edison device could run a full panel of lab tests from a finger-prick, reaching a ~$9B private valuation in 2014 and a Walgreens retail rollout. A WSJ investigation in October 2015 revealed the tech did not work as claimed, followed by CMS lab sanctions in 2016 and SEC charges in March 2018 alleging a fraud that raised over $700M from investors. The company dissolved in September 2018 and Holmes was later criminally convicted.",
+   "twin_group": null,
+   "sources": [
+    "https://www.sec.gov/news/press-release/2018-41",
+    "https://qz.com/1379288/elizabeth-holmess-theranos-is-shutting-down",
+    "https://money.cnn.com/2018/03/14/technology/theranos-elizabeth-holmes-timeline/index.html"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2015,
+     "what": "WSJ (John Carreyrou) October 2015 exposé reported Theranos's own device was unreliable and most tests ran on commercial analyzers"
+    },
+    {
+     "year": 2016,
+     "what": "CMS sanctions after lab inspection; Holmes barred from operating a lab and Walgreens partnership unwound"
+    },
+    {
+     "year": 2018,
+     "what": "SEC charged Theranos, Holmes and Balwani with 'massive fraud' in March; company dissolved in September"
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "Jina Choi, SEC San Francisco Regional Office director",
+     "quote_or_fact": "\"The Theranos story is an important lesson for Silicon Valley\"",
+     "source": "https://www.sec.gov/news/press-release/2018-41"
+    },
+    {
+     "who": "John Carreyrou, Wall Street Journal",
+     "quote_or_fact": "Paraphrase: his October 2015 reporting showed Theranos ran most of its tests on modified third-party machines rather than its proprietary device, triggering the collapse.",
+     "source": "https://money.cnn.com/2018/03/14/technology/theranos-elizabeth-holmes-timeline/index.html"
+    }
+   ],
+   "enabler": null
+  },
+  {
+   "id": "virgin-orbit",
+   "name": "Virgin Orbit",
+   "country": "US",
+   "region": "north_america",
+   "city": "Long Beach",
+   "sector": "deeptech_space",
+   "tags": [
+    "small_launch",
+    "air_launch",
+    "launcherone",
+    "boeing_747",
+    "richard_branson",
+    "spac",
+    "smallsat",
+    "bankruptcy",
+    "space"
+   ],
+   "one_liner": "Air-launched LauncherOne rockets from a modified Boeing 747 to put small satellites in orbit from anywhere.",
+   "founded": 2017,
+   "ended": 2023,
+   "outcome": "dead",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 3700000000,
+   "exit_value_usd": 36000000,
+   "rounds": [
+    {
+     "stage": "ipo",
+     "year": 2021,
+     "amount_usd": 228000000,
+     "post_money_usd": 3700000000,
+     "lead": "NextGen Acquisition Corp. II (SPAC) + PIPE"
+    }
+   ],
+   "causes": [
+    "ran_out_of_cash",
+    "product_tech_failure",
+    "funding_crunch"
+   ],
+   "drivers": [],
+   "story": "Spun out of Branson's Virgin Galactic, Virgin Orbit bet that launching rockets from a 747 ('Cosmic Girl') would make small-satellite launch flexible and responsive, and it went public via SPAC in December 2021 at a $3.7B valuation (the SPAC deal value), though heavy redemptions left only ~$228M of an expected up to $483M. After spending more than $1B, its January 2023 mission from Cornwall (the first UK orbital attempt) failed, financing talks collapsed, and it filed Chapter 11 in April 2023. Its assets were auctioned in May 2023 for roughly $36M to Rocket Lab, Stratolaunch and Launcher/Vast.",
+   "twin_group": "small_launch",
+   "sources": [
+    "https://www.cnbc.com/amp/2023/05/23/virgin-orbit-bankruptcy-sale-rocket-lab-stratolaunch-vasts-launcher.html",
+    "https://www.satellitetoday.com/business/2021/12/29/shareholders-approve-virgin-orbit-spac-merger/",
+    "https://www.nbcnews.com/news/us-news/virgin-orbit-files-bankruptcy-protection-us-secure-funding-rcna78062"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2020,
+     "what": "First LauncherOne test flight failed to reach space on 25 May 2020"
+    },
+    {
+     "year": 2021,
+     "what": "SPAC redemptions cut expected proceeds of up to $483M to about $228M"
+    },
+    {
+     "year": 2023,
+     "what": "9 January 2023 launch from Spaceport Cornwall failed to reach orbit; operations suspended in March and Chapter 11 filed 4 April"
+    }
+   ],
+   "dismissed_by": [],
+   "enabler": "launch_cost"
+  },
+  {
+   "id": "astra",
+   "name": "Astra Space",
+   "country": "US",
+   "region": "north_america",
+   "city": "Alameda",
+   "sector": "deeptech_space",
+   "tags": [
+    "small_launch",
+    "rockets",
+    "spac",
+    "holicity",
+    "smallsat",
+    "spacecraft_engines",
+    "take_private",
+    "launch_failures",
+    "space"
+   ],
+   "one_liner": "Aimed to build cheap, mass-produced small rockets for daily launches to orbit.",
+   "founded": 2016,
+   "ended": null,
+   "outcome": "active",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 3900000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "C",
+     "year": 2021,
+     "amount_usd": 30000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "ipo",
+     "year": 2021,
+     "amount_usd": 489000000,
+     "post_money_usd": 2100000000,
+     "lead": "Holicity (SPAC) + BlackRock-led PIPE"
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "founder_take_private",
+    "spacecraft_engine_business"
+   ],
+   "story": "Astra promised low-cost rockets built like consumer products to enable daily launch, and in July 2021 became the first space launch company listed on Nasdaq via a SPAC merger with Craig McCaw's Holicity at a $2.1B deal valuation, with market value peaking near $3.9B (Bloomberg). Its small rocket reached orbit only twice amid repeated failures, and launches were paused after a June 2022 failure. In 2024 co-founders Chris Kemp and Adam London took it private for $0.50 per share, cut from a $1.50 proposal, when the board said the alternative was Chapter 7; market value had fallen to roughly $12M.",
+   "twin_group": "small_launch",
+   "sources": [
+    "https://www.cnbc.com/2024/03/07/space-company-astra-going-private-to-avoid-bankruptcy.html",
+    "https://www.bnnbloomberg.ca/investing/2024/07/18/astra-space-founders-close-buyout-deal-for-ailing-rocket-maker/",
+    "https://techcrunch.com/2021/02/02/rocket-startup-astra-is-going-public-vis-spac/",
+    "https://astra.com/news/closing-private"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2022,
+     "what": "June 2022 launch failure (lost NASA TROPICS satellites) after earlier failures; rocket launches put on hiatus"
+    },
+    {
+     "year": 2024,
+     "what": "Board special committee said the $0.50/share founder buyout was the only alternative to Chapter 7 bankruptcy; deal closed July 2024"
+    }
+   ],
+   "dismissed_by": [
+    {
+     "who": "TechCrunch",
+     "quote_or_fact": "Paraphrase: TechCrunch labelled Astra's March 2024 take-private the space industry's first SPAC bust of 2024.",
+     "source": "https://techcrunch.com/2024/03/07/astra-is-the-space-industrys-first-spac-bust-of-2024"
+    }
+   ],
+   "enabler": "launch_cost"
+  },
+  {
+   "id": "byd",
+   "name": "BYD",
+   "country": "CN",
+   "region": "china",
+   "city": "Shenzhen",
+   "sector": "mobility_transport",
+   "tags": [
+    "electric_vehicles",
+    "batteries",
+    "plug_in_hybrid",
+    "berkshire_hathaway",
+    "vertical_integration",
+    "automotive",
+    "shenzhen",
+    "lithium_ion"
+   ],
+   "one_liner": "Phone-battery maker that turned itself into the world's largest electric-vehicle maker.",
+   "founded": 1995,
+   "ended": 2002,
+   "outcome": "ipo",
+   "total_raised_usd": null,
+   "peak_valuation_usd": 169000000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "ipo",
+     "year": 2002,
+     "amount_usd": 205000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2008,
+     "amount_usd": 230000000,
+     "post_money_usd": null,
+     "lead": "MidAmerican Energy (Berkshire Hathaway)"
+    },
+    {
+     "stage": "growth",
+     "year": 2025,
+     "amount_usd": 5590000000,
+     "post_money_usd": null,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "vertical_battery_integration",
+    "low_cost_manufacturing",
+    "plug_in_hybrid_bet"
+   ],
+   "story": "Wang Chuanfu founded Shenzhen BYD Battery Co. in February 1995 with CN¥2.5M to make nickel-cadmium batteries, listed in Hong Kong in July 2002 (raising about HK$1.6B, ~$205M at the HKD peg) and then moved into cars, which Elon Musk openly laughed off in a 2011 Bloomberg TV interview. Berkshire Hathaway, via MidAmerican Energy, bought about 10% in September 2008 for roughly $230M; by late 2023 BYD had taken Tesla's EV sales crown and its 2024 revenue passed $100B. Peak valuation here is the record A-share market cap of about CN¥1.22T on 21 May 2025 (~$169B at ~7.2 CNY/USD); a 2025 Hong Kong placement raised $5.59B.",
+   "twin_group": null,
+   "sources": [
+    "https://www.wikiwand.com/en/BYD_Company",
+    "https://www.cnbc.com/2024/01/05/how-byd-grew-from-a-phone-battery-maker-to-ev-giant-taking-on-tesla.html",
+    "https://insideevs.com/news/669539/elon-musk-once-laughed-at-byd-here-what-he-thinks-now/",
+    "https://www.metal.com/en/newscontent/103337646",
+    "https://autotechinsight.spglobal.com/news/5280746/byd-raises-559-billion-in-hong-kongs-largest-share-sale-in-years"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [
+    {
+     "who": "Elon Musk (Tesla CEO), Bloomberg TV interview, 2011",
+     "quote_or_fact": "\"Have you seen their car?\" (laughing, when asked whether BYD was a threat to Tesla)",
+     "source": "https://insideevs.com/news/669539/elon-musk-once-laughed-at-byd-here-what-he-thinks-now/"
+    }
+   ],
+   "enabler": "li_ion_battery_cost"
+  },
+  {
+   "id": "catl",
+   "name": "CATL (Contemporary Amperex Technology Co.)",
+   "country": "CN",
+   "region": "china",
+   "city": "Ningde",
+   "sector": "climate_energy",
+   "tags": [
+    "ev_batteries",
+    "lithium_ion",
+    "battery_cells",
+    "energy_storage",
+    "spin_off",
+    "automotive_supplier",
+    "fujian",
+    "ningde"
+   ],
+   "one_liner": "Spin-off of a phone-battery maker that became the world's biggest EV battery supplier.",
+   "founded": 2011,
+   "ended": 2018,
+   "outcome": "ipo",
+   "total_raised_usd": null,
+   "peak_valuation_usd": null,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "ipo",
+     "year": 2018,
+     "amount_usd": 850000000,
+     "post_money_usd": null,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "atl_battery_expertise",
+    "china_nev_policy_tailwind",
+    "supplier_to_whole_ev_industry"
+   ],
+   "story": "Robin Zeng's team set up CATL in Ningde, Fujian in December 2011 with RMB1M of registered capital, spinning out the EV-battery business of his consumer-battery maker ATL in response to Chinese policy changes, a bet that a provincial newcomer could become the core supplier for a car industry that barely existed yet. It listed on the Shenzhen Stock Exchange in June 2018 (code 300750), raising about CN¥5.46B (~$850M), and its market cap passed CN¥1T by 2021; a February 2026 snapshot valued it at about $240.7B. Peak market cap was not verified in this session, so peak_valuation_usd is left null.",
+   "twin_group": null,
+   "sources": [
+    "https://www.wikiwand.com/en/articles/CATL",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0520/11679004/sehk25050600059.pdf",
+    "https://www.irishtimes.com/motors/2026/07/09/inside-the-worlds-biggest-battery-maker/",
+    "https://seedtable.com/companies/contemporary-amperex-technology-co-limited-catl"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [],
+   "enabler": "li_ion_battery_cost"
+  },
+  {
+   "id": "skyroot-aerospace",
+   "name": "Skyroot Aerospace",
+   "country": "IN",
+   "region": "india",
+   "city": "Hyderabad",
+   "sector": "deeptech_space",
+   "tags": [
+    "space",
+    "small launch",
+    "rocket",
+    "Vikram-S",
+    "Vikram-1",
+    "ex-ISRO founders",
+    "private launch",
+    "India space reform",
+    "unicorn",
+    "orbital launch"
+   ],
+   "one_liner": "Hyderabad startup building the Vikram family of small-satellite rockets; flew India's first private rocket (2022) and first private orbital launch (2026).",
+   "founded": 2018,
+   "ended": null,
+   "outcome": "private_unicorn",
+   "total_raised_usd": 160000000,
+   "peak_valuation_usd": 1100000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "A",
+     "year": 2021,
+     "amount_usd": 11000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "B",
+     "year": 2022,
+     "amount_usd": 51000000,
+     "post_money_usd": null,
+     "lead": "GIC"
+    },
+    {
+     "stage": "C",
+     "year": 2023,
+     "amount_usd": 27500000,
+     "post_money_usd": null,
+     "lead": "Temasek"
+    },
+    {
+     "stage": "growth",
+     "year": 2026,
+     "amount_usd": 60000000,
+     "post_money_usd": null,
+     "lead": "GIC; Sherpalo Ventures"
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "india_space_privatization",
+    "ex_isro_talent",
+    "sovereign_wealth_backing"
+   ],
+   "story": "Founded in 2018 by former ISRO scientists Pawan Kumar Chandana and Naga Bharath Daka, Skyroot bet that a private company could build orbital rockets in a country where launch had been an ISRO monopoly; its suborbital Vikram-S became India's first privately built rocket to fly in November 2022. A $60M round co-led by GIC and Sherpalo in May 2026 valued it at about $1.1B (reported as pre-money; ~$160M raised in total), and on 18 July 2026 Vikram-1 reached orbit on its maiden flight, the first private orbital launch from India. The 2023 Temasek round was a pre-Series C (mapped to C); the Series A amount ($11M) comes from an Entrackr funding tally.",
+   "twin_group": "small_launch",
+   "sources": [
+    "https://india.entrepreneur.com/business-news/skyroot-set-to-become-first-space-tech-unicorn-with-usd-60-mn-funding",
+    "https://www.businesswire.com/news/home/20220905005059/en/Skyroot-Aerospace-Raises-$51-Million-Led-by-GIC-to-Propel-the-New-Future-of-Small-Satellite-Launches",
+    "https://entrackr.com/?p=154827",
+    "https://www.aljazeera.com/news/2026/7/18/india-achieves-milestone-with-launch-of-first-private-sector-orbital-rocket"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [],
+   "dismissed_by": [],
+   "enabler": null
+  },
+  {
+   "id": "agnikul-cosmos",
+   "name": "Agnikul Cosmos",
+   "country": "IN",
+   "region": "india",
+   "city": "Chennai",
+   "sector": "deeptech_space",
+   "tags": [
+    "space",
+    "small launch",
+    "rocket",
+    "3D printing",
+    "additive manufacturing",
+    "semi-cryogenic engine",
+    "Agnibaan",
+    "IIT Madras",
+    "private launchpad",
+    "India space reform"
+   ],
+   "one_liner": "IIT Madras-incubated rocket startup flying the Agnibaan launcher on Agnilet, the world's first single-piece 3D-printed semi-cryogenic engine.",
+   "founded": 2017,
+   "ended": null,
+   "outcome": "active",
+   "total_raised_usd": 78000000,
+   "peak_valuation_usd": 500000000,
+   "exit_value_usd": null,
+   "rounds": [
+    {
+     "stage": "A",
+     "year": 2021,
+     "amount_usd": 11000000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "B",
+     "year": 2023,
+     "amount_usd": 26700000,
+     "post_money_usd": null,
+     "lead": null
+    },
+    {
+     "stage": "growth",
+     "year": 2025,
+     "amount_usd": 17000000,
+     "post_money_usd": 500000000,
+     "lead": null
+    }
+   ],
+   "causes": [],
+   "drivers": [
+    "additive_manufacturing_engine",
+    "iit_madras_ecosystem",
+    "india_space_privatization"
+   ],
+   "story": "Agnikul, incubated at IIT Madras's National Centre for Combustion R&D in Chennai and led by co-founder/CEO Srinath Ravichandran, bet that an entire rocket engine could be 3D-printed as a single piece. On 30 May 2024 its Agnibaan SOrTeD flew from India's first private launchpad after a run of scrubs since March (one 28 May attempt was called off seconds before lift-off), which ISRO called the first controlled flight of an additively manufactured semi-cryogenic engine. A ~Rs150 crore (~$17M) round in November 2025 valued it at $500M; total raised is reported as over $78M by Inc42 (CB Insights lists ~$61M).",
+   "twin_group": "small_launch",
+   "sources": [
+    "https://india.entrepreneur.com/news-and-trends/spacetech-startup-agnikul-cosmos-raises-usd-17-mn-at-usd/499966",
+    "https://inc42.com/buzz/update-agnikul-raises-17-mn-at-500-mn-valuation",
+    "https://www.businesstoday.in/india/story/space-startup-agnikul-cosmos-successfully-launches-agnibaan-rocket-with-3d-printed-engine-isro-hails-milestone-431424-2024-05-30",
+    "https://www.wikiwand.com/en/articles/Agnibaan_SOrTeD"
+   ],
+   "confidence": "medium",
+   "moonshot": true,
+   "near_death": [
+    {
+     "year": 2024,
+     "what": "Agnibaan SOrTeD launch scrubbed repeatedly from March to May 2024 (including a 28 May abort less than a minute before lift-off) before flying on the fifth attempt on 30 May."
+    }
+   ],
+   "dismissed_by": [],
+   "enabler": null
+  }
+ ],
+ "too_early_pairs": [
+  {
+   "early_id": "general-magic",
+   "later_id": "apple-iphone",
+   "early_year": 1990,
+   "later_year": 2007,
+   "gap_years": 17,
+   "what_changed": "Cheap low-power ARM chips, capacitive multitouch screens, lithium-ion batteries and 3G data made General Magic's 1990 pocket-communicator vision practical; General Magic alumni such as Tony Fadell and Andy Rubin later built the iPod/iPhone and Android.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/General_Magic"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "webvan",
+   "later_id": "instacart",
+   "early_year": 1996,
+   "later_year": 2012,
+   "gap_years": 16,
+   "what_changed": "Instacart skipped Webvan's purpose-built automated warehouses and used smartphone-dispatched gig shoppers picking from existing grocery stores, so it needed little capital per new city.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Webvan",
+    "https://en.wikipedia.org/wiki/Instacart"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "better-place",
+   "later_id": "nio",
+   "early_year": 2007,
+   "later_year": 2018,
+   "gap_years": 11,
+   "what_changed": "NIO makes both the cars and the swap stations, so it did not need other automakers to adopt a swappable pack, the dependency that sank Better Place (only one Renault model ever used its swaps).",
+   "sources": [
+    "https://fortune.com/2013/05/24/exclusive-better-place-to-file-for-bankruptcy/"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "kozmo",
+   "later_id": "doordash",
+   "early_year": 1998,
+   "later_year": 2013,
+   "gap_years": 15,
+   "what_changed": "GPS smartphones, per-delivery gig couriers and per-order fees replaced Kozmo's salaried couriers and free one-hour delivery, and restaurants rather than owned inventory supplied the goods.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kozmo.com",
+    "https://en.wikipedia.org/wiki/DoorDash"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "kozmo",
+   "later_id": "gopuff",
+   "early_year": 1998,
+   "later_year": 2013,
+   "gap_years": 15,
+   "what_changed": "Gopuff rebuilt Kozmo's own-inventory, fast-delivery model with app ordering, delivery fees and a focus on dense college-town demand before expanding.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kozmo.com",
+    "https://en.wikipedia.org/wiki/Gopuff"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "pets-com",
+   "later_id": "chewy",
+   "early_year": 1998,
+   "later_year": 2011,
+   "gap_years": 13,
+   "what_changed": "Chewy arrived after e-commerce logistics, broadband and online-shopping habits matured, and built repeat revenue through Autoship subscriptions instead of selling heavy, low-margin goods below cost.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pets.com"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "segway",
+   "later_id": "lime",
+   "early_year": 2001,
+   "later_year": 2018,
+   "gap_years": 17,
+   "what_changed": "Cheap mass-produced kick e-scooters, smartphone unlock with GPS, and pay-per-minute sharing replaced an expensive personally owned device; Segway itself was bought by Chinese scooter maker Ninebot in 2015.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Segway_Inc."
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "google-glass",
+   "later_id": "ray-ban-meta",
+   "early_year": 2013,
+   "later_year": 2023,
+   "gap_years": 10,
+   "what_changed": "Meta and EssilorLuxottica hid camera, speakers and an AI assistant inside ordinary-looking Ray-Ban frames at a mainstream price, avoiding Glass's conspicuous display and the privacy backlash against its wearers.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Google_Glass"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "sixdegrees",
+   "later_id": "facebook",
+   "early_year": 1997,
+   "later_year": 2004,
+   "gap_years": 7,
+   "what_changed": "Many more people were online, broadband and digital cameras made photo sharing easy, and Facebook seeded dense real-identity networks one campus at a time.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/SixDegrees.com"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "vpl-research",
+   "later_id": "oculus",
+   "early_year": 1985,
+   "later_year": 2012,
+   "gap_years": 27,
+   "what_changed": "Smartphone-driven mass production made high-resolution displays, gyroscopes and accelerometers cheap enough for a consumer headset. VPL's founding year is given as 1984 or 1985 by different sources.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/VPL_Research"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "z-com",
+   "later_id": "youtube",
+   "early_year": 2000,
+   "later_year": 2005,
+   "gap_years": 5,
+   "what_changed": "Bill Gross (Idealab) attributes Z.com's failure to timing: broadband penetration was too low and video playback was hard in 2000; by 2005 Adobe Flash and broadband had solved both, and YouTube took off.",
+   "sources": [
+    "https://www.ted.com/talks/bill_gross_the_single_biggest_reason_why_start_ups_succeed"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "teledesic",
+   "later_id": "starlink",
+   "early_year": 1990,
+   "later_year": 2020,
+   "gap_years": 30,
+   "what_changed": "Reusable Falcon 9 rockets owned by the same company cut launch costs, satellites became mass-produced, and phased-array user terminals got cheap; Musk noted that every earlier LEO constellation had gone bankrupt.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Teledesic",
+    "https://www.geekwire.com/2020/spacex-ceo-elon-musk-says-theres-nothing-fear-starlink-broadband-constellation/"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "gm-ev1",
+   "later_id": "tesla",
+   "early_year": 1996,
+   "later_year": 2008,
+   "gap_years": 12,
+   "what_changed": "Lithium-ion laptop cells (the Tesla Roadster used thousands of 18650 cells) replaced the EV1's lead-acid and NiMH packs, giving usable range, and Tesla started with a high-priced performance car instead of a lease-only compact.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/General_Motors_EV1",
+    "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "napster",
+   "later_id": "spotify",
+   "early_year": 1999,
+   "later_year": 2008,
+   "gap_years": 9,
+   "what_changed": "Spotify licensed catalogs from the labels and paid royalties through a freemium ad plus subscription model, on far cheaper bandwidth; Napster co-founder Sean Parker later invested in Spotify.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Napster",
+    "https://en.wikipedia.org/wiki/Spotify"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "digicash",
+   "later_id": "bitcoin",
+   "early_year": 1989,
+   "later_year": 2009,
+   "gap_years": 20,
+   "what_changed": "Bitcoin removed the need for banks to license a central issuer (DigiCash's adoption bottleneck) by using a decentralized proof-of-work ledger; mass internet use and later exchanges such as Coinbase (2012) gave it on-ramps.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/DigiCash",
+    "https://en.wikipedia.org/wiki/Bitcoin"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "thinking-machines",
+   "later_id": "nvidia",
+   "early_year": 1983,
+   "later_year": 2012,
+   "gap_years": 29,
+   "what_changed": "Massively parallel computing for AI, which Thinking Machines sold as bespoke Connection Machine supercomputers, arrived as mass-market gaming GPUs plus CUDA and large datasets such as ImageNet (AlexNet trained on two Nvidia GPUs in 2012).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Thinking_Machines_Corporation",
+    "https://en.wikipedia.org/wiki/AlexNet"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "apple-newton",
+   "later_id": "apple-ipad",
+   "early_year": 1993,
+   "later_year": 2010,
+   "gap_years": 17,
+   "what_changed": "Capacitive multitouch replaced stylus handwriting recognition, which was widely mocked, and Wi-Fi/3G, an app store and far better batteries arrived; the ARM partnership Apple formed for the Newton powered the iPad.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Apple_Newton",
+    "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "att-picturephone",
+   "later_id": "zoom",
+   "early_year": 1970,
+   "later_year": 2013,
+   "gap_years": 43,
+   "what_changed": "Broadband, a webcam in every laptop and phone, software codecs on cloud servers and a free tier replaced dedicated terminals and per-minute fees; COVID-19 lockdowns in 2020 then forced mass adoption.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Picturephone"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  },
+  {
+   "early_id": "boo-com",
+   "later_id": "zalando",
+   "early_year": 1998,
+   "later_year": 2008,
+   "gap_years": 10,
+   "what_changed": "Broadband and mature e-commerce platforms removed the slow, heavy site that hurt Boo.com in dial-up Europe, and Zalando won with free shipping and free returns, launching first in one country (Germany).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Boo.com",
+    "https://en.wikipedia.org/wiki/Zalando"
+   ],
+   "verified": false,
+   "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+  }
+ ],
+ "anti_portfolio": [
+  {
+   "investor": "Union Square Ventures (Fred Wilson)",
+   "company": "Airbnb",
+   "year": 2008,
+   "why_passed": "\"They have an interesting business. I'm just not sure how big it's going to be.\" (verbatim, as quoted by Paul Graham)",
+   "outcome": "Airbnb listed on Nasdaq in December 2020 and closed its first trading day worth about $86.5B.",
+   "source": "https://paulgraham.com/airbnb.html",
+   "type": "vc_pass",
+   "verified": true
+  },
+  {
+   "investor": "Seven Silicon Valley investors (unnamed in summary)",
+   "company": "Airbnb",
+   "year": 2008,
+   "why_passed": "Paraphrase: offered 10% of the company for $150,000 (a $1.5M valuation); five sent rejection emails and two never replied, per Brian Chesky's 2015 post \"7 Rejections\".",
+   "outcome": "Airbnb IPO December 2020, about $86.5B first-day value.",
+   "source": "https://medium.com/p/7d894cbaa084",
+   "type": "vc_pass",
+   "verified": true
+  },
+  {
+   "investor": "About 100 venture capitalists",
+   "company": "Canva",
+   "year": null,
+   "why_passed": "Paraphrase: investors were wary of a design startup from Perth taking on Adobe; Melanie Perkins was rejected roughly 100 times and took about three years to land Canva's first investment (2013 seed).",
+   "outcome": "Private valuation of $40B in 2021 and $42B in an August 2025 employee share sale.",
+   "source": "https://www.inc.com/carmine-gallo/how-canvas-melanie-perkins-learned-to-pitch-persuasively-after-more-than-100-rejections.html",
+   "type": "vc_pass",
+   "verified": true
+  },
+  {
+   "investor": "Bessemer Venture Partners (David Cowan)",
+   "company": "Google",
+   "year": null,
+   "why_passed": "Paraphrase: Cowan's college friend rented her garage to Sergey Brin and Larry Page; he declined her suggestion to meet them.",
+   "outcome": "Google IPO 2004; Alphabet became one of the world's most valuable companies.",
+   "source": "https://www.bvp.com/anti-portfolio",
+   "type": "vc_pass",
+   "verified": false
+  },
+  {
+   "investor": "Bessemer Venture Partners (David Cowan)",
+   "company": "eBay",
+   "year": null,
+   "why_passed": "Paraphrase: dismissed an online auction site for stamps, coins and comic books as unserious.",
+   "outcome": "eBay IPO 1998.",
+   "source": "https://www.bvp.com/anti-portfolio",
+   "type": "vc_pass",
+   "verified": false
+  },
+  {
+   "investor": "Bessemer Venture Partners (Neill Brownstein)",
+   "company": "Apple",
+   "year": null,
+   "why_passed": "Paraphrase: passed on buying pre-IPO secondary shares because the valuation looked far too expensive.",
+   "outcome": "Apple IPO December 1980.",
+   "source": "https://www.bvp.com/anti-portfolio",
+   "type": "vc_pass",
+   "verified": false
+  },
+  {
+   "investor": "Bessemer Venture Partners (Pete Bancroft)",
+   "company": "Intel",
+   "year": 1968,
+   "why_passed": "Paraphrase: declined to invest in Intel's first private placement.",
+   "outcome": "Intel became the dominant microprocessor maker.",
+   "source": "https://www.bvp.com/anti-portfolio",
+   "type": "vc_pass",
+   "verified": false
+  },
+  {
+   "investor": "Bessemer Venture Partners",
+   "company": "FedEx",
+   "year": null,
+   "why_passed": "Paraphrase: Bessemer passed on Federal Express repeatedly (commonly cited as seven times).",
+   "outcome": "FedEx became a global logistics giant.",
+   "source": "https://www.bvp.com/anti-portfolio",
+   "type": "vc_pass",
+   "verified": false
+  },
+  {
+   "investor": "Excite",
+   "company": "Google",
+   "year": 1999,
+   "why_passed": "Paraphrase: Excite turned down buying Google for under $1M (reported as $750,000).",
+   "outcome": "Google IPO 2004; Excite merged into @Home and went bankrupt in 2001.",
+   "source": "https://en.wikipedia.org/wiki/Excite_(web_portal)",
+   "type": "acquisition_pass",
+   "verified": false
+  },
+  {
+   "investor": "Blockbuster",
+   "company": "Netflix",
+   "year": 2000,
+   "why_passed": "Paraphrase: Blockbuster declined to buy Netflix, reportedly offered for $50M.",
+   "outcome": "Blockbuster filed for bankruptcy in 2010; Netflix became the largest streaming company.",
+   "source": "https://en.wikipedia.org/wiki/Blockbuster_LLC",
+   "type": "acquisition_pass",
+   "verified": false
+  }
+ ],
+ "cost_curves": [],
+ "deeptech_base_rates": []
+}

@@ -1,0 +1,11 @@
+# local tool settings and OS files
+.claude/
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+# bulk downloads (large; re-fetch with scripts/fetch_bulk.sh)
+data/raw/
+# internal planning and working notes (kept private)
+PLAN.md
+research/notes_*.md

@@ -1,0 +1,1506 @@
+{
+ "_note": "Canonical investor names, alias spellings and investor type. Used to merge 'a16z' / 'Andreessen Horowitz' etc. into one firm. Types: vc, cvc (corporate venture or strategic), growth (growth equity, crossover, hedge fund), sov (sovereign / state fund), acc (accelerator or studio), angel (individual or family office), pe (private equity). Firms not listed here still appear; they just get no type badge. Renamed firms map to their current name (Sequoia India -> Peak XV, Sequoia China -> HongShan).",
+ "firms": [
+  {
+   "name": "Andreessen Horowitz",
+   "type": "vc",
+   "aliases": [
+    "a16z",
+    "a16z crypto",
+    "a16z speedrun",
+    "a16z bio + health",
+    "a16z growth",
+    "andreessen horowitz growth",
+    "andreessen",
+    "ah capital management"
+   ]
+  },
+  {
+   "name": "Sequoia Capital",
+   "type": "vc",
+   "aliases": [
+    "sequoia",
+    "sequoia capital us",
+    "sequoia capital global equities"
+   ]
+  },
+  {
+   "name": "Peak XV Partners",
+   "type": "vc",
+   "aliases": [
+    "peak xv",
+    "sequoia capital india",
+    "sequoia india",
+    "sequoia capital india and sea",
+    "sequoia capital southeast asia",
+    "sequoia sea",
+    "surge"
+   ]
+  },
+  {
+   "name": "HongShan",
+   "type": "vc",
+   "aliases": [
+    "hongshan capital",
+    "sequoia capital china",
+    "sequoia china"
+   ]
+  },
+  {
+   "name": "Accel",
+   "type": "vc",
+   "aliases": [
+    "accel partners",
+    "accel india",
+    "accel europe"
+   ]
+  },
+  {
+   "name": "Benchmark",
+   "type": "vc",
+   "aliases": [
+    "benchmark capital"
+   ]
+  },
+  {
+   "name": "Greylock",
+   "type": "vc",
+   "aliases": [
+    "greylock partners"
+   ]
+  },
+  {
+   "name": "Kleiner Perkins",
+   "type": "vc",
+   "aliases": [
+    "kleiner perkins caufield and byers",
+    "kpcb",
+    "kleiner"
+   ]
+  },
+  {
+   "name": "Lightspeed Venture Partners",
+   "type": "vc",
+   "aliases": [
+    "lightspeed",
+    "lightspeed india",
+    "lightspeed india partners",
+    "lightspeed china",
+    "lsvp"
+   ]
+  },
+  {
+   "name": "Index Ventures",
+   "type": "vc",
+   "aliases": [
+    "index"
+   ]
+  },
+  {
+   "name": "General Catalyst",
+   "type": "vc",
+   "aliases": [
+    "general catalyst partners",
+    "gc"
+   ]
+  },
+  {
+   "name": "Founders Fund",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Khosla Ventures",
+   "type": "vc",
+   "aliases": [
+    "khosla"
+   ]
+  },
+  {
+   "name": "GV",
+   "type": "cvc",
+   "aliases": [
+    "google ventures"
+   ]
+  },
+  {
+   "name": "Google",
+   "type": "cvc",
+   "aliases": [
+    "alphabet",
+    "google llc",
+    "google deepmind"
+   ]
+  },
+  {
+   "name": "Gradient Ventures",
+   "type": "cvc",
+   "aliases": [
+    "gradient"
+   ]
+  },
+  {
+   "name": "CapitalG",
+   "type": "growth",
+   "aliases": [
+    "capital g"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "M12",
+   "type": "cvc",
+   "aliases": [
+    "m12 microsoft",
+    "m12 microsoft's venture fund"
+   ]
+  },
+  {
+   "name": "Nvidia",
+   "type": "cvc",
+   "aliases": [
+    "nventures",
+    "nvidia nventures",
+    "nvidia ventures"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "type": "cvc",
+   "aliases": [
+    "amazon industrial innovation fund",
+    "alexa fund",
+    "amazon alexa fund",
+    "aws",
+    "amazon climate pledge fund"
+   ]
+  },
+  {
+   "name": "Intel Capital",
+   "type": "cvc",
+   "aliases": [
+    "intel"
+   ]
+  },
+  {
+   "name": "Samsung Next",
+   "type": "cvc",
+   "aliases": [
+    "samsung",
+    "samsung ventures",
+    "samsung catalyst fund"
+   ]
+  },
+  {
+   "name": "Salesforce Ventures",
+   "type": "cvc",
+   "aliases": [
+    "salesforce"
+   ]
+  },
+  {
+   "name": "OpenAI Startup Fund",
+   "type": "cvc",
+   "aliases": [
+    "openai"
+   ]
+  },
+  {
+   "name": "Qualcomm Ventures",
+   "type": "cvc",
+   "aliases": [
+    "qualcomm"
+   ]
+  },
+  {
+   "name": "Toyota Ventures",
+   "type": "cvc",
+   "aliases": [
+    "toyota ai ventures",
+    "toyota",
+    "woven capital"
+   ]
+  },
+  {
+   "name": "Bosch Ventures",
+   "type": "cvc",
+   "aliases": [
+    "robert bosch venture capital",
+    "bosch"
+   ]
+  },
+  {
+   "name": "Siemens",
+   "type": "cvc",
+   "aliases": [
+    "next47",
+    "siemens next47"
+   ]
+  },
+  {
+   "name": "bp ventures",
+   "type": "cvc",
+   "aliases": [
+    "bp"
+   ]
+  },
+  {
+   "name": "Shell Ventures",
+   "type": "cvc",
+   "aliases": [
+    "shell"
+   ]
+  },
+  {
+   "name": "Tencent",
+   "type": "cvc",
+   "aliases": [
+    "tencent holdings"
+   ]
+  },
+  {
+   "name": "Alibaba",
+   "type": "cvc",
+   "aliases": [
+    "alibaba group",
+    "alibaba cloud",
+    "ant financial",
+    "ant group"
+   ]
+  },
+  {
+   "name": "Naspers / Prosus",
+   "type": "cvc",
+   "aliases": [
+    "naspers",
+    "prosus",
+    "prosus ventures",
+    "naspers ventures"
+   ]
+  },
+  {
+   "name": "Delivery Hero",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "SoftBank Vision Fund",
+   "type": "growth",
+   "aliases": [
+    "softbank",
+    "softbank vision fund 2",
+    "softbank group",
+    "svf",
+    "softbank latin america fund",
+    "softbank ventures asia"
+   ]
+  },
+  {
+   "name": "Tiger Global",
+   "type": "growth",
+   "aliases": [
+    "tiger global management"
+   ]
+  },
+  {
+   "name": "Coatue",
+   "type": "growth",
+   "aliases": [
+    "coatue management"
+   ]
+  },
+  {
+   "name": "DST Global",
+   "type": "growth",
+   "aliases": [
+    "dst"
+   ]
+  },
+  {
+   "name": "General Atlantic",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "Insight Partners",
+   "type": "growth",
+   "aliases": [
+    "insight venture partners",
+    "insight"
+   ]
+  },
+  {
+   "name": "ICONIQ Growth",
+   "type": "growth",
+   "aliases": [
+    "iconiq",
+    "iconiq capital"
+   ]
+  },
+  {
+   "name": "Thrive Capital",
+   "type": "vc",
+   "aliases": [
+    "thrive"
+   ]
+  },
+  {
+   "name": "IVP",
+   "type": "growth",
+   "aliases": [
+    "institutional venture partners"
+   ]
+  },
+  {
+   "name": "Greenoaks",
+   "type": "growth",
+   "aliases": [
+    "greenoaks capital"
+   ]
+  },
+  {
+   "name": "Altimeter",
+   "type": "growth",
+   "aliases": [
+    "altimeter capital"
+   ]
+  },
+  {
+   "name": "Dragoneer",
+   "type": "growth",
+   "aliases": [
+    "dragoneer investment group"
+   ]
+  },
+  {
+   "name": "D1 Capital",
+   "type": "growth",
+   "aliases": [
+    "d1 capital partners"
+   ]
+  },
+  {
+   "name": "Durable Capital",
+   "type": "growth",
+   "aliases": [
+    "durable capital partners"
+   ]
+  },
+  {
+   "name": "Fidelity",
+   "type": "growth",
+   "aliases": [
+    "fidelity investments",
+    "fidelity management and research",
+    "fidelity management and research company",
+    "fmr"
+   ]
+  },
+  {
+   "name": "T. Rowe Price",
+   "type": "growth",
+   "aliases": [
+    "t rowe price",
+    "t rowe price associates"
+   ]
+  },
+  {
+   "name": "BlackRock",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "Wellington Management",
+   "type": "growth",
+   "aliases": [
+    "wellington"
+   ]
+  },
+  {
+   "name": "Baillie Gifford",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "Franklin Templeton",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "Avenir Growth",
+   "type": "growth",
+   "aliases": [
+    "avenir"
+   ]
+  },
+  {
+   "name": "Lead Edge Capital",
+   "type": "growth",
+   "aliases": [
+    "lead edge"
+   ]
+  },
+  {
+   "name": "TCV",
+   "type": "growth",
+   "aliases": [
+    "technology crossover ventures"
+   ]
+  },
+  {
+   "name": "Third Point",
+   "type": "growth",
+   "aliases": [
+    "third point ventures"
+   ]
+  },
+  {
+   "name": "Valor Equity Partners",
+   "type": "growth",
+   "aliases": [
+    "valor"
+   ]
+  },
+  {
+   "name": "B Capital",
+   "type": "vc",
+   "aliases": [
+    "b capital group"
+   ]
+  },
+  {
+   "name": "Temasek",
+   "type": "sov",
+   "aliases": [
+    "temasek holdings"
+   ]
+  },
+  {
+   "name": "GIC",
+   "type": "sov",
+   "aliases": [
+    "gic private limited"
+   ]
+  },
+  {
+   "name": "Mubadala",
+   "type": "sov",
+   "aliases": [
+    "mubadala capital",
+    "mubadala investment company"
+   ]
+  },
+  {
+   "name": "Qatar Investment Authority",
+   "type": "sov",
+   "aliases": [
+    "qia"
+   ]
+  },
+  {
+   "name": "PIF",
+   "type": "sov",
+   "aliases": [
+    "public investment fund",
+    "saudi public investment fund"
+   ]
+  },
+  {
+   "name": "MGX",
+   "type": "sov",
+   "aliases": []
+  },
+  {
+   "name": "CPP Investments",
+   "type": "sov",
+   "aliases": [
+    "canada pension plan investment board",
+    "cppib"
+   ]
+  },
+  {
+   "name": "Y Combinator",
+   "type": "acc",
+   "aliases": [
+    "yc",
+    "ycombinator"
+   ]
+  },
+  {
+   "name": "Techstars",
+   "type": "acc",
+   "aliases": []
+  },
+  {
+   "name": "Antler",
+   "type": "acc",
+   "aliases": [
+    "antler menap"
+   ]
+  },
+  {
+   "name": "Entrepreneur First",
+   "type": "acc",
+   "aliases": [
+    "ef"
+   ]
+  },
+  {
+   "name": "Plug and Play",
+   "type": "acc",
+   "aliases": [
+    "plug and play tech center"
+   ]
+  },
+  {
+   "name": "500 Global",
+   "type": "acc",
+   "aliases": [
+    "500 startups"
+   ]
+  },
+  {
+   "name": "South Park Commons",
+   "type": "acc",
+   "aliases": [
+    "spc"
+   ]
+  },
+  {
+   "name": "Bezos Expeditions",
+   "type": "angel",
+   "aliases": [
+    "jeff bezos"
+   ]
+  },
+  {
+   "name": "Lux Capital",
+   "type": "vc",
+   "aliases": [
+    "lux"
+   ]
+  },
+  {
+   "name": "DCVC",
+   "type": "vc",
+   "aliases": [
+    "data collective",
+    "data collective venture capital",
+    "dcvc bio"
+   ]
+  },
+  {
+   "name": "Eclipse",
+   "type": "vc",
+   "aliases": [
+    "eclipse ventures"
+   ]
+  },
+  {
+   "name": "8VC",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Bessemer Venture Partners",
+   "type": "vc",
+   "aliases": [
+    "bessemer",
+    "bvp"
+   ]
+  },
+  {
+   "name": "First Round Capital",
+   "type": "vc",
+   "aliases": [
+    "first round"
+   ]
+  },
+  {
+   "name": "Felicis",
+   "type": "vc",
+   "aliases": [
+    "felicis ventures"
+   ]
+  },
+  {
+   "name": "CRV",
+   "type": "vc",
+   "aliases": [
+    "charles river ventures"
+   ]
+  },
+  {
+   "name": "Redpoint",
+   "type": "vc",
+   "aliases": [
+    "redpoint ventures"
+   ]
+  },
+  {
+   "name": "Spark Capital",
+   "type": "vc",
+   "aliases": [
+    "spark"
+   ]
+  },
+  {
+   "name": "Union Square Ventures",
+   "type": "vc",
+   "aliases": [
+    "usv"
+   ]
+  },
+  {
+   "name": "Menlo Ventures",
+   "type": "vc",
+   "aliases": [
+    "menlo"
+   ]
+  },
+  {
+   "name": "NEA",
+   "type": "vc",
+   "aliases": [
+    "new enterprise associates"
+   ]
+  },
+  {
+   "name": "Battery Ventures",
+   "type": "vc",
+   "aliases": [
+    "battery"
+   ]
+  },
+  {
+   "name": "Matrix Partners",
+   "type": "vc",
+   "aliases": [
+    "matrix"
+   ]
+  },
+  {
+   "name": "Elevation Capital",
+   "type": "vc",
+   "aliases": [
+    "saif partners"
+   ]
+  },
+  {
+   "name": "Blume Ventures",
+   "type": "vc",
+   "aliases": [
+    "blume"
+   ]
+  },
+  {
+   "name": "Nexus Venture Partners",
+   "type": "vc",
+   "aliases": [
+    "nexus"
+   ]
+  },
+  {
+   "name": "Kaszek",
+   "type": "vc",
+   "aliases": [
+    "kaszek ventures"
+   ]
+  },
+  {
+   "name": "monashees",
+   "type": "vc",
+   "aliases": [
+    "monashees+"
+   ]
+  },
+  {
+   "name": "QED Investors",
+   "type": "vc",
+   "aliases": [
+    "qed"
+   ]
+  },
+  {
+   "name": "Ribbit Capital",
+   "type": "vc",
+   "aliases": [
+    "ribbit"
+   ]
+  },
+  {
+   "name": "Breakthrough Energy Ventures",
+   "type": "vc",
+   "aliases": [
+    "breakthrough energy"
+   ]
+  },
+  {
+   "name": "Prime Movers Lab",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Playground Global",
+   "type": "vc",
+   "aliases": [
+    "playground"
+   ]
+  },
+  {
+   "name": "Radical Ventures",
+   "type": "vc",
+   "aliases": [
+    "radical"
+   ]
+  },
+  {
+   "name": "Conviction",
+   "type": "vc",
+   "aliases": [
+    "conviction partners"
+   ]
+  },
+  {
+   "name": "Initialized Capital",
+   "type": "vc",
+   "aliases": [
+    "initialized"
+   ]
+  },
+  {
+   "name": "SV Angel",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Pear VC",
+   "type": "vc",
+   "aliases": [
+    "pear"
+   ]
+  },
+  {
+   "name": "Floodgate",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Uncork Capital",
+   "type": "vc",
+   "aliases": [
+    "uncork"
+   ]
+  },
+  {
+   "name": "Bain Capital Ventures",
+   "type": "vc",
+   "aliases": [
+    "bcv"
+   ]
+  },
+  {
+   "name": "Balderton Capital",
+   "type": "vc",
+   "aliases": [
+    "balderton"
+   ]
+  },
+  {
+   "name": "Atomico",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Northzone",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Creandum",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "EQT Ventures",
+   "type": "vc",
+   "aliases": [
+    "eqt"
+   ]
+  },
+  {
+   "name": "Point Nine",
+   "type": "vc",
+   "aliases": [
+    "point nine capital"
+   ]
+  },
+  {
+   "name": "LocalGlobe",
+   "type": "vc",
+   "aliases": [
+    "local globe"
+   ]
+  },
+  {
+   "name": "Seedcamp",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "HV Capital",
+   "type": "vc",
+   "aliases": [
+    "holtzbrinck ventures"
+   ]
+  },
+  {
+   "name": "Cherry Ventures",
+   "type": "vc",
+   "aliases": [
+    "cherry"
+   ]
+  },
+  {
+   "name": "Speedinvest",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Partech",
+   "type": "vc",
+   "aliases": [
+    "partech partners",
+    "partech africa"
+   ]
+  },
+  {
+   "name": "Kinnevik",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "Lakestar",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Hillhouse Capital",
+   "type": "growth",
+   "aliases": [
+    "hillhouse"
+   ]
+  },
+  {
+   "name": "Warburg Pincus",
+   "type": "pe",
+   "aliases": []
+  },
+  {
+   "name": "Silver Lake",
+   "type": "pe",
+   "aliases": [
+    "silver lake partners"
+   ]
+  },
+  {
+   "name": "KKR",
+   "type": "pe",
+   "aliases": [
+    "kohlberg kravis roberts"
+   ]
+  },
+  {
+   "name": "Permira",
+   "type": "pe",
+   "aliases": []
+  },
+  {
+   "name": "Goldman Sachs",
+   "type": "growth",
+   "aliases": [
+    "goldman sachs growth",
+    "goldman sachs asset management"
+   ]
+  },
+  {
+   "name": "Morgan Stanley",
+   "type": "growth",
+   "aliases": [
+    "morgan stanley counterpoint global",
+    "counterpoint global"
+   ]
+  },
+  {
+   "name": "Parkway Venture Capital",
+   "type": "vc",
+   "aliases": [
+    "parkway"
+   ]
+  },
+  {
+   "name": "Paradigm",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Polychain Capital",
+   "type": "vc",
+   "aliases": [
+    "polychain"
+   ]
+  },
+  {
+   "name": "Pantera Capital",
+   "type": "vc",
+   "aliases": [
+    "pantera"
+   ]
+  },
+  {
+   "name": "Multicoin Capital",
+   "type": "vc",
+   "aliases": [
+    "multicoin"
+   ]
+  },
+  {
+   "name": "Haun Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Dragonfly",
+   "type": "vc",
+   "aliases": [
+    "dragonfly capital"
+   ]
+  },
+  {
+   "name": "Coinbase Ventures",
+   "type": "cvc",
+   "aliases": [
+    "coinbase"
+   ]
+  },
+  {
+   "name": "Flagship Pioneering",
+   "type": "vc",
+   "aliases": [
+    "flagship"
+   ]
+  },
+  {
+   "name": "ARCH Venture Partners",
+   "type": "vc",
+   "aliases": [
+    "arch",
+    "arch venture"
+   ]
+  },
+  {
+   "name": "Third Rock Ventures",
+   "type": "vc",
+   "aliases": [
+    "third rock"
+   ]
+  },
+  {
+   "name": "Lowercarbon Capital",
+   "type": "vc",
+   "aliases": [
+    "lowercarbon"
+   ]
+  },
+  {
+   "name": "Congruent Ventures",
+   "type": "vc",
+   "aliases": [
+    "congruent"
+   ]
+  },
+  {
+   "name": "Energy Impact Partners",
+   "type": "vc",
+   "aliases": [
+    "eip"
+   ]
+  },
+  {
+   "name": "Anduril",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "In-Q-Tel",
+   "type": "sov",
+   "aliases": [
+    "iqt"
+   ]
+  },
+  {
+   "name": "Shield Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Seraphim Space",
+   "type": "vc",
+   "aliases": [
+    "seraphim",
+    "seraphim capital",
+    "seraphim space investment trust"
+   ]
+  },
+  {
+   "name": "Space Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Ibex Investors",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "AME Cloud Ventures",
+   "type": "angel",
+   "aliases": []
+  },
+  {
+   "name": "Elad Gil",
+   "type": "angel",
+   "aliases": []
+  },
+  {
+   "name": "Nat Friedman",
+   "type": "angel",
+   "aliases": [
+    "nfdg",
+    "nat friedman and daniel gross"
+   ]
+  },
+  {
+   "name": "Daniel Gross",
+   "type": "angel",
+   "aliases": []
+  },
+  {
+   "name": "Z47",
+   "type": "vc",
+   "aliases": [
+    "matrix partners india",
+    "matrix india"
+   ]
+  },
+  {
+   "name": "Gates Foundation",
+   "type": "angel",
+   "aliases": [
+    "bill and melinda gates foundation",
+    "bill & melinda gates foundation",
+    "gates foundation",
+    "bill and melinda gates foundation trust",
+    "gates foundation trust"
+   ]
+  },
+  {
+   "name": "Johnson & Johnson Innovation",
+   "type": "cvc",
+   "aliases": [
+    "jjdc",
+    "johnson and johnson innovation",
+    "johnson & johnson",
+    "j&j innovation"
+   ]
+  },
+  {
+   "name": "Procter & Gamble",
+   "type": "cvc",
+   "aliases": [
+    "p&g",
+    "procter and gamble"
+   ]
+  },
+  {
+   "name": "EBRD",
+   "type": "sov",
+   "aliases": [
+    "european bank for reconstruction and development"
+   ]
+  },
+  {
+   "name": "Headline",
+   "type": "vc",
+   "aliases": [
+    "headline management company",
+    "e.ventures",
+    "eventures"
+   ]
+  },
+  {
+   "name": "Kindred Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "M13",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Point72 Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "FirstMark Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Greycroft",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Norwest",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "True Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Left Lane Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Shine Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "IvyCap Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Scale Venture Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "BoxGroup",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Base10 Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Prime Venture Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Canaan Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Touring Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "DN Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Foundation Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Chemistry VC",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Together Fund",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Craft Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "20VC",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "HOF Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Madrona",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Nauta Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Alumni Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Forerunner",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Goodwater Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Nyca Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Slow Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Equal Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Fireside Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Hack VC",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Transition VC",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "SignalFire",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "TLcom Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Galaxy Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Emergence Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Endiya Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "CoinFund",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Venrock",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Blockchain Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Castle Island Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Quiet Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Neo",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Obvious Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Plural",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Adjuvant Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "IDG Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Novastar",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Human Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Seligman Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Avenue Growth Partners",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "FINTOP",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Cyber Fund",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Tenacity Ventures",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Latitude Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Sentinel Global",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Standard Capital",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Mayfield",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "FirstMark",
+   "type": "vc",
+   "aliases": []
+  },
+  {
+   "name": "Stripe",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Uber",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Info Edge",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Paxos",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "SBI Group",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Ford",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Jump Crypto",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Burda Principal Investments",
+   "type": "cvc",
+   "aliases": []
+  },
+  {
+   "name": "Proparco",
+   "type": "sov",
+   "aliases": []
+  },
+  {
+   "name": "Sofina",
+   "type": "growth",
+   "aliases": []
+  },
+  {
+   "name": "WestBridge Capital",
+   "type": "growth",
+   "aliases": []
+  }
+ ]
+}

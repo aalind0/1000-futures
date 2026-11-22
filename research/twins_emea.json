@@ -1,0 +1,512 @@
+[
+ {
+  "id": "online_grocery",
+  "idea": "Online supermarket delivering groceries from central warehouses in scheduled slots",
+  "members": [
+   "ocado",
+   "picnic",
+   "webvan",
+   "instacart"
+  ],
+  "lesson": "Ocado (founded as Webvan collapsed) and Picnic grew slowly inside one dense market with automated central warehouses and fixed routes, while Webvan built huge warehouses across many US cities before demand existed and went bankrupt in 2001."
+ },
+ {
+  "id": "ten_minute_grocery",
+  "idea": "Groceries delivered in 10-15 minutes from neighbourhood dark stores",
+  "members": [
+   "getir",
+   "getir-international",
+   "gorillas",
+   "flink",
+   "zepto",
+   "blinkit",
+   "gopuff",
+   "jokr",
+   "fridge-no-more",
+   "buyk"
+  ],
+  "lesson": "10-minute delivery worked in dense, lower-wage Istanbul and Indian metros (Getir Turkey, Zepto, Blinkit) but collapsed across Western Europe and the US once cheap capital ended, because wages and low order density made most orders loss-making; Getir quit every market outside Turkey by 2024."
+ },
+ {
+  "id": "food_delivery_wars",
+  "idea": "App-based restaurant food delivery",
+  "members": [
+   "deliveroo",
+   "deliveroo-spain",
+   "deliveroo-germany",
+   "take-eat-easy",
+   "delivery-hero",
+   "wolt",
+   "talabat",
+   "yemeksepeti",
+   "jumia-food",
+   "glovo",
+   "doordash",
+   "swiggy"
+  ],
+  "lesson": "Food delivery is winner-take-most city by city: whoever reached order density first (Talabat, Yemeksepeti, Lieferando in Germany, Glovo in Spain, Wolt in the Nordics) won, while late or sub-scale entrants (Take Eat Easy, Deliveroo in Germany and Spain, Jumia Food) exited."
+ },
+ {
+  "id": "anything_delivery",
+  "idea": "On-demand courier delivering anything from local stores",
+  "members": [
+   "glovo",
+   "rappi",
+   "postmates",
+   "dunzo"
+  ],
+  "lesson": "Glovo won where it arrived first (Spain, Italy, Eastern Europe, Africa) but sold its Latin American arm in 2020 rather than keep fighting the better-funded Rappi; Postmates sold to Uber and India's Dunzo collapsed."
+ },
+ {
+  "id": "ride_hailing_local_champions",
+  "idea": "Smartphone ride-hailing",
+  "members": [
+   "uber",
+   "careem",
+   "cabify",
+   "bolt",
+   "didi",
+   "grab",
+   "ola"
+  ],
+  "lesson": "Local champions beat Uber where they adapted faster to cash payments, licensed drivers and local regulation (Careem, Cabify, Bolt, DiDi, Grab); several ended up selling to Uber or swapping equity with it rather than fighting to the end."
+ },
+ {
+  "id": "motorbike_taxi",
+  "idea": "App-hailed motorbike taxis",
+  "members": [
+   "oride",
+   "gokada",
+   "safeboda",
+   "gojek",
+   "rapido"
+  ],
+  "lesson": "Bike-taxi apps thrived where governments tolerated them (Indonesia, India, Uganda) and died overnight when Lagos banned commercial motorbike hailing across most of the city in 2020."
+ },
+ {
+  "id": "mass_transit_buses",
+  "idea": "Tech-run bus networks booked by app",
+  "members": [
+   "flix",
+   "swvl",
+   "chariot",
+   "bridj",
+   "via"
+  ],
+  "lesson": "FlixBus won by running an asset-light intercity network for existing bus operators right after German deregulation, while subsidised urban shuttle startups (Swvl, Ford's Chariot, Bridj) burned cash and shut or shrank."
+ },
+ {
+  "id": "bnpl",
+  "idea": "Buy now, pay later at checkout",
+  "members": [
+   "klarna",
+   "tabby",
+   "lipa-later",
+   "affirm",
+   "afterpay",
+   "tamara"
+  ],
+  "lesson": "BNPL depends on cheap wholesale funding and large merchant networks: Klarna (with a bank licence) and Tabby (in the cash-rich Gulf) raised billions, while Kenya's Lipa Later entered administration in 2025 after failing to raise more debt."
+ },
+ {
+  "id": "mobile_money",
+  "idea": "Phone-based money transfers and payments through agent networks",
+  "members": [
+   "m-pesa",
+   "m-pesa-south-africa",
+   "wave",
+   "opay",
+   "moniepoint",
+   "dash",
+   "bkash",
+   "gcash",
+   "paytm"
+  ],
+  "lesson": "Mobile money exploded where banks were scarce and a dominant telco or agent network existed (Kenya, Senegal, Nigeria) and flopped where banks already served people: the same M-Pesa product reached about 76,000 active users in South Africa and was shut in 2016."
+ },
+ {
+  "id": "neobank",
+  "idea": "Mobile-only bank account",
+  "members": [
+   "revolut",
+   "n26",
+   "n26-us",
+   "nuri",
+   "tymebank",
+   "monzo",
+   "chime",
+   "nubank",
+   "simple"
+  ],
+  "lesson": "Neobanks won on home turf with a licence and cross-selling (Revolut, Nubank, Chime, TymeBank) but struggled abroad: N26 quit the UK in 2020 and the US in 2022, BBVA shut US neobank Simple and crypto-linked Nuri went insolvent."
+ },
+ {
+  "id": "online_car_retail",
+  "idea": "Buy and sell used cars online with home delivery",
+  "members": [
+   "cazoo",
+   "auto1",
+   "carvana",
+   "vroom",
+   "cars24",
+   "kavak"
+  ],
+  "lesson": "Holding car inventory needs cheap capital: Auto1 (B2B wholesale first, fast turnover) survived, Cazoo and Vroom collapsed when rates rose, and Carvana came close to failing before recovering."
+ },
+ {
+  "id": "evtol_air_taxi",
+  "idea": "Electric vertical take-off air taxis",
+  "members": [
+   "lilium",
+   "volocopter",
+   "joby-aviation",
+   "archer-aviation",
+   "ehang"
+  ],
+  "lesson": "Certification took far longer and more cash than SPAC-era plans assumed; US players with deep strategic backers survived while Germany's two leaders (Lilium, Volocopter) ran out of money in 2024-25."
+ },
+ {
+  "id": "battery_gigafactory",
+  "idea": "New battery-cell gigafactories for EVs",
+  "members": [
+   "northvolt",
+   "britishvolt",
+   "catl"
+  ],
+  "lesson": "CATL scaled with China's supply chain and huge domestic EV demand, while Western newcomers hit production-yield problems and capital gaps: Britishvolt never built its plant and Northvolt went bankrupt after raising over $15B."
+ },
+ {
+  "id": "ev_startups",
+  "idea": "New electric vehicle makers",
+  "members": [
+   "arrival",
+   "sono-motors",
+   "lightyear",
+   "e-go-mobile",
+   "volta-trucks",
+   "rivian",
+   "nio",
+   "nikola",
+   "canoo",
+   "fisker"
+  ],
+  "lesson": "Only EV startups with very large capital and anchor demand (Rivian with Amazon, NIO with Chinese state support) reached volume; European newcomers (Arrival, Sono, Lightyear, e.GO, Volta Trucks) died before mass production, as did US SPACs Nikola, Canoo and Fisker."
+ },
+ {
+  "id": "vertical_farming",
+  "idea": "Indoor vertical farms growing produce near cities",
+  "members": [
+   "infarm",
+   "aerofarms",
+   "plenty",
+   "bowery-farming"
+  ],
+  "lesson": "The idea failed in every market: when energy prices rose after 2022, indoor farms in Europe (Infarm) and the US (AeroFarms, Bowery, Plenty) could not make produce cheaply enough and collapsed."
+ },
+ {
+  "id": "social_network_clones",
+  "idea": "Social network for friends and classmates",
+  "members": [
+   "facebook",
+   "studivz",
+   "tuenti",
+   "hyves",
+   "orkut",
+   "vkontakte"
+  ],
+  "lesson": "Local Facebook-style networks won their countries first and sold well (StudiVZ €85M, Tuenti €70M, Hyves €44M), but all lost to Facebook within a few years of it launching in their language; Russia's VKontakte was the rare survivor."
+ },
+ {
+  "id": "used_goods_marketplace",
+  "idea": "App for buying and selling second-hand goods",
+  "members": [
+   "wallapop",
+   "letgo",
+   "vinted",
+   "offerup",
+   "poshmark",
+   "mercari"
+  ],
+  "lesson": "Second-hand marketplaces win on local density or a niche (Wallapop in Spain, Vinted in fashion with buyer-paid fees); Barcelona-built Letgo spent close to $1B on the US with TV ads and lost to OfferUp and Facebook Marketplace."
+ },
+ {
+  "id": "online_fashion",
+  "idea": "Selling clothes and shoes online",
+  "members": [
+   "boo-com",
+   "zalando",
+   "farfetch",
+   "yoox",
+   "zappos",
+   "asos",
+   "myntra",
+   "jabong"
+  ],
+  "lesson": "Online fashion failed in 2000 when broadband and logistics were missing (Boo.com) and worked a decade later with free returns and local payment methods (Zappos, Zalando, ASOS); luxury marketplace Farfetch later collapsed under acquisitions and losses."
+ },
+ {
+  "id": "payments_infra",
+  "idea": "Online payment processing for merchants",
+  "members": [
+   "adyen",
+   "stripe",
+   "paystack",
+   "flutterwave",
+   "interswitch",
+   "wirecard"
+  ],
+  "lesson": "Processors that built their own stack and grew with internet merchants won (Adyen, Stripe, Paystack, Flutterwave), while Wirecard faked growth through partners and collapsed in 2020."
+ },
+ {
+  "id": "transit_navigation_apps",
+  "idea": "Navigation and public-transit route apps",
+  "members": [
+   "waze",
+   "moovit",
+   "citymapper"
+  ],
+  "lesson": "Apps with crowdsourced data sold to strategic buyers for about $1B (Waze to Google, Moovit to Intel), while Citymapper stayed independent without a working revenue model and sold quietly to Via in 2023."
+ },
+ {
+  "id": "digital_insurers",
+  "idea": "Digital-first insurance company",
+  "members": [
+   "alan",
+   "wefox",
+   "luko",
+   "lemonade"
+  ],
+  "lesson": "Insurtechs that controlled claims costs and sold through employers (Alan) kept growing, while fast-growing consumer and broker models with weak loss ratios needed rescues (Wefox) or failed (Luko)."
+ },
+ {
+  "id": "energy_supplier_disruptors",
+  "idea": "Cheap, app-based green energy supplier",
+  "members": [
+   "bulb-energy",
+   "octopus-energy"
+  ],
+  "lesson": "Both UK challengers launched in 2015; Octopus hedged and built its own Kraken software platform and absorbed rivals, while unhedged Bulb collapsed when gas prices spiked in 2021."
+ },
+ {
+  "id": "online_furniture",
+  "idea": "Selling furniture online",
+  "members": [
+   "made-com",
+   "home24",
+   "wayfair"
+  ],
+  "lesson": "Wayfair drop-shipped from suppliers and survived; Made.com (made-to-order in Asia) and Home24 (own bulky inventory) broke when freight costs soared and demand fell after 2021."
+ },
+ {
+  "id": "cloud_kitchens",
+  "idea": "Delivery-only 'dark' kitchens",
+  "members": [
+   "kitopi",
+   "kune-food",
+   "rebel-foods",
+   "reef-technology",
+   "cloudkitchens"
+  ],
+  "lesson": "Kitopi grew in the high-income, delivery-heavy Gulf by cooking for established restaurant brands, while Nairobi's Kune ran out of money within a year of launch."
+ },
+ {
+  "id": "b2b_informal_retail",
+  "idea": "B2B ordering and supply for small informal shops",
+  "members": [
+   "twiga-foods",
+   "capiter",
+   "wasoko",
+   "maxab",
+   "udaan"
+  ],
+  "lesson": "Digitising supply to kiosks attracted big rounds in Kenya, Egypt and India, but thin margins and heavy logistics led to collapses (Capiter, Twiga) and distressed mergers (Wasoko and MaxAB)."
+ },
+ {
+  "id": "long_distance_carpooling",
+  "idea": "Sharing intercity car rides with strangers",
+  "members": [
+   "blablacar",
+   "zimride",
+   "lyft"
+  ],
+  "lesson": "Europe's expensive fuel and rail made paid carpooling a habit and BlaBlaCar became a unicorn; in the US, long-distance carpooling startup Zimride stayed small and its founders pivoted to urban ride-hailing as Lyft."
+ },
+ {
+  "id": "music_streaming",
+  "idea": "Music on demand over the internet",
+  "members": [
+   "spotify",
+   "anghami",
+   "kazaa",
+   "napster",
+   "rdio",
+   "deezer"
+  ],
+  "lesson": "Licensed streaming won where it gave labels an alternative to piracy (Spotify in Sweden, Anghami in the Arab world), while P2P services (Kazaa, Napster) were sued out of existence and Rdio ran out of cash in 2015."
+ },
+ {
+  "id": "digital_freight",
+  "idea": "Apps matching shippers with trucks and couriers",
+  "members": [
+   "sendy",
+   "fetchr",
+   "convoy",
+   "sennder",
+   "kobo360",
+   "blackbuck"
+  ],
+  "lesson": "Digital freight brokers mostly died when freight rates and funding fell (Sendy, Fetchr, US-based Convoy), while India's BlackBuck reached an IPO by charging truckers for software and payments."
+ },
+ {
+  "id": "regional_amazon",
+  "idea": "A regional 'Amazon' everything-store with its own logistics",
+  "members": [
+   "souq",
+   "jumia",
+   "konga",
+   "copia",
+   "takealot",
+   "flipkart",
+   "mercadolibre",
+   "noon"
+  ],
+  "lesson": "Regional e-commerce leaders that built their own delivery and cash-on-delivery (Souq, Flipkart, MercadoLibre) won or sold to Amazon and Walmart, while under-funded rivals were sold cheaply (Konga) or collapsed (Copia)."
+ },
+ {
+  "id": "ev_battery_swap",
+  "idea": "Swapping EV batteries at stations instead of charging",
+  "members": [
+   "better-place",
+   "nio",
+   "gogoro"
+  ],
+  "lesson": "Better Place needed carmakers to adopt a standard swappable battery and only Renault did, so it died in 2013; NIO (cars) and Gogoro (scooters) made swapping work by designing both the vehicle and the battery."
+ },
+ {
+  "id": "vacation_rentals",
+  "idea": "Marketplace for renting private homes to travellers",
+  "members": [
+   "airbnb",
+   "wimdu"
+  ],
+  "lesson": "Rocket Internet's Wimdu launched with a $90M Series A to beat Airbnb to Europe, but Airbnb bought a German clone, localised fast and won; Wimdu shut in 2018."
+ },
+ {
+  "id": "handmade_marketplace",
+  "idea": "Marketplace for handmade and craft goods",
+  "members": [
+   "etsy",
+   "dawanda"
+  ],
+  "lesson": "DaWanda led German-speaking Europe but Etsy's global buyer network won, and DaWanda closed in 2018, sending its sellers to Etsy."
+ },
+ {
+  "id": "local_reviews",
+  "idea": "Crowdsourced reviews of local restaurants and shops",
+  "members": [
+   "yelp",
+   "qype"
+  ],
+  "lesson": "Qype built Europe's largest local-reviews community but sold to Yelp for about $50M in 2012 as Yelp entered Europe."
+ },
+ {
+  "id": "meal_kits",
+  "idea": "Subscription boxes of recipes and pre-portioned ingredients",
+  "members": [
+   "hellofresh",
+   "blue-apron"
+  ],
+  "lesson": "HelloFresh spread across many markets and cut marketing costs with scale, while single-market Blue Apron shrank after its 2017 IPO and sold for $103M in 2023."
+ },
+ {
+  "id": "scooter_sharing",
+  "idea": "Dockless shared e-scooters",
+  "members": [
+   "tier-mobility",
+   "voi",
+   "lime",
+   "bird",
+   "dott"
+  ],
+  "lesson": "After the 2018-21 land grab, operators that cut costs and won city tenders (Lime, Voi) reached profitability, while Bird went bankrupt in 2023 and Tier merged into Dott in 2024."
+ },
+ {
+  "id": "card_readers",
+  "idea": "Phone-connected card readers for small merchants",
+  "members": [
+   "square",
+   "izettle",
+   "sumup"
+  ],
+  "lesson": "Square's US idea was rebuilt for Europe's chip-and-PIN market by iZettle (sold to PayPal for $2.2B in 2018) and SumUp."
+ },
+ {
+  "id": "flash_sales",
+  "idea": "Members-only flash sales of discounted brand goods",
+  "members": [
+   "vente-privee",
+   "privalia",
+   "gilt-groupe"
+  ],
+  "lesson": "European flash-sale sites stayed focused on profitably clearing brand inventory (vente-privée bought Spain's Privalia for €500M in 2016), while US pioneer Gilt sold that year for a fraction of its $1B valuation."
+ },
+ {
+  "id": "language_learning",
+  "idea": "Language-learning app",
+  "members": [
+   "busuu",
+   "duolingo",
+   "babbel"
+  ],
+  "lesson": "Madrid-born Busuu sold to Chegg for $436M in 2021, the same year Duolingo's gamified free model took it to an IPO."
+ },
+ {
+  "id": "online_tutoring",
+  "idea": "Online tutoring for school students",
+  "members": [
+   "edukoya",
+   "gostudent",
+   "byjus"
+  ],
+  "lesson": "Pandemic demand made GoStudent and BYJU'S giants, but BYJU'S then imploded and GoStudent shrank, while Nigeria's Edukoya shut in 2025 because poor connectivity and devices made live tutoring hard to scale."
+ },
+ {
+  "id": "online_real_estate_agents",
+  "idea": "Low-fee online estate agent",
+  "members": [
+   "purplebricks",
+   "redfin"
+  ],
+  "lesson": "Purplebricks' fixed-fee model reached a ~£1.4B value in the UK but failed in the US and Australia and was sold for £1 in 2023; Redfin's salaried-agent model survived and was acquired by Rocket Companies in 2025."
+ },
+ {
+  "id": "leo_satellite_broadband",
+  "idea": "Low-earth-orbit satellite internet constellation",
+  "members": [
+   "oneweb",
+   "starlink"
+  ],
+  "lesson": "OneWeb went bankrupt in 2020 when its main investor stopped funding it, while SpaceX's Starlink used its own reusable rockets to launch satellites far more cheaply."
+ },
+ {
+  "id": "digital_first_primary_care",
+  "idea": "App-based GP and virtual primary care",
+  "members": [
+   "babylon-health",
+   "teladoc"
+  ],
+  "lesson": "Babylon took on full financial risk for US patients under value-based contracts and collapsed in 2023, while Teladoc stayed a fee-for-service virtual-visit provider and survived despite big write-downs."
+ },
+ {
+  "id": "open_banking_api",
+  "idea": "APIs connecting bank accounts to apps",
+  "members": [
+   "okra",
+   "plaid",
+   "tink",
+   "truelayer",
+   "mono"
+  ],
+  "lesson": "Open-banking APIs became unicorns or big exits where regulation forced banks to share data (Tink bought by Visa, TrueLayer in the UK, Plaid in the US), while Nigeria's Okra shut in 2025 just before the central bank's rules took effect."
+ }
+]

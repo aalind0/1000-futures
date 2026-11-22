@@ -1,0 +1,646 @@
+[
+ [
+  "A startup that polishes the hand movements in autonomous robots for cheap",
+  "robotics/manipulation"
+ ],
+ [
+  "Humanoid robots that do household chores",
+  "robotics/humanoids"
+ ],
+ [
+  "Foundation model for robots trained on teleoperation data",
+  "robotics/robot_learning"
+ ],
+ [
+  "Low-cost robotic arms for small factories",
+  "robotics/industrial"
+ ],
+ [
+  "Exoskeleton suits for warehouse workers",
+  "robotics/exoskeletons"
+ ],
+ [
+  "Robot vacuum that also mops and empties itself",
+  "robotics/home_robots"
+ ],
+ [
+  "Drone delivery of medical supplies to rural clinics",
+  "robotics/drones"
+ ],
+ [
+  "Reusable rockets for launching small satellites",
+  "space/launch"
+ ],
+ [
+  "Satellite imagery analytics for crop insurance",
+  "space/earth_obs"
+ ],
+ [
+  "Space station for private astronauts and in-orbit manufacturing",
+  "space/in_space"
+ ],
+ [
+  "Direct-to-cell satellite internet for phones",
+  "space/sat_comms"
+ ],
+ [
+  "A new transformer alternative architecture for LLMs that is 10x cheaper to train",
+  "ai/foundation_models"
+ ],
+ [
+  "GPU cloud for AI startups",
+  "ai/ai_compute|ai/ai_infra"
+ ],
+ [
+  "AI agent that books meetings and answers your email",
+  "ai/ai_agents"
+ ],
+ [
+  "AI video generation for marketers",
+  "ai/genai_media"
+ ],
+ [
+  "AI that reviews pull requests and writes code",
+  "devtools/ai_coding"
+ ],
+ [
+  "Photonic chips for AI inference",
+  "semis/ai_chips"
+ ],
+ [
+  "Quantum computer using trapped ions",
+  "semis/quantum"
+ ],
+ [
+  "Book a vetted home cleaner online in 60 seconds",
+  "home_services/cleaning"
+ ],
+ [
+  "Groceries delivered in 10 minutes from dark stores",
+  "delivery/quick_commerce"
+ ],
+ [
+  "Neobank for freelancers",
+  "fintech/neobank"
+ ],
+ [
+  "Buy now pay later for travel bookings",
+  "fintech/bnpl"
+ ],
+ [
+  "AI bookkeeping for small businesses",
+  "fintech/b2b_finance"
+ ],
+ [
+  "Stablecoin payments for cross-border B2B trade",
+  "crypto/stablecoins"
+ ],
+ [
+  "Marketplace for used luxury handbags",
+  "commerce/resale"
+ ],
+ [
+  "Online tutoring for kids in India",
+  "edtech/k12_tutoring"
+ ],
+ [
+  "Mental health therapy app with licensed therapists",
+  "health/mental_health"
+ ],
+ [
+  "Brain-computer interface that lets paralyzed people type",
+  "health/neurotech"
+ ],
+ [
+  "AI drug discovery for rare diseases",
+  "bio/drug_discovery"
+ ],
+ [
+  "Drugs that reverse aging",
+  "bio/longevity"
+ ],
+ [
+  "Fusion reactor that produces cheap power",
+  "climate/fusion_nuclear"
+ ],
+ [
+  "Direct air capture of CO2",
+  "climate/carbon"
+ ],
+ [
+  "Solid-state batteries for electric cars",
+  "climate/batteries"
+ ],
+ [
+  "Electric air taxis for cities",
+  "mobility/air_mobility"
+ ],
+ [
+  "Self-driving trucks for long-haul freight",
+  "mobility/autonomous_vehicles"
+ ],
+ [
+  "Shared e-scooters in cities",
+  "mobility/micromobility"
+ ],
+ [
+  "Online marketplace for used cars with home delivery",
+  "mobility/car_commerce"
+ ],
+ [
+  "Premium 10-minute shows from Hollywood studios, made only for phones",
+  "media/streaming"
+ ],
+ [
+  "Dating app for dog owners",
+  "social/dating"
+ ],
+ [
+  "Mobile game where you build a city with friends",
+  "gaming/mobile_games"
+ ],
+ [
+  "A Wi-Fi connected juicer that presses subscription juice packs",
+  "hardware/smart_home"
+ ],
+ [
+  "Plant-based burgers that taste like beef",
+  "food/alt_protein"
+ ],
+ [
+  "Cloud kitchens for delivery-only restaurant brands",
+  "food/cloud_kitchens"
+ ],
+ [
+  "Coworking spaces for startups",
+  "property/workspace_living"
+ ],
+ [
+  "Rent an air mattress in a stranger’s apartment when the hotels are sold out",
+  "travel/home_sharing"
+ ],
+ [
+  "Digital freight brokerage connecting shippers and truckers",
+  "logistics/freight"
+ ],
+ [
+  "Recruiting platform for nurses",
+  "work/recruiting"
+ ],
+ [
+  "Cybersecurity for small businesses",
+  "security/cybersecurity"
+ ],
+ [
+  "Autonomous defense drones for border surveillance",
+  "defense/defense_autonomy"
+ ],
+ [
+  "Vertical farming inside cities",
+  "agri/vertical_farming"
+ ],
+ [
+  "AI that drafts contracts for lawyers",
+  "legal_gov/legaltech"
+ ],
+ [
+  "Car insurance priced by how you drive",
+  "insurance/auto_ins"
+ ],
+ [
+  "Software that makes cheap robot grippers as precise as expensive ones",
+  "robotics/manipulation"
+ ],
+ [
+  "Teaching robots new tasks by watching videos of humans",
+  "robotics/robot_learning"
+ ],
+ [
+  "A two-legged robot that can work in any warehouse",
+  "robotics/humanoids|robotics/industrial"
+ ],
+ [
+  "Tiny satellites that photograph every farm on Earth daily",
+  "space/earth_obs"
+ ],
+ [
+  "Mining helium-3 on the Moon",
+  "space/in_space"
+ ],
+ [
+  "Open-source LLM trained only on licensed data",
+  "ai/foundation_models"
+ ],
+ [
+  "Chatbot that handles customer support tickets for Shopify stores",
+  "ai/ai_agents|saas/customer_support"
+ ],
+ [
+  "Voice cloning for audiobook narration",
+  "ai/genai_media|media/audio"
+ ],
+ [
+  "Cheaper inference by running models on old GPUs",
+  "ai/ai_infra|semis/ai_chips"
+ ],
+ [
+  "Small modular nuclear reactors for data centers",
+  "climate/fusion_nuclear"
+ ],
+ [
+  "Sodium-ion batteries for home storage",
+  "climate/batteries"
+ ],
+ [
+  "App to split rent and bills with roommates",
+  "fintech/payments|property/rentals"
+ ],
+ [
+  "Micro-investing app that rounds up your purchases",
+  "fintech/wealth"
+ ],
+ [
+  "Payroll and HR for companies hiring abroad",
+  "work/payroll_hr"
+ ],
+ [
+  "Uber for plumbers",
+  "home_services/repairs"
+ ],
+ [
+  "Weekly meal kits for families with picky kids",
+  "food/meal_kits"
+ ],
+ [
+  "Lab-grown chicken nuggets",
+  "food/alt_protein"
+ ],
+ [
+  "Telemedicine for rural India over WhatsApp",
+  "health/telehealth"
+ ],
+ [
+  "At-home blood test that checks 50 biomarkers",
+  "health/medtech"
+ ],
+ [
+  "CRISPR therapy for sickle cell disease",
+  "bio/gene_cell"
+ ],
+ [
+  "Tinder for co-founders",
+  "social/dating|work/recruiting"
+ ],
+ [
+  "Short drama series app with 1-minute episodes",
+  "media/streaming"
+ ],
+ [
+  "Marketplace where small shops in Africa order inventory on their phones",
+  "commerce/b2b_marketplace"
+ ],
+ [
+  "Electric motorcycles for delivery riders in Southeast Asia",
+  "mobility/evs"
+ ],
+ [
+  "Autonomous tractors that plant and harvest crops",
+  "robotics/field_robots|agri/farm_tech"
+ ],
+ [
+  "Counter-drone lasers for the military",
+  "defense/defense_hw|defense/defense_autonomy"
+ ],
+ [
+  "Smart glasses that translate conversations in real time",
+  "hardware/ar_vr"
+ ],
+ [
+  "Platform for creators to sell courses to their fans",
+  "media/creator|edtech/upskilling"
+ ],
+ [
+  "Insurance for gig workers paid by the hour",
+  "insurance/embedded_ins|work/freelance_gig"
+ ],
+ [
+  "A Bloomberg terminal for crypto traders",
+  "crypto/exchanges|fintech/wealth"
+ ],
+ [
+  "cheap robot hands that can fold laundry",
+  "robotics/manipulation|robotics/home_robots"
+ ],
+ [
+  "we make robots learn faster using simulation",
+  "robotics/robot_learning"
+ ],
+ [
+  "startup building the brain for humanoid robots",
+  "robotics/robot_learning|robotics/humanoids"
+ ],
+ [
+  "robotic dogs for inspecting oil rigs",
+  "robotics/field_robots"
+ ],
+ [
+  "rocket that can launch every day from any airport",
+  "space/launch"
+ ],
+ [
+  "3D printing factories in orbit",
+  "space/in_space"
+ ],
+ [
+  "an AI model that is way smaller but just as smart as GPT",
+  "ai/foundation_models"
+ ],
+ [
+  "tool that tests LLM apps for hallucinations",
+  "ai/ai_infra"
+ ],
+ [
+  "AI receptionist for dental clinics",
+  "ai/ai_agents|health/health_admin"
+ ],
+ [
+  "making AI chips out of light instead of electricity",
+  "semis/ai_chips"
+ ],
+ [
+  "quantum sensors for navigation without GPS",
+  "semis/quantum|semis/sensors"
+ ],
+ [
+  "fusion startup using lasers",
+  "climate/fusion_nuclear"
+ ],
+ [
+  "turning CO2 into jet fuel",
+  "climate/carbon|climate/renewables"
+ ],
+ [
+  "batteries made from sand",
+  "climate/batteries"
+ ],
+ [
+  "Neuralink but non-invasive headset",
+  "health/neurotech"
+ ],
+ [
+  "pill that makes you live to 150",
+  "bio/longevity"
+ ],
+ [
+  "AI that designs new proteins for medicines",
+  "bio/drug_discovery"
+ ],
+ [
+  "electric planes for short regional flights",
+  "mobility/air_mobility"
+ ],
+ [
+  "robotaxis for Indian cities",
+  "mobility/autonomous_vehicles"
+ ],
+ [
+  "app where people rent out their cars when not using them",
+  "mobility/car_commerce"
+ ],
+ [
+  "instant noodles delivered in 5 minutes",
+  "delivery/quick_commerce|delivery/food_delivery"
+ ],
+ [
+  "WhatsApp bot to order groceries in Lagos",
+  "delivery/grocery|commerce/b2b_marketplace"
+ ],
+ [
+  "UPI for cross border payments",
+  "fintech/payments|fintech/remittance"
+ ],
+ [
+  "credit cards for students with no credit history",
+  "fintech/lending"
+ ],
+ [
+  "an app that teaches kids coding with games",
+  "edtech/k12_tutoring"
+ ],
+ [
+  "Duolingo for sign language",
+  "edtech/language"
+ ],
+ [
+  "marketplace for renting designer dresses",
+  "commerce/fashion_beauty|commerce/resale"
+ ],
+ [
+  "ghost kitchens run by robots",
+  "food/food_robotics|food/cloud_kitchens"
+ ],
+ [
+  "drones that plant trees",
+  "robotics/drones|climate/carbon"
+ ],
+ [
+  "military AI that predicts enemy movements",
+  "defense/defense_autonomy"
+ ],
+ [
+  "robot arms that cook burgers in fast food restaurants",
+  "food/food_robotics|robotics/industrial|robotics/manipulation"
+ ],
+ [
+  "tactile sensors that give robots a sense of touch",
+  "robotics/manipulation|semis/sensors"
+ ],
+ [
+  "cheaper humanoid robot for elderly care at home",
+  "robotics/humanoids|robotics/home_robots"
+ ],
+ [
+  "data platform that collects robot training data from teleoperators",
+  "robotics/robot_learning"
+ ],
+ [
+  "satellites that refuel other satellites",
+  "space/in_space"
+ ],
+ [
+  "startup training a 1-trillion parameter open model in Europe",
+  "ai/foundation_models"
+ ],
+ [
+  "diffusion model that generates 3D game assets",
+  "ai/genai_media|gaming/game_tools"
+ ],
+ [
+  "AI copilot for accountants",
+  "ai/ai_agents|fintech/b2b_finance"
+ ],
+ [
+  "chips designed specifically for running transformers",
+  "semis/ai_chips"
+ ],
+ [
+  "geothermal energy drilled anywhere",
+  "climate/renewables"
+ ],
+ [
+  "affordable EV for Africa",
+  "mobility/evs"
+ ],
+ [
+  "hydrogen-powered long-haul trucks",
+  "mobility/evs|climate/renewables|logistics/freight"
+ ],
+ [
+  "continuous glucose monitor for non-diabetics",
+  "health/medtech|health/digital_therapeutics"
+ ],
+ [
+  "gene therapy to cure deafness",
+  "bio/gene_cell"
+ ],
+ [
+  "cultivated salmon grown from fish cells",
+  "food/alt_protein"
+ ],
+ [
+  "P2P lending for farmers in Kenya",
+  "fintech/lending"
+ ],
+ [
+  "crypto wallet for people who have never used crypto",
+  "crypto/chain_infra|crypto/exchanges|fintech/neobank"
+ ],
+ [
+  "secondhand iPhones refurbished and sold online",
+  "commerce/resale"
+ ],
+ [
+  "online pharmacy delivering medicines in 30 minutes",
+  "health/pharmacy|delivery/quick_commerce"
+ ],
+ [
+  "AI tutor that explains math homework step by step",
+  "edtech/k12_tutoring"
+ ],
+ [
+  "LinkedIn for blue collar workers",
+  "work/recruiting|social/social_network"
+ ],
+ [
+  "podcast app with AI summaries",
+  "media/audio"
+ ],
+ [
+  "satellite internet for ships and planes",
+  "space/sat_comms"
+ ],
+ [
+  "coliving homes for digital nomads",
+  "property/workspace_living"
+ ],
+ [
+  "autonomous drone swarms for firefighting",
+  "robotics/drones|defense/defense_autonomy"
+ ],
+ [
+  "AI agent that does bookkeeping and accounting for small businesses",
+  "fintech/b2b_finance"
+ ],
+ [
+  "AI copilot for hedge fund analysts that reads earnings calls",
+  "fintech/capital_markets"
+ ],
+ [
+  "AI underwriting for small business loans",
+  "fintech/lending"
+ ],
+ [
+  "AI lawyer that drafts contracts",
+  "legal_gov/legaltech"
+ ],
+ [
+  "AI tutor for high school math",
+  "edtech/k12_tutoring"
+ ],
+ [
+  "AI that reads radiology scans",
+  "health/medtech"
+ ],
+ [
+  "AI drug discovery platform",
+  "bio/drug_discovery"
+ ],
+ [
+  "GPU cloud for training AI models",
+  "ai/ai_compute"
+ ],
+ [
+  "Liquid cooling for AI data centers",
+  "ai/ai_compute"
+ ],
+ [
+  "AI chip startup for inference",
+  "semis/ai_chips"
+ ],
+ [
+  "AI for satellite imagery analysis",
+  "space/earth_obs"
+ ],
+ [
+  "AI voice agent that answers phone calls for restaurants",
+  "food/restaurant_tech|ai/ai_agents"
+ ],
+ [
+  "AI SDR that books sales meetings",
+  "saas/sales_crm"
+ ],
+ [
+  "AI customer support agent for ecommerce",
+  "saas/customer_support"
+ ],
+ [
+  "AI search engine that cites sources",
+  "ai/ai_agents"
+ ],
+ [
+  "Open source LLM for enterprises",
+  "ai/foundation_models"
+ ],
+ [
+  "LLM observability and evals for developers",
+  "ai/ai_infra"
+ ],
+ [
+  "Vector database for AI applications",
+  "ai/ai_infra"
+ ],
+ [
+  "AI security for LLM prompt injection",
+  "security/cybersecurity"
+ ],
+ [
+  "AI that writes ad creatives",
+  "adtech/marketing_sw"
+ ],
+ [
+  "AI for recruiting that screens candidates",
+  "work/recruiting"
+ ],
+ [
+  "AI wearable pendant that records your day",
+  "hardware/wearables"
+ ],
+ [
+  "AI that negotiates freight rates for truckers",
+  "logistics/freight"
+ ],
+ [
+  "A personal AI assistant that manages your calendar and email",
+  "ai/ai_agents"
+ ]
+]

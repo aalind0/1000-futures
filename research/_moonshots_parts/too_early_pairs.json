@@ -1,0 +1,259 @@
+[
+ {
+  "early_id": "general-magic",
+  "later_id": "apple-iphone",
+  "early_year": 1990,
+  "later_year": 2007,
+  "gap_years": 17,
+  "what_changed": "Cheap low-power ARM chips, capacitive multitouch screens, lithium-ion batteries and 3G data made General Magic's 1990 pocket-communicator vision practical; General Magic alumni such as Tony Fadell and Andy Rubin later built the iPod/iPhone and Android.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/General_Magic"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "webvan",
+  "later_id": "instacart",
+  "early_year": 1996,
+  "later_year": 2012,
+  "gap_years": 16,
+  "what_changed": "Instacart skipped Webvan's purpose-built automated warehouses and used smartphone-dispatched gig shoppers picking from existing grocery stores, so it needed little capital per new city.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Webvan",
+   "https://en.wikipedia.org/wiki/Instacart"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "better-place",
+  "later_id": "nio",
+  "early_year": 2007,
+  "later_year": 2018,
+  "gap_years": 11,
+  "what_changed": "NIO makes both the cars and the swap stations, so it did not need other automakers to adopt a swappable pack, the dependency that sank Better Place (only one Renault model ever used its swaps).",
+  "sources": [
+   "https://fortune.com/2013/05/24/exclusive-better-place-to-file-for-bankruptcy/"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "kozmo",
+  "later_id": "doordash",
+  "early_year": 1998,
+  "later_year": 2013,
+  "gap_years": 15,
+  "what_changed": "GPS smartphones, per-delivery gig couriers and per-order fees replaced Kozmo's salaried couriers and free one-hour delivery, and restaurants rather than owned inventory supplied the goods.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kozmo.com",
+   "https://en.wikipedia.org/wiki/DoorDash"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "kozmo",
+  "later_id": "gopuff",
+  "early_year": 1998,
+  "later_year": 2013,
+  "gap_years": 15,
+  "what_changed": "Gopuff rebuilt Kozmo's own-inventory, fast-delivery model with app ordering, delivery fees and a focus on dense college-town demand before expanding.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kozmo.com",
+   "https://en.wikipedia.org/wiki/Gopuff"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "pets-com",
+  "later_id": "chewy",
+  "early_year": 1998,
+  "later_year": 2011,
+  "gap_years": 13,
+  "what_changed": "Chewy arrived after e-commerce logistics, broadband and online-shopping habits matured, and built repeat revenue through Autoship subscriptions instead of selling heavy, low-margin goods below cost.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pets.com"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "segway",
+  "later_id": "lime",
+  "early_year": 2001,
+  "later_year": 2018,
+  "gap_years": 17,
+  "what_changed": "Cheap mass-produced kick e-scooters, smartphone unlock with GPS, and pay-per-minute sharing replaced an expensive personally owned device; Segway itself was bought by Chinese scooter maker Ninebot in 2015.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Segway_Inc."
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "google-glass",
+  "later_id": "ray-ban-meta",
+  "early_year": 2013,
+  "later_year": 2023,
+  "gap_years": 10,
+  "what_changed": "Meta and EssilorLuxottica hid camera, speakers and an AI assistant inside ordinary-looking Ray-Ban frames at a mainstream price, avoiding Glass's conspicuous display and the privacy backlash against its wearers.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Google_Glass"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "sixdegrees",
+  "later_id": "facebook",
+  "early_year": 1997,
+  "later_year": 2004,
+  "gap_years": 7,
+  "what_changed": "Many more people were online, broadband and digital cameras made photo sharing easy, and Facebook seeded dense real-identity networks one campus at a time.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SixDegrees.com"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "vpl-research",
+  "later_id": "oculus",
+  "early_year": 1985,
+  "later_year": 2012,
+  "gap_years": 27,
+  "what_changed": "Smartphone-driven mass production made high-resolution displays, gyroscopes and accelerometers cheap enough for a consumer headset. VPL's founding year is given as 1984 or 1985 by different sources.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/VPL_Research"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "z-com",
+  "later_id": "youtube",
+  "early_year": 2000,
+  "later_year": 2005,
+  "gap_years": 5,
+  "what_changed": "Bill Gross (Idealab) attributes Z.com's failure to timing: broadband penetration was too low and video playback was hard in 2000; by 2005 Adobe Flash and broadband had solved both, and YouTube took off.",
+  "sources": [
+   "https://www.ted.com/talks/bill_gross_the_single_biggest_reason_why_start_ups_succeed"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "teledesic",
+  "later_id": "starlink",
+  "early_year": 1990,
+  "later_year": 2020,
+  "gap_years": 30,
+  "what_changed": "Reusable Falcon 9 rockets owned by the same company cut launch costs, satellites became mass-produced, and phased-array user terminals got cheap; Musk noted that every earlier LEO constellation had gone bankrupt.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Teledesic",
+   "https://www.geekwire.com/2020/spacex-ceo-elon-musk-says-theres-nothing-fear-starlink-broadband-constellation/"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "gm-ev1",
+  "later_id": "tesla",
+  "early_year": 1996,
+  "later_year": 2008,
+  "gap_years": 12,
+  "what_changed": "Lithium-ion laptop cells (the Tesla Roadster used thousands of 18650 cells) replaced the EV1's lead-acid and NiMH packs, giving usable range, and Tesla started with a high-priced performance car instead of a lease-only compact.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/General_Motors_EV1",
+   "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "napster",
+  "later_id": "spotify",
+  "early_year": 1999,
+  "later_year": 2008,
+  "gap_years": 9,
+  "what_changed": "Spotify licensed catalogs from the labels and paid royalties through a freemium ad plus subscription model, on far cheaper bandwidth; Napster co-founder Sean Parker later invested in Spotify.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Napster",
+   "https://en.wikipedia.org/wiki/Spotify"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "digicash",
+  "later_id": "bitcoin",
+  "early_year": 1989,
+  "later_year": 2009,
+  "gap_years": 20,
+  "what_changed": "Bitcoin removed the need for banks to license a central issuer (DigiCash's adoption bottleneck) by using a decentralized proof-of-work ledger; mass internet use and later exchanges such as Coinbase (2012) gave it on-ramps.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/DigiCash",
+   "https://en.wikipedia.org/wiki/Bitcoin"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "thinking-machines",
+  "later_id": "nvidia",
+  "early_year": 1983,
+  "later_year": 2012,
+  "gap_years": 29,
+  "what_changed": "Massively parallel computing for AI, which Thinking Machines sold as bespoke Connection Machine supercomputers, arrived as mass-market gaming GPUs plus CUDA and large datasets such as ImageNet (AlexNet trained on two Nvidia GPUs in 2012).",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Thinking_Machines_Corporation",
+   "https://en.wikipedia.org/wiki/AlexNet"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "apple-newton",
+  "later_id": "apple-ipad",
+  "early_year": 1993,
+  "later_year": 2010,
+  "gap_years": 17,
+  "what_changed": "Capacitive multitouch replaced stylus handwriting recognition, which was widely mocked, and Wi-Fi/3G, an app store and far better batteries arrived; the ARM partnership Apple formed for the Newton powered the iPad.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Apple_Newton",
+   "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "att-picturephone",
+  "later_id": "zoom",
+  "early_year": 1970,
+  "later_year": 2013,
+  "gap_years": 43,
+  "what_changed": "Broadband, a webcam in every laptop and phone, software codecs on cloud servers and a free tier replaced dedicated terminals and per-minute fees; COVID-19 lockdowns in 2020 then forced mass adoption.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Picturephone"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ },
+ {
+  "early_id": "boo-com",
+  "later_id": "zalando",
+  "early_year": 1998,
+  "later_year": 2008,
+  "gap_years": 10,
+  "what_changed": "Broadband and mature e-commerce platforms removed the slow, heavy site that hurt Boo.com in dial-up Europe, and Zalando won with free shipping and free returns, launching first in one country (Germany).",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Boo.com",
+   "https://en.wikipedia.org/wiki/Zalando"
+  ],
+  "verified": false,
+  "note": "Written from model knowledge; sources are canonical pages not fetched this session (WebFetch denied, search budget exhausted). Verify before shipping."
+ }
+]
