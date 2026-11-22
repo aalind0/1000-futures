@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>1,000 Futures</title>
+<meta name="description" content="Type your startup idea and watch it live 1,000 lives. Every death and every win comes from real startup history, with sources.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="1,000 Futures">
+<meta property="og:title" content="1,000 Futures: a reality check for startup ideas">
+<meta property="og:description" content="Type an idea. See the real companies that tried it, how they died, who funds the space, and 1,000 simulated futures. Every number sourced.">
+<meta property="og:url" content="https://aalind0.github.io/1000-futures/">
+<meta property="og:image" content="https://aalind0.github.io/1000-futures/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Your startup, lived 1,000 times: a grid of 1,000 dots, most red for futures that died, a few gold for unicorns.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://aalind0.github.io/1000-futures/">
+<meta name="theme-color" content="#07080d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307080d'/%3E%3Ccircle cx='32' cy='32' r='11' fill='%23ffd84d'/%3E%3Ccircle cx='14' cy='16' r='3' fill='%23c4deff'/%3E%3Ccircle cx='50' cy='14' r='3' fill='%23ff5a4e'/%3E%3Ccircle cx='52' cy='48' r='3' fill='%23c4deff'/%3E%3Ccircle cx='12' cy='50' r='3' fill='%23ff5a4e'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="./"><span class="brand-dot"></span>1,000 Futures<span class="beta" title="Early version: the data is a sample and still growing">Beta</span></a>
+  <nav>
+    <a href="#how" data-scroll>How it works</a>
+    <a href="data.html">Data room</a>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">☾</button>
+  </nav>
+</header>
+
+<main>
+  <!-- 1. PITCH -->
+  <section id="pitch" class="screen pitch">
+    <p class="eyebrow">A reality check for startup ideas</p>
+    <h1>Your startup,<br><em>lived 1,000 times.</em></h1>
+    <p class="lede">Type your idea. See every real company that tried something like it, how they died or won, and what their founders actually took home. Then watch your idea play out 1,000 times on the real odds. It’s a reality check, not a prediction.</p>
+
+    <form id="pitchForm" autocomplete="off">
+      <div class="idea-box">
+        <textarea id="idea" rows="2" maxlength="220" placeholder="One line. e.g. Book a vetted home cleaner in 60 seconds" required></textarea>
+        <span class="count" id="ideaCount">0/220</span>
+      </div>
+
+      <div class="controls">
+        <div class="field">
+          <span class="field-label">Where you are</span>
+          <div class="seg" id="stageSeg" role="radiogroup" aria-label="Stage">
+            <button type="button" data-v="pre_seed" class="on">Idea / pre-seed</button>
+            <button type="button" data-v="seed">Seed</button>
+            <button type="button" data-v="A">Series A</button>
+            <button type="button" data-v="B">Series B+</button>
+          </div>
+        </div>
+        <div class="field">
+          <label class="field-label" for="market">Home market</label>
+          <select id="market"></select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="founders">Founders</label>
+          <select id="founders">
+            <option value="first">First-time founders</option>
+            <option value="repeat_win">Repeat founders with an exit</option>
+            <option value="repeat_fail">Repeat founders, last one failed</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field-label" for="startupName">Startup name <span class="opt">(optional)</span></label>
+          <input id="startupName" class="text-in" type="text" maxlength="40" placeholder="We'll make one up">
+        </div>
+        <label class="moon-toggle" title="Moonshots die more often, take longer, and win bigger">
+          <input type="checkbox" id="moon">
+          <span class="switch" aria-hidden="true"></span>
+          <span>Moonshot mode <small id="moonHint">auto-detects crazy ideas</small></span>
+        </label>
+      </div>
+
+      <button class="run" type="submit"><span>Run 1,000 futures</span><span class="arrow">→</span></button>
+      <p class="enter-hint">or press <kbd>Enter ↵</kbd> · <kbd>Shift</kbd> + <kbd>Enter</kbd> for a new line</p>
+    </form>
+    <p class="disclaimer" id="disclaimer"><b>Beta.</b> Not financial or investment advice. Built on a sample of real companies and published base rates, not every startup ever funded. The 1,000 futures are simulations, not predictions.</p>
+
+    <div class="presets">
+      <span class="presets-label">What if these pitches launched today?</span>
+      <div id="presetChips" class="chips"></div>
+    </div>
+  </section>
+
+  <!-- 2. READING -->
+  <section id="reading" class="screen reading" hidden>
+    <div class="reading-box">
+      <p class="eyebrow">Reading your idea</p>
+      <blockquote id="readIdea"></blockquote>
+      <ol id="readLines" class="read-lines"></ol>
+    </div>
+  </section>
+
+  <!-- 3. SIMULATION -->
+  <section id="sim" class="screen sim" hidden>
+    <div class="sim-head">
+      <div class="sim-title">
+        <p class="eyebrow" id="simMeta"></p>
+        <p class="sim-idea" id="simIdea"></p>
+      </div>
+      <div class="year-wrap"><span class="year-label">Year</span><span class="year" id="year">2026</span></div>
+    </div>
+    <div class="counters">
+      <div class="ctr alive"><b id="cAlive">1000</b><span>still alive</span></div>
+      <div class="ctr dead"><b id="cDead">0</b><span>died</span></div>
+      <div class="ctr exited"><b id="cExit">0</b><span>exited</span></div>
+      <div class="ctr gold"><b id="cUni">0</b><span>hit $1B+</span></div>
+    </div>
+    <div class="stage-wrap">
+      <canvas id="mv" aria-label="1,000 simulated futures moving through funding rounds"></canvas>
+      <div class="tip" id="tip" hidden></div>
+      <div class="winter-flash" id="winterFlash" hidden></div>
+    </div>
+    <div class="timebar">
+      <span class="tl-y">2026</span>
+      <input type="range" id="scrub" min="0" max="120" step="0.25" value="0" aria-label="Scrub through the ten years">
+      <span class="tl-y">2036</span>
+    </div>
+    <div class="sim-foot">
+      <div class="playback">
+        <button id="btnPause" class="ghost">Pause</button>
+        <div class="seg small" id="speedSeg">
+          <button type="button" data-v="1" class="on">1×</button>
+          <button type="button" data-v="2">2×</button>
+          <button type="button" data-v="4">4×</button>
+        </div>
+        <button id="btnSkip" class="ghost">Skip to the end</button>
+        <span class="keys">space pause · ←/→ scrub · S skip</span>
+      </div>
+      <ol class="ticker" id="ticker" aria-live="polite"></ol>
+    </div>
+  </section>
+
+  <!-- 4. RESULTS -->
+  <section id="results" class="results" hidden>
+    <div class="brief" id="pBrief">
+      <p class="eyebrow" id="briefEyebrow">The brief</p>
+      <h2 class="brief-idea" id="briefIdea"></h2>
+      <p class="brief-space" id="briefSpace"></p>
+      <div class="brief-grid" id="briefGrid"></div>
+      <div class="actions">
+        <button id="btnShare" class="primary">Get my share card</button>
+        <button id="btnChallenge" class="ghost">Challenge a friend</button>
+        <button id="btnNew" class="ghost">New idea</button>
+      </div>
+    </div>
+
+    <div class="panel" id="pComps">
+      <h3>Who already tried this <span class="evidence" id="compsEv"></span></h3>
+      <p class="panel-sub" id="triedSub">The real companies closest to your idea: who they were, how they ended, and the sources. Tap any one for its rounds and story.</p>
+      <div id="comps" class="comps"></div>
+    </div>
+
+    <div class="panel grave-panel" id="pGrave">
+      <h3>The graveyard <span class="evidence" id="graveEv"></span></h3>
+      <p class="panel-sub" id="graveSub"></p>
+      <div class="grave-causes" id="graveCauses"></div>
+      <div class="graves" id="graves"></div>
+    </div>
+
+    <div class="panel version-panel" id="pVersion">
+      <h3>What version of this idea wins <span class="evidence" id="versionEv"></span></h3>
+      <p class="version-headline" id="versionHeadline"></p>
+      <ul class="version-verdicts" id="versionVerdicts"></ul>
+      <p class="panel-sub" id="versionSub"></p>
+      <div class="vs-table" id="versionTable"></div>
+      <h4 class="sub-h">What the winners did</h4>
+      <div class="winners" id="versionWinners"></div>
+      <h4 class="sub-h">How the others died</h4>
+      <div class="died-list" id="versionDied"></div>
+      <h4 class="sub-h">Better neighbours</h4>
+      <p class="panel-sub small">Niches next to yours where real companies did better. Re-run your idea there in one tap; the companies that made it there are your playbook.</p>
+      <div class="neighbours" id="versionNeighbours"></div>
+    </div>
+
+    <div class="panel funders-panel" id="pFunders">
+      <h3>Who funds this <span class="evidence" id="fundEv"></span></h3>
+      <p class="version-headline" id="fundHeadline"></p>
+      <p class="panel-sub" id="fundSub"></p>
+      <div class="fund-controls" id="fundControls">
+        <div class="seg small" id="fundStage" role="radiogroup" aria-label="Stage filter">
+          <button type="button" data-v="fit" class="on" id="fundFitBtn">Your next round</button>
+          <button type="button" data-v="all">Any stage</button>
+        </div>
+        <div class="seg small" id="fundPlace" role="radiogroup" aria-label="Where they invest">
+          <button type="button" data-v="any" class="on">Anywhere</button>
+          <button type="button" data-v="region" id="fundRegionBtn">Your region</button>
+        </div>
+      </div>
+      <div class="funders" id="funders"></div>
+      <div class="also-seen" id="alsoSeen"></div>
+      <div class="actions">
+        <button type="button" class="ghost" id="btnFundMore" hidden>Show all</button>
+        <button type="button" class="ghost" id="btnFundCSV">Download the target list (CSV)</button>
+        <button type="button" class="ghost" id="btnFundCopy">Copy the list</button>
+      </div>
+      <p class="fund-note" id="fundNote"></p>
+    </div>
+
+    <div class="panel questions-panel" id="pQuestions">
+      <h3>Questions investors will ask you</h3>
+      <p class="panel-sub">Built from how real companies in your space died, and what the winners did. Have an answer to each before your first meeting.</p>
+      <ol class="questions" id="questions"></ol>
+      <div class="actions"><button type="button" class="ghost" id="btnCopyQs">Copy the questions</button></div>
+    </div>
+
+    <div class="part-divider" id="pSim">
+      <p class="eyebrow">Part two · The simulation</p>
+      <h3>Your idea, lived 1,000 times</h3>
+      <p>Everything above is sourced: real companies, real rounds, real investors. Everything below is a model. It takes published base rates for your stage and region, nudges them a little with the companies above, and plays the idea out 1,000 times. Treat it as a stress test, not a forecast.</p>
+    </div>
+
+    <div class="verdict">
+      <div class="verdict-text">
+        <p class="eyebrow" id="vEyebrow">The verdict</p>
+        <h2 class="big"><span id="vNum">0</span><span class="of">/1,000</span></h2>
+        <p class="verdict-line" id="vLine"></p>
+        <div class="stat-row" id="vStats"></div>
+        <div class="actions">
+          <button id="btnShare2" class="primary">Get my share card</button>
+          <button id="btnReplay" class="ghost">Replay the 1,000 futures</button>
+        </div>
+        <p class="fine" id="vFine"></p>
+      </div>
+      <canvas id="gridCanvas" class="grid-canvas" width="480" height="300" aria-label="All 1,000 outcomes"></canvas>
+    </div>
+
+    <div class="panel why-panel" id="pWhy">
+      <h3 id="whyTitle">Why this number?</h3>
+      <p class="panel-sub">Where the headline comes from, step by step. Most of it is the base rate for any startup like yours; the rest is evidence from the real companies closest to your idea.</p>
+      <div class="why" id="whyRows"></div>
+      <p class="fine" id="whyNote"></p>
+    </div>
+
+    <div class="panel" id="pTake">
+      <h3>What you'd actually take home <span class="model-tag">model</span></h3>
+      <p class="panel-sub">Every round shrinks your stake, and when the company sells, investors get their money back before you see a cent. This is what lands in your pocket, per founder, across all 1,000 futures.</p>
+      <div class="take-controls">
+        <div class="field">
+          <span class="field-label">Co-founders</span>
+          <div class="seg small" id="cofSeg" role="radiogroup" aria-label="Number of co-founders">
+            <button type="button" data-v="1">1</button><button type="button" data-v="2" class="on">2</button><button type="button" data-v="3">3</button><button type="button" data-v="4">4</button>
+          </div>
+        </div>
+        <div class="field">
+          <label class="field-label" for="salary">Your alternative: a job paying</label>
+          <div class="money-in">$<input id="salary" type="number" min="0" step="10000" value="150000" inputmode="numeric"><span>/ year</span></div>
+        </div>
+      </div>
+      <div class="take-stats" id="takeStats"></div>
+      <div class="take-bars" id="takeBars"></div>
+      <div class="trap" id="takeTrap"></div>
+      <div class="own" id="takeOwn"></div>
+      <p class="fine" id="takeFine"></p>
+    </div>
+
+    <div class="panel" id="pBecame">
+      <h3>What it became <span class="model-tag">model</span></h3>
+      <p class="panel-sub" id="becameSub"></p>
+      <div class="endings" id="becameEndings"></div>
+      <h4 class="sub-h">The unicorn pace</h4>
+      <p class="panel-sub small" id="paceSub"></p>
+      <div class="pace" id="becamePace"></div>
+      <div class="where" id="whereBox"></div>
+    </div>
+
+    <div class="panel" id="pKillers">
+      <h3>How it dies <span class="model-tag">model</span></h3>
+      <p class="panel-sub">The most common causes of death across your 999 alternate lives, and the real companies that died the same way.</p>
+      <div id="killers" class="killers"></div>
+    </div>
+
+    <div class="panel" id="pMarkets">
+      <h3>Where it would have worked <span class="model-tag">model</span></h3>
+      <p class="panel-sub">The same idea, re-run 1,000 times in every market. Base rates differ by region, and so does what happened to the closest real companies there.</p>
+      <div id="markets" class="markets"></div>
+      <div id="twins" class="twins"></div>
+    </div>
+
+    <div class="panel" id="pTiming" hidden>
+      <h3 id="timingTitle">Too early, or right on time?</h3>
+      <div id="timing"></div>
+    </div>
+
+    <div class="panel moon-panel" id="pMoon" hidden>
+      <h3>Everyone said it was crazy</h3>
+      <p class="panel-sub">Moonshots don't follow average odds. More of them die, they take longer, and the winners are enormous. These are the real ones.</p>
+      <div id="moonStories" class="stories"></div>
+    </div>
+
+
+    <div class="panel" id="pPivot">
+      <h3>Pivot it</h3>
+      <p class="panel-sub">Change one thing and see how the odds move. Each line is another 1,000 futures.</p>
+      <div id="pivots" class="pivots"></div>
+    </div>
+
+    <div class="panel method" id="how">
+      <h3>How this works</h3>
+      <div id="methodText" class="method-text"></div>
+      <a class="data-link" href="data.html">Open the data room: every company, every number, every source →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p><b>1,000 Futures is in beta.</b> It's a research and learning tool, not financial, investment, legal or tax advice. The data covers a sample of companies and funding rounds, not the whole market, and may contain errors or be out of date. Every number links to its source in the <a href="data.html">data room</a>. Investor names come from public funding announcements; they aren't endorsements or introductions. Do your own diligence before you act on anything here.</p>
+  <p class="fix-foot" data-fix-wrap hidden>Spot an error about a company or investor? <a data-fix="1,000 Futures data" target="_blank" rel="noopener">Suggest a correction</a> and include a source if you can.</p>
+</footer>
+
+<dialog id="dlg" class="dlg">
+  <button class="dlg-close" id="dlgClose" aria-label="Close">×</button>
+  <div id="dlgBody"></div>
+</dialog>
+
+<dialog id="shareDlg" class="dlg share-dlg">
+  <button class="dlg-close" data-close aria-label="Close">×</button>
+  <div class="share-body">
+    <div class="share-preview"><canvas id="shareCanvas" width="1080" height="1920"></canvas></div>
+    <div class="share-side">
+      <h3>Share your multiverse</h3>
+      <div class="seg small" id="cardSeg">
+        <button type="button" data-v="story" class="on">Story 9:16</button>
+        <button type="button" data-v="post">Post 4:5</button>
+        <button type="button" data-v="wide">Link 1.91:1</button>
+        <button type="button" data-v="obit">Obituary</button>
+        <button type="button" data-v="best">Best life</button>
+      </div>
+      <button id="btnDownload" class="primary">Download image</button>
+      <button id="btnCopyLink" class="ghost">Copy link to these exact futures</button>
+      <button id="btnCopyText" class="ghost">Copy text + emoji grid</button>
+      <pre id="shareText" class="share-text"></pre>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" hidden></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
