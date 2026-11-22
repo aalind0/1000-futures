@@ -9,3 +9,6 @@ data/raw/
 # internal planning and working notes (kept private)
 PLAN.md
 research/notes_*.md
+
+# demo video project (renders are large; kept local)
+demo-video/

@@ -32,3 +32,8 @@ changes to `main`, run `sh scripts/publish.sh`.
 ## Corrections
 
 Spot something wrong about a company or investor? Open an issue with a source.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Feel free to build on top. The research data is compiled from public sources;
+each record links to its source, so cite those when you reuse it.
